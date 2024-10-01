@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+.container{
+    max-width: 1450px;
+    margin: auto;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(179, 179, 179);
+}
+::selection{
+  color:  gray;
+  background-color:rgba(0, 149, 255, 0.592) ;
+}
+
+
+::-webkit-scrollbar-thumb{
+  background: rgb(18, 118, 190);
+  border-radius: 5px;
+ height: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
