@@ -1,0 +1,429 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 66666666;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .modal-content {
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+
+        .close {
+            cursor: pointer;
+            font-size: 30px;
+        }
+        .dad{
+            display: flex;
+            align-items: start;
+            gap: 80px;
+            div{
+                img{
+                    cursor: pointer;
+                }
+                input{
+                    outline: none;
+                    border: 1px solid #0e63da;
+                    padding: 10px ;
+                    width: 200px;
+                    margin: 5px 0;
+                    border-radius: 8px;
+                }
+            }
+        }   
+        .a{
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .oky{
+                padding: 5px 30px;
+                background-color: #006aff6e;
+                border: 0;
+                font-size: 17px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all .3s;
+                color: #FFF;
+                &:hover{
+                    box-shadow: 1px 1px 10px #0e63da;
+                    background-color: #0e63da;
+                }
+            }
+        }
+        .cards{
+            .alis{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                p{
+                    color: red;
+                }
+            }
+            .al{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                article{
+                    width: 300px;
+                    p{
+                        padding: 5px 0;
+                    }
+                }
+                img{
+                    width: 100px;
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+    }
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    #article{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
+.flight-booking {
+    display: grid;
+    justify-content: center;
+
+    .flex {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        .from-to {
+            position: relative;
+            left: 0;
+            top: 0;
+            display: flex;
+            align-items: end;
+
+            .to {
+                .border {
+                    margin: 10px 0;
+                    border: 1px solid rgb(215, 215, 215);
+                    border-radius: 0px 20px 20px 0;
+
+                    &:focus {
+                        border: 1px solid #0e63da;
+                    }
+
+                    img {
+                        margin-left: 25px;
+                    }
+                }
+            }
+
+            .from {
+                .border1 {
+                    margin: 10px 0;
+                    border: 1px solid rgb(215, 215, 215);
+                    border-radius: 20px 0 0 20px;
+
+                    &:focus {
+                        border: 1px solid #0e63da;
+                    }
+
+                    img {
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+            select {
+                border: 10px solid;
+            }
+
+            .actives {
+                transition: all .2s;
+                transform: rotate(-90deg);
+                position: absolute;
+                z-index: 100;
+                top: 43px;
+                left: 45.8%;
+                background-color: rgb(254, 254, 254);
+
+            }
+
+            .activess {
+                background-color: rgb(255, 255, 255);
+                transition: all .2s;
+                transform: rotate(90deg);
+                position: absolute;
+                z-index: 111;
+                top: 43px;
+                left: 45.8%;
+            }
+
+        }
+    }
+
+    .dates {
+        display: flex;
+        align-items: center;
+
+        .calendar {
+            margin: 10px 0;
+            border: 1px solid rgb(215, 215, 215);
+            border-radius: 20px 0 0 20px;
+
+            &:focus {
+                border: 1px solid #0e63da;
+            }
+
+            img {
+                margin-left: 10px;
+            }
+        }
+
+        .clendar2 {
+            margin: 10px 0;
+            border: 1px solid rgb(215, 215, 215);
+            border-radius: 0 20px 20px 0;
+            width: 300px !important;
+            &:focus {
+                border: 1px solid #0e63da;
+            }
+            
+            img{
+                margin-left: 10px;
+            }
+        }
+
+        
+        #bor {
+            border: 0;
+            padding: 18px;
+            font-size: 16px;
+            
+            border-radius: 0 20px 20px 0;
+            width: 265
+            px;
+
+            &:focus {
+                outline: none;
+                border-color: #0e63da;
+            }
+        }
+
+        .custom-datepicker {
+            border: 0;
+            padding: 18px;
+            font-size: 16px;
+            // margin: 10px 0;
+            border-radius: 20px 0 0 20px;
+            width: 300px !important;
+
+            &:focus {
+                outline: none;
+                border-color: #0e63da;
+            }
+        }
+    }
+}
+
+.accordion {
+    .accordion-buttons {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 206px;
+        border: 1px solid gray;
+        cursor: pointer;
+        
+        font-size: 14px;
+        border-radius: 8px;
+        background-color: rgba(159, 163, 166, 0.121);
+        transition: all .3s;
+        &:hover{
+            border:1px solid #0e63da;
+        }
+        &:active {
+            opacity: .5;
+           
+        }
+    }
+
+
+    .accordion-contents {
+        transition: all .3s;
+        background-color: white;
+        border: 1px solid rgb(147, 147, 147);
+        padding: 10px 45px;
+        width: 12.8rem;
+        border-radius: 5px;
+        margin-top: 5px;
+        position: absolute;
+        z-index: 8;
+        ul {
+            li {
+                cursor: pointer;
+                transition: all .3a;
+
+                &:hover {
+                    color: #0e63da;
+                }
+            }
+        }
+    }
+
+}
+
+.passengers {
+    .accordion-button {
+        padding: 10px 30px;
+        border: 1px solid gray;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        border-radius: 8px;
+        background-color: rgba(166, 159, 159, 0.126);
+        &:hover{
+            border:1px solid #0e63da;
+        }
+        &:active {
+            opacity: .5;
+            border:1px solid #0e63da;
+        }
+    }
+
+    .accordion-content {
+        transition: all .3s;
+        background-color: white;
+        border: 1px solid rgb(147, 147, 147);
+        padding: 10px 25px;
+        width: 270px !important;
+        width: 12.8rem;
+        z-index: 66;
+        border-radius: 5px;
+        position: absolute;
+        margin-top: 5px;
+
+        .passenger-count {
+            margin-top: 10px;
+            display: flex;
+
+            gap: 65px;
+
+            align-items: center;
+
+            .counter {
+                border: 0;
+                padding: 5px;
+                gap: 5px;
+                display: flex;
+                align-items: center;
+                background-color: transparent;
+
+                img {
+                    cursor: pointer;
+
+                    width: 20px !important;
+                }
+            }
+        }
+
+        .accordion-buttons {
+            padding: 10px 53px;
+            border: 1px solid gray;
+            cursor: pointer;
+
+            font-size: 14px;
+            border-radius: 8px;
+            background-color: rgba(166, 159, 159, 0.307);
+
+            &:active {
+                opacity: .5;
+            }
+        }
+
+        #click {
+
+            padding: 5px 93px;
+            margin: 5px 0;
+            background-color: #0e63da;
+            border: 0;
+            border-radius: 5px;
+            color: #FFF;
+            cursor: pointer;
+            transition: all .3s;
+
+            &:Hover {
+                background-color: #0e63daac;
+            }
+        }
+    }
+}
+.margin{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .search-button{
+        cursor: pointer;
+        border-radius: 10px;
+        border: 0;
+        font-size: 18px;
+        padding: 15px 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #076fff77;
+        transition: all .3s;
+        span{
+            background-color: #0e63da4f;
+            border-radius: 50%;
+            padding: 5px 9px;
+            img{
+                transition: all .3s;
+                transform: rotate(-45deg);
+                width: 13px;
+            }
+        }
+        &:hover img{
+            transform: rotate(0deg);
+        }
+        &:hover{
+            background-color:#0a70ffbf;
+        }
+        &:active img{
+            transform: rotate(0deg);
+        }
+    }
+}
+@media (max-width: 768px) {
+    .flight-booking {
+        .flex {
+            gap: 10px; // Reduce the gap for mobile
+        }
+
+        .from-to {
+            flex-direction: column; // Stack fields vertically
+        }
+
+        .dates {
+            flex-direction: column; // Stack date fields vertically
+        }
+
+        .accordion-content {
+            padding: 10px; // Adjust padding for mobile
+        }
+    }
+}

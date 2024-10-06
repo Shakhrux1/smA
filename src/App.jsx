@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Scrollpage from "./ScrollPage/Scrollpage";
 import Home from "./Home/Home";
+import FlightBooking from "./zakas/ZakazPage";
 
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
           path:'/',
           element:[
             <>
-              <Scrollpage/>
+              <Scrollpage/>,
+              <FlightBooking/>
+              
             </>
           ]
         },

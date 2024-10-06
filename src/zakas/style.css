@@ -1,0 +1,366 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 66666666;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal .modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.modal .modal-content .close {
+  cursor: pointer;
+  font-size: 30px;
+}
+.modal .modal-content .dad {
+  display: flex;
+  align-items: start;
+  gap: 80px;
+}
+.modal .modal-content .dad div img {
+  cursor: pointer;
+}
+.modal .modal-content .dad div input {
+  outline: none;
+  border: 1px solid #0e63da;
+  padding: 10px;
+  width: 200px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+.modal .modal-content .a {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal .modal-content .a .oky {
+  padding: 5px 30px;
+  background-color: rgba(0, 106, 255, 0.431372549);
+  border: 0;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #FFF;
+}
+.modal .modal-content .a .oky:hover {
+  box-shadow: 1px 1px 10px #0e63da;
+  background-color: #0e63da;
+}
+.modal .modal-content .cards .alis {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.modal .modal-content .cards .alis p {
+  color: red;
+}
+.modal .modal-content .cards .al {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal .modal-content .cards .al article {
+  width: 300px;
+}
+.modal .modal-content .cards .al article p {
+  padding: 5px 0;
+}
+.modal .modal-content .cards .al img {
+  width: 100px;
+  transform: rotate(-90deg);
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.flexbox #article {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.flight-booking {
+  display: grid;
+  justify-content: center;
+}
+.flight-booking .flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.flight-booking .flex .from-to {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: end;
+}
+.flight-booking .flex .from-to .to .border {
+  margin: 10px 0;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 0px 20px 20px 0;
+}
+.flight-booking .flex .from-to .to .border:focus {
+  border: 1px solid #0e63da;
+}
+.flight-booking .flex .from-to .to .border img {
+  margin-left: 25px;
+}
+.flight-booking .flex .from-to .from .border1 {
+  margin: 10px 0;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 20px 0 0 20px;
+}
+.flight-booking .flex .from-to .from .border1:focus {
+  border: 1px solid #0e63da;
+}
+.flight-booking .flex .from-to .from .border1 img {
+  margin-left: 10px;
+}
+.flight-booking .flex .from-to select {
+  border: 10px solid;
+}
+.flight-booking .flex .from-to .actives {
+  transition: all 0.2s;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 100;
+  top: 43px;
+  left: 45.8%;
+  background-color: rgb(254, 254, 254);
+}
+.flight-booking .flex .from-to .activess {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.2s;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: 111;
+  top: 43px;
+  left: 45.8%;
+}
+.flight-booking .dates {
+  display: flex;
+  align-items: center;
+}
+.flight-booking .dates .calendar {
+  margin: 10px 0;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 20px 0 0 20px;
+}
+.flight-booking .dates .calendar:focus {
+  border: 1px solid #0e63da;
+}
+.flight-booking .dates .calendar img {
+  margin-left: 10px;
+}
+.flight-booking .dates .clendar2 {
+  margin: 10px 0;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 0 20px 20px 0;
+  width: 300px !important;
+}
+.flight-booking .dates .clendar2:focus {
+  border: 1px solid #0e63da;
+}
+.flight-booking .dates .clendar2 img {
+  margin-left: 10px;
+}
+.flight-booking .dates #bor {
+  border: 0;
+  padding: 18px;
+  font-size: 16px;
+  border-radius: 0 20px 20px 0;
+  width: 265 px;
+}
+.flight-booking .dates #bor:focus {
+  outline: none;
+  border-color: #0e63da;
+}
+.flight-booking .dates .custom-datepicker {
+  border: 0;
+  padding: 18px;
+  font-size: 16px;
+  border-radius: 20px 0 0 20px;
+  width: 300px !important;
+}
+.flight-booking .dates .custom-datepicker:focus {
+  outline: none;
+  border-color: #0e63da;
+}
+
+.accordion .accordion-buttons {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 206px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: rgba(159, 163, 166, 0.121);
+  transition: all 0.3s;
+}
+.accordion .accordion-buttons:hover {
+  border: 1px solid #0e63da;
+}
+.accordion .accordion-buttons:active {
+  opacity: 0.5;
+}
+.accordion .accordion-contents {
+  transition: all 0.3s;
+  background-color: white;
+  border: 1px solid rgb(147, 147, 147);
+  padding: 10px 45px;
+  width: 12.8rem;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 8;
+}
+.accordion .accordion-contents ul li {
+  cursor: pointer;
+  transition: all 0.3a;
+}
+.accordion .accordion-contents ul li:hover {
+  color: #0e63da;
+}
+
+.passengers .accordion-button {
+  padding: 10px 30px;
+  border: 1px solid gray;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: rgba(166, 159, 159, 0.126);
+}
+.passengers .accordion-button:hover {
+  border: 1px solid #0e63da;
+}
+.passengers .accordion-button:active {
+  opacity: 0.5;
+  border: 1px solid #0e63da;
+}
+.passengers .accordion-content {
+  transition: all 0.3s;
+  background-color: white;
+  border: 1px solid rgb(147, 147, 147);
+  padding: 10px 25px;
+  width: 270px !important;
+  width: 12.8rem;
+  z-index: 66;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 5px;
+}
+.passengers .accordion-content .passenger-count {
+  margin-top: 10px;
+  display: flex;
+  gap: 65px;
+  align-items: center;
+}
+.passengers .accordion-content .passenger-count .counter {
+  border: 0;
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+.passengers .accordion-content .passenger-count .counter img {
+  cursor: pointer;
+  width: 20px !important;
+}
+.passengers .accordion-content .accordion-buttons {
+  padding: 10px 53px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: rgba(166, 159, 159, 0.307);
+}
+.passengers .accordion-content .accordion-buttons:active {
+  opacity: 0.5;
+}
+.passengers .accordion-content #click {
+  padding: 5px 93px;
+  margin: 5px 0;
+  background-color: #0e63da;
+  border: 0;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.passengers .accordion-content #click:Hover {
+  background-color: rgba(14, 99, 218, 0.6745098039);
+}
+
+.margin {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.margin .search-button {
+  cursor: pointer;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+  padding: 15px 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(7, 111, 255, 0.4666666667);
+  transition: all 0.3s;
+}
+.margin .search-button span {
+  background-color: rgba(14, 99, 218, 0.3098039216);
+  border-radius: 50%;
+  padding: 5px 9px;
+}
+.margin .search-button span img {
+  transition: all 0.3s;
+  transform: rotate(-45deg);
+  width: 13px;
+}
+.margin .search-button:hover img {
+  transform: rotate(0deg);
+}
+.margin .search-button:hover {
+  background-color: rgba(10, 112, 255, 0.7490196078);
+}
+.margin .search-button:active img {
+  transform: rotate(0deg);
+}
+
+@media (max-width: 768px) {
+  .flight-booking .flex {
+    gap: 10px;
+  }
+  .flight-booking .from-to {
+    flex-direction: column;
+  }
+  .flight-booking .dates {
+    flex-direction: column;
+  }
+  .flight-booking .accordion-content {
+    padding: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
