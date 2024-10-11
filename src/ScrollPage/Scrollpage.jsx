@@ -15,9 +15,9 @@ const Scrollpage = () => {
   };
   const [vidiooo, setVidio] = useState([])
     useEffect(() => {
-        fetch("http://localhost:3000/page1")
+        fetch("/db.json")
         .then((response) => response.json())
-        .then((data) => setVidio(data))
+        .then((data) => setVidio(data.page1))
 
       logPageView();
       gsap.registerPlugin(ScrollTrigger);

@@ -65,7 +65,7 @@ const FlightBooking = () => {
   const accordionRef = useRef(null);
   const classAccordionRef = useRef(null);
   const [selectedClass, setSelectedClass] = useState("Economy Class");
-  const [alish, setAlish] = useState(null);
+  const [alish, setAlish] = useState(false);
   const [from, setFrom] = useState(null);
   const [to, setTo] = useState(null);
   const [departureDate, setDepartureDate] = useState(new Date());
@@ -74,6 +74,9 @@ const FlightBooking = () => {
   const [children, setChildren] = useState(0);
   const [infants, setInfants] = useState(0);
   const [isReturnChecked, setIsReturnChecked] = useState(false);
+  const rotet = ()=>{
+    setAlish(pev => !pev)
+  }
   const [errors, setErrors] = useState({
     from: false,
     to: false,
@@ -212,7 +215,7 @@ const FlightBooking = () => {
   };
 
   return (
-    <>
+    <div id="bgc">
       <div className="container">
         <div className="flight-booking">
           <div className="flexbox">
@@ -422,9 +425,9 @@ const FlightBooking = () => {
 
                 <div className="swap-icon" onClick={handleSwap}>
                   <img
-                    onClick={() => setAlish("YOUR_VALUE_HERE")}
+                    onClick={() => rotet()}
                     className={
-                      alish === "YOUR_VALUE_HERE" ? "activess" : "actives"
+                      alish ? "activess" : "actives"
                     }
                     width={"38px"}
                     style={{ cursor: "pointer" }}
@@ -611,7 +614,7 @@ const FlightBooking = () => {
       )}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

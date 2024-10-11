@@ -115,6 +115,7 @@
             .to {
                 .border {
                     margin: 10px 0;
+                    background-color: #FFF;
                     border: 1px solid rgb(215, 215, 215);
                     border-radius: 0px 20px 20px 0;
 
@@ -133,7 +134,7 @@
                     margin: 10px 0;
                     border: 1px solid rgb(215, 215, 215);
                     border-radius: 20px 0 0 20px;
-
+                    background-color: #fff;
                     &:focus {
                         border: 1px solid #0e63da;
                     }
@@ -148,26 +149,7 @@
                 border: 10px solid;
             }
 
-            .actives {
-                transition: all .2s;
-                transform: rotate(-90deg);
-                position: absolute;
-                z-index: 100;
-                top: 43px;
-                left: 45.8%;
-                background-color: rgb(254, 254, 254);
-
-            }
-
-            .activess {
-                background-color: rgb(255, 255, 255);
-                transition: all .2s;
-                transform: rotate(90deg);
-                position: absolute;
-                z-index: 111;
-                top: 43px;
-                left: 45.8%;
-            }
+            
 
         }
     }
@@ -180,7 +162,7 @@
             margin: 10px 0;
             border: 1px solid rgb(215, 215, 215);
             border-radius: 20px 0 0 20px;
-
+            background-color: #fff;
             &:focus {
                 border: 1px solid #0e63da;
             }
@@ -191,6 +173,7 @@
         }
 
         .clendar2 {
+            background-color: #fff;
             margin: 10px 0;
             border: 1px solid rgb(215, 215, 215);
             border-radius: 0 20px 20px 0;
@@ -408,6 +391,26 @@
         }
     }
 }
+.actives {
+    transition: all .2s;
+    transform: rotate(-90deg);
+    position: absolute;
+    z-index: 100;
+    top: 43px;
+    left: 45.8%;
+    background-color: rgb(254, 254, 254);
+
+}
+
+.activess {
+    background-color: rgb(255, 255, 255);
+    transition: all .2s;
+    transform: rotate(90deg);
+    position: absolute;
+    z-index: 111;
+    top: 43px;
+    left: 45.8%;
+}
 @media (max-width: 768px) {
     .flight-booking {
         .flex {
@@ -426,4 +429,12 @@
             padding: 10px; // Adjust padding for mobile
         }
     }
+}
+#bgc{
+    background-image: url('https://www.atlanticairways.com/media/1644/forside_herobilleder_320neo_01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
 }

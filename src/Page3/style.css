@@ -1,0 +1,56 @@
+.flexx {
+  padding: 0 10px;
+  margin-top: 80px;
+}
+.flexx .cover {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 480px;
+  max-width: 1020px;
+}
+.flexx .cover .bgc {
+  position: absolute;
+  display: flex;
+  align-items: start;
+  left: -100%;
+  flex-direction: column;
+  padding: 10px;
+  z-index: 66;
+  bottom: 5px;
+  transition: all 0.3s;
+  color: #fff;
+}
+.flexx .cover .bgc button {
+  cursor: pointer;
+}
+.flexx .cover img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.flexx .cover:hover img {
+  transform: scale(1.02);
+}
+.flexx .cover::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: rgba(0, 149, 255, 0.592);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.flexx .cover:hover::before {
+  opacity: 0.3;
+}
+.flexx .cover:hover .bgc {
+  left: 5px;
+}/*# sourceMappingURL=style.css.map */

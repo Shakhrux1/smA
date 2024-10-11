@@ -1,0 +1,68 @@
+.flexx {
+    padding: 0 10px;
+    margin-top: 80px;
+    
+    .cover {
+        overflow: hidden;
+        position: relative; // O'zgaruvchi holat
+        cursor: pointer;
+        border-radius: 10px;
+       height: 480px;
+        max-width:  1020px;
+        .bgc{
+            position: absolute;
+            display: flex;
+            align-items: start;
+            left: -100%;
+            flex-direction: column;
+            padding: 10px ;
+            z-index: 66;
+            bottom: 5px;
+            transition: all .3s;
+            color: #fff;
+            button{
+                cursor: pointer;
+
+            }
+        }
+        img {
+
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            cursor: pointer;
+            transition: all 0.3s;
+
+        }
+
+        &:hover img {
+            transform: scale(1.02);
+        }
+
+        // ::before ni hover holatida ko'rsatish
+        &::before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: "";
+            width: 100%; // Rasmning to'liq kengligi
+            height: 100%; // Rasmning to'liq balandligi
+            z-index: 5; // Yuqorida ko'rsatish
+            background-color: rgba(0, 149, 255, 0.592); // Qizil fon rangi
+            opacity: 0; // Dastlabki holatda ko'rinmaydi
+            transition: opacity 0.3s; // O'zgarish vaqtini belgilash
+        }
+
+        // Konteyner hover holatiga e'tibor berish
+        &:hover::before {
+            opacity: .3; // Hover holatida ::before ni ko'rsatish
+        }
+
+       
+
+        &:hover .bgc {
+            left: 5px;
+        }
+    }
+
+}

@@ -1,0 +1,57 @@
+.error-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black; /* Qora fon */
+  background-image: url('https://www.paddleyourownkanoo.com/wp-content/uploads/2020/10/50144178532_3a350414c7_h.jpg'); /* Rasmingizni qo'shing */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.text {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 100;
+}
+
+.text h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.text p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.text h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  background: #a68c3b; /* Tugma foni */
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.mask {
+  background: transparent;
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 10); /* Kursor atrofini qora qilish */
+  mix-blend-mode: destination-out; /* Kursor turgan joyni qora fonsiz ko'rsatish */
+  pointer-events: none; /* Kursor diviga ta'sir qilmasligi uchun */
+  filter: drop-shadow(0px 0px 50px rgb(0, 0, 0));
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  // transition: all .5s;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}

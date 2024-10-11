@@ -4,6 +4,8 @@ import Navbar from "./Navbar/Navbar";
 import Scrollpage from "./ScrollPage/Scrollpage";
 import Home from "./Home/Home";
 import FlightBooking from "./zakas/ZakazPage";
+import Page3 from "./Page3/Page3";
+import NotFound from "./NotFount/NotFound";
 
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
             <>
               <Scrollpage/>,
               <FlightBooking/>
-              
+              <Page3/>
             </>
           ]
         },
@@ -28,6 +30,10 @@ function App() {
         }
       ]
 
+    },
+    {
+      path:'*',
+      element:<NotFound/>
     }
   ])
   return (
