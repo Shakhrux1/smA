@@ -4,40 +4,38 @@
   "page1":{
     "vidios":"./src/icon/videoplayback.mp4"
   },
-  "page3":[
-    
-      {
-        "bayram": "Enjoy exclusive holiday savings",
-        "p": "Book now and save on airport parking.",
-        "days": "1 - 2 days: AED 200",
-        "days2": "3 - 5 days: AED 300",
-        "days3": "6 - 10 days: AED 375",
-        "chegirma": "Pre-book online and get discounts.",
-        "btn": "Reserve Your Spot",
-        "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/component/Sub-Banner-Desktop_/Family-desktop.ashx?h=900&iar=0&w=2100&hash=5D0BC8772D229C78F8A114808C25D2F5"
-      },
-      {
-        "bayram": "Start your family vacation right",
-        "p": "Get special offers on parking for your next trip.",
-        "days": "2 - 4 days: AED 250",
-        "days2": "5 - 8 days: AED 350",
-        "days3": "9 - 15 days: AED 425",
-        "chegirma": "Save more by pre-booking your parking.",
-        "btn": "Book Parking Now",
-        "img": "https://familytravellerimages.s3.eu-west-2.amazonaws.com/wp-content/uploads/2021/06/16105915/Qatar-Airways-Kids-Fly-Free-campaign-in-flight-family-with-cabin-crew.jpg"
-      },
-      {
-        "bayram": "Make your travel stress-free",
-        "p": "Convenient and affordable airport parking.",
-        "days": "3 - 5 days: AED 275",
-        "days2": "6 - 9 days: AED 375",
-        "days3": "10 - 16 days: AED 450",
-        "chegirma": "Book early and enjoy reduced rates.",
-        "btn": "Pre-Book Parking Now",
-        "img": "https://www.torontolegends.com/blog/wp-content/uploads/2023/12/family-airport.jpg"
-      }
-    
-    
+  
+  "page3": [
+    {
+      "bayram": "Enjoy exclusive holiday savings",
+      "p": "Book now and save on airport parking.",
+      "days": "1 - 2 days: AED 200",
+      "days2": "3 - 5 days: AED 300",
+      "days3": "6 - 10 days: AED 375",
+      "chegirma": "Pre-book online and get discounts.",
+      "btn": "Reserve Your Spot",
+      "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/component/Sub-Banner-Desktop_/Family-desktop.ashx?h=900&iar=0&w=2100&hash=5D0BC8772D229C78F8A114808C25D2F5"
+    },
+    {
+      "bayram": "Start your family vacation right",
+      "p": "Get special offers on parking for your next trip.",
+      "days": "2 - 4 days: AED 250",
+      "days2": "5 - 8 days: AED 350",
+      "days3": "9 - 15 days: AED 425",
+      "chegirma": "Save more by pre-booking your parking.",
+      "btn": "Book Parking Now",
+      "img": "https://familytravellerimages.s3.eu-west-2.amazonaws.com/wp-content/uploads/2021/06/16105915/Qatar-Airways-Kids-Fly-Free-campaign-in-flight-family-with-cabin-crew.jpg"
+    },
+    {
+      "bayram": "Make your travel stress-free",
+      "p": "Convenient and affordable airport parking.",
+      "days": "3 - 5 days: AED 275",
+      "days2": "6 - 9 days: AED 375",
+      "days3": "10 - 16 days: AED 450",
+      "chegirma": "Book early and enjoy reduced rates.",
+      "btn": "Pre-Book Parking Now",
+      "img": "https://www.torontolegends.com/blog/wp-content/uploads/2023/12/family-airport.jpg"
+    }
   ],
   "page4":{
     "xizmatlar":"Airport Services",
