@@ -38,7 +38,7 @@ const Notfound = () => {
       <div className="text">
         <h1>404</h1>
         <p>page not found</p>
-        <h2>There's No Place Like Home</h2>
+        <h2>Back to main</h2>
       </div>
       <div className="mask" />
     </div>
