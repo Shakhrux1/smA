@@ -22,7 +22,7 @@ function Wifi() {
         />
       </Helmet>
       <div className="container">
-        {/* <div className="wifi" >
+        <div className="wifi" >
             <div>
             <h1>{wifi.h1}</h1>
             <article>
@@ -40,7 +40,7 @@ function Wifi() {
             <div>
             <img src={wifi.img} alt="" />
             </div>
-        </div> */}
+        </div>
         
       </div>
       <section className="facilities">
