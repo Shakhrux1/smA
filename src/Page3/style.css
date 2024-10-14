@@ -1,6 +1,18 @@
+.slider-container {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.slider-container .relative {
+  top: 13%;
+  left: 10%;
+  font-size: 40px;
+  position: absolute;
+}
+
 .flexx {
   padding: 0 10px;
-  margin-top: 80px;
+  margin-top: 200px;
 }
 .flexx .cover {
   overflow: hidden;
@@ -53,4 +65,31 @@
 }
 .flexx .cover:hover .bgc {
   left: 5px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000000;
+  background-color: rgba(0, 85, 255, 0.8901960784);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px;
+}
+
+.swiper-button-next {
+  top: 17%;
+  right: 10%;
+}
+
+.swiper-button-prev {
+  top: 17%;
+  left: 80%;
 }/*# sourceMappingURL=style.css.map */

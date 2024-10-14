@@ -1,0 +1,93 @@
+.page4 {
+  margin-top: 100px;
+  padding: 0 10px;
+}
+.page4 h1 {
+  text-align: center;
+  padding: 5px 0;
+  color: rgba(0, 149, 255, 0.866);
+  font-size: 50px;
+}
+.page4 .p {
+  font-size: 25px;
+  text-align: center;
+}
+.page4 .grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 380px);
+  justify-content: center;
+}
+.page4 .grid div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 354px;
+  height: auto;
+  padding: 20px 50px;
+  transition: all 0.3s;
+}
+.page4 .grid div:hover button::after {
+  width: 100%;
+  left: 50%;
+}
+.page4 .grid div .img {
+  background-color: rgba(0, 149, 255, 0.54);
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px 0;
+}
+.page4 .grid div h2 {
+  text-align: center;
+}
+.page4 .grid div p {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 0;
+}
+.page4 .grid div button {
+  margin: 0 20px;
+  padding: 5px 5px;
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+  position: relative;
+}
+.page4 .grid div button a {
+  text-decoration: none;
+  color: rgba(0, 149, 255, 0.996);
+}
+.page4 .grid div button:hover img {
+  transform: translateX(5px);
+}
+.page4 .grid div button img {
+  transition: all 0.3s;
+}
+.page4 .grid div button::after {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 27px;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3s;
+}
+.page4 .grid #box1:hover {
+  transform: translateY(-20px);
+  box-shadow: 15px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.page4 .grid #box2:hover {
+  transform: translateY(-20px);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.page4 .grid #box3:hover {
+  transform: translateY(-20px);
+  box-shadow: -15px 4px 20px rgba(0, 0, 0, 0.1);
+}/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,9 @@
 nav {
   position: fixed;
-  transition: all 0.3s;
+  transition: transform 1s ease;
   left: 0;
+  top: 0;
+  right: 0;
   width: 100%;
   z-index: 999;
   padding: 0px 0;
@@ -27,22 +29,25 @@ nav .container .flex ul {
   padding: 0;
   transition: all 0.3s;
 }
-nav .container .flex ul a {
+nav .container .flex ul li {
+  position: relative;
+}
+nav .container .flex ul li a {
   text-decoration: none;
   transition: all 0.3s;
   cursor: pointer;
   font-size: 18px;
   color: #000;
-}
-nav .container .flex ul a:hover {
-  color: rgb(18, 118, 190);
-}
-nav .container .flex ul a li {
-  padding: 0;
   text-transform: uppercase;
 }
-nav .container .flex ul:hover a:not(:hover) {
-  color: #a7a7a7;
+nav .container .flex ul li a:hover {
+  color: rgb(18, 118, 190);
+}
+nav .container .flex ul li:hover ~ a {
+  color: rgba(128, 128, 128, 0.751);
+}
+nav .container .flex ul:hover a {
+  color: gray;
 }
 nav .container button {
   padding: 15px 50px;
@@ -56,6 +61,10 @@ nav .container button:hover {
   background-color: #555;
 }
 
-.active {
-  background-color: #1e6cff;
+nav.hidden {
+  transform: translateY(-100px); /* Move out of view */
+}
+
+nav.active {
+  transform: translateY(0); /* Move into view */
 }/*# sourceMappingURL=style.css.map */

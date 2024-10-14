@@ -1,8 +1,9 @@
 nav {
     position: fixed;
-    transition: all .3s;
+    transition: transform 1s ease;
     left: 0;
-
+    top: 0;
+    right: 0;
     width: 100%;
     z-index: 999;
     padding: 0px 0;
@@ -18,34 +19,41 @@ nav {
             display: flex;
             align-items: center;
            gap: 50px;
-            ul {
-                list-style: none;
-                display: flex;
-                gap: 50px;
-                margin: 0;
-                padding: 0;
-                transition: all .3s;
-                a{
+           
+           ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s;
+        
+            li {
+                position: relative;
+        
+                a {
                     text-decoration: none;
-                    transition: all .3s;
+                    transition: all 0.3s;
                     cursor: pointer;
                     font-size: 18px;
-                    color:#000;
+                    color: #000; // Default color
+                    text-transform: uppercase;
                     &:hover {
-                        color:  rgb(18, 118, 190);
-                    }  
-                    li {
-                        
-                        padding: 0;
-                        text-transform: uppercase;
-                        
+                        color:rgb(18, 118, 190); // Change color to red on hover
                     }
                 }
-                &:hover a:not(:hover){
-                    color: #a7a7a7;
+        
+                
+                &:hover ~  a {
+                    color: rgba(128, 128, 128, 0.751); // Change color of other links to gray
                 }
-    
             }
+        
+            // Initially set all links to gray when hovered
+            &:hover a {
+                color: gray; // Change color of all links to gray when any link is hovered
+            }
+        }
         }
 
         button {
@@ -62,8 +70,10 @@ nav {
         }
     }
 }
-.active{
-
-    background-color: #1e6cff;
-
-}
+nav.hidden {
+    transform: translateY(-100px); /* Move out of view */
+  }
+  
+  nav.active {
+    transform: translateY(0); /* Move into view */
+  }

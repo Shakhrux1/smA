@@ -1,8 +1,15 @@
 import { useEffect, useState } from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "./style.css"; // SCSS faylini import qilish
+
+// Import required modules
+import { Autoplay,  Navigation } from "swiper/modules";
 
 function Page3() {
   const [page, setPage] = useState([]);
@@ -16,36 +23,38 @@ function Page3() {
       .catch((error) => console.error("Error fetching data:", error));
   }, []); // faqat bir marta fetch qilinadi
 
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "200px", // Desktop uchun kengroq padding
-    slidesToShow: 1,
-    speed: 1000,
-    responsive: [
-      {
-        breakpoint: 768, // Ekran kengligi 768px yoki kichikroq bo'lganda
-        settings: {
-          centerPadding: "50px", // Mobil qurilmalar uchun kichikroq padding
-          slidesToShow: 1, // Har bir sahifada 1 ta slayd ko'rsatiladi
-        },
-      },
-      {
-        breakpoint: 480, // Ekran kengligi 480px yoki kichikroq bo'lganda
-        settings: {
-          centerPadding: "20px", // Eng kichik ekranlar uchun minimal padding
-          slidesToShow: 1, // Har bir sahifada 1 ta slayd
-        },
-      },
-    ],
-  };
-
   return (
-    <div className="slider-container" style={{ overflow: "hidden", width: "100%", margin: "auto" }}>
-      <Slider {...settings}>
+    <div className="slider-container container">
+      <h1 className="relative">Pre-book Your Parking
+      </h1>
+      <Swiper
+        spaceBetween={60} // Slide'lar orasidagi masofa (30px)
+        centeredSlides={true}
+        slidesPerView={1.4} // Birinchi slaydning yonida ikkinchi slaydning qismi ko'rinishi uchun
+        autoplay={{
+          delay: 4000, // Slayder o'rtasidagi vaqt (4 soniya)
+          disableOnInteraction: false,
+        }}
+        speed={2000} // O'tish vaqtini sekinlashtirish (1.5 soniya)
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay,  Navigation]}
+        className="mySwiper"
+        breakpoints={{
+          768: {
+            slidesPerView: 1.2, // 768px va undan kichik ekranlar uchun 1.2 slayd ko'rsatiladi
+            spaceBetween: 100, // Mobil qurilmalar uchun oraliqni kamaytirish
+          },
+          480: {
+            slidesPerView: 1.1, // 480px va undan kichik ekranlar uchun 1.1 slayd
+            spaceBetween: 10, // Eng kichik ekranlar uchun oraliq
+          },
+        }}
+      >
         {page.map((item, id) => (
-          <div key={id}>
+          <SwiperSlide key={id}>
             <div className="flexx">
               <div className="cover">
                 <img src={item.img} alt="Parking offer" />
@@ -59,9 +68,9 @@ function Page3() {
                 </div>
               </div>
             </div>
-          </div>
+          </SwiperSlide>
         ))}
-      </Slider>
+      </Swiper>
     </div>
   );
 }

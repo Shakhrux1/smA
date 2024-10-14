@@ -40,16 +40,22 @@
   "page4":{
     "xizmatlar":"Airport Services",
     "title":"Enhancing Your Airport Experience",
+    "img":"https://business.orange.be/sites/default/files/Wifi.png",
     "wifi":"Wi-Fi & Internet",
     "wifiP":"Stay always connected with our free wireless connection.",
     "wifiLink":"Connect to Wifi",
+    "img2":"https://static.vecteezy.com/system/resources/thumbnails/021/013/596/small/spoon-fork-and-knife-icon-set-on-transparent-background-free-png.png",
+
     "dine":"Dine",
     "dineP":"Explore a variety of exquisite dining options.",
     "dineLink":"Dine",
+    "img3":"https://static.thenounproject.com/png/760836-200.png",
+
     "shop":"Duty free shopping.",
     "shopP":"Explore Shops and Abu Dhabi Duty Free.",
     "shopLink":"Duty free shopping",
     "wifiClik":{
+      "img":"https://www.changiairport.com/content/dam/cacorp/Media-Centre/Resources/Changijourney/Apr24/Wifi.jpg",
       "h1":"Internet Connection",
       "p":"Stay connected throughout your airport journey.",
       "p2":"Access our complimentary, unlimited Wi-Fi network.",
@@ -59,7 +65,8 @@
       "p6":"2. Connect to the network named 'Zayed Intl Airport Free Wi-Fi.'",
       "p7":"3. Once the welcome box appears, click 'CONNECT.'",
       "p8":"4. You will be directed to Abu Dhabi International Airport's website landing page, granting you full internet access.",
-      "p9":"Enjoy browsing! Free Wi-Fi access."
+      "p9":"Enjoy browsing! Free Wi-Fi access.",
+      "icon":"./src/icon/icons8-next-page-50.png"
     },
     "dineClick":{
       "p":"Need a power bank ?",

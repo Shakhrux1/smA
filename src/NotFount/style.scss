@@ -15,25 +15,29 @@
   text-align: center;
   color: white;
   z-index: 100;
-}
-
-.text h1 {
-  font-size: 100px;
-  margin: 0;
-}
-
-.text p {
-  font-size: 24px;
-  margin: 10px 0;
-}
-
-.text h2 {
-  font-size: 30px;
-  margin-top: 20px;
-  background: #a68c3b; /* Tugma foni */
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
+  
+   h1 {
+    font-size: 100px;
+    margin: 0;
+  }
+  
+   p {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+   h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    background: #a68c3b; /* Tugma foni */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    a{
+      text-decoration: none;
+      color: aliceblue;
+    }
+  }
 }
 
 .mask {

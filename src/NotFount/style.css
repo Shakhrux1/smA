@@ -16,17 +16,14 @@
   color: white;
   z-index: 100;
 }
-
 .text h1 {
   font-size: 100px;
   margin: 0;
 }
-
 .text p {
   font-size: 24px;
   margin: 10px 0;
 }
-
 .text h2 {
   font-size: 30px;
   margin-top: 20px;
@@ -34,6 +31,10 @@
   padding: 10px 20px;
   border-radius: 5px;
   display: inline-block;
+}
+.text h2 a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .mask {

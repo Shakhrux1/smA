@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const Notfound = () => {
   useEffect(() => {
@@ -38,7 +39,7 @@ const Notfound = () => {
       <div className="text">
         <h1>404</h1>
         <p>page not found</p>
-        <h2>Back to main</h2>
+        <h2><Link>Back to main</Link></h2>
       </div>
       <div className="mask" />
     </div>
