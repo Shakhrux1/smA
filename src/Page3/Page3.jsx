@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import n from '../icon/icons8-next-page-50.png'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -64,7 +64,7 @@ function Page3() {
                   <p>{item.days2}</p>
                   <p>{item.days3}</p>
                   <h4>{item.chegirma}</h4>
-                  <button>{item.btn}</button>
+                  <button>{item.btn} <img src={n} alt="" /></button>
                 </div>
               </div>
             </div>

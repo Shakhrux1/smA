@@ -38,7 +38,12 @@ function Wifi() {
             </article>
             </div>
             <div>
-            <img src={wifi.img} alt="" />
+             <div className="re">
+             <div className="border">
+              </div>
+                <img src={wifi.img} alt="" />
+             </div>
+            
             </div>
         </div>
         

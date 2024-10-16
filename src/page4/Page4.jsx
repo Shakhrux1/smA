@@ -29,7 +29,7 @@ function Page4() {
                   alignItems: "center",
                 }}
               >
-                <Link to='/Internet'>{api.wifiLink} wifi</Link> <img width={"20px"} src={next3} alt="" />
+                <Link to='/Internet'>{api.wifiLink} </Link> <img width={"20px"} src={next3} alt="" />
               </button>
             </div>
             <div id="box2">

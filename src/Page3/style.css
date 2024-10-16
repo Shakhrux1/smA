@@ -31,11 +31,31 @@
   padding: 10px;
   z-index: 66;
   bottom: 5px;
-  transition: all 0.3s;
+  transition: all 0.7s;
   color: #fff;
 }
 .flexx .cover .bgc button {
   cursor: pointer;
+  padding: 8px 30px;
+  border: 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.315);
+  transition: all 0.3s;
+  gap: 2px;
+}
+.flexx .cover .bgc button img {
+  width: 20px;
+  transition: all 0.3s;
+}
+.flexx .cover .bgc button:hover img {
+  transform: translateX(5px);
+}
+.flexx .cover .bgc button:hover {
+  background-color: rgba(255, 255, 255, 0.6588235294);
 }
 .flexx .cover img {
   height: 100%;
@@ -70,7 +90,7 @@
 .swiper-button-next,
 .swiper-button-prev {
   color: #000000;
-  background-color: rgba(0, 85, 255, 0.8901960784);
+  background-color: rgba(0, 149, 255, 0.682);
   border-radius: 50%;
   width: 60px;
   height: 60px;

@@ -20,6 +20,7 @@
 }
 .hero .flip-element {
   width: 100%;
+  overflow: hidden;
   height: 100%;
   position: relative;
   z-index: 2;

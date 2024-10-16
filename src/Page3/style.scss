@@ -30,11 +30,30 @@
             padding: 10px ;
             z-index: 66;
             bottom: 5px;
-            transition: all .3s;
+            transition: all .7s;
             color: #fff;
             button{
                 cursor: pointer;
-
+                padding:  8px 30px;
+                border: 0;
+                font-size: 16px;
+                margin: 10px 0;
+                border-radius: 30px;
+                display: flex;
+                align-items: center;
+                background-color: rgba(255, 255, 255, 0.315);
+                transition: all .3s;
+                gap: 2px;
+                img{
+                    width: 20px;
+                    transition: all .3s;
+                }
+                &:hover img{
+                    transform: translateX(5px);
+                }
+                &:hover{
+                    background-color: #ffffffa8;
+                }
             }
         }
         img {
@@ -82,7 +101,7 @@
 .swiper-button-next,
 .swiper-button-prev {
     color: #000000;
-    background-color: #0055ffe3;
+    background-color: rgba(0, 149, 255, 0.682);
     border-radius: 50%;
     width: 60px;
     height: 60px;
