@@ -133,75 +133,85 @@
       "p9": "Enjoy browsing! Free Wi-Fi access.",
       "icon": "./src/icon/icons8-next-page-50.png"
     },
-    "dineClick": {
-      "p": "Need a power bank ?",
-      "lorem": "Exclusively offered to customers of Butler’s Chocolate Cafe, Bottega, Todd English, and the Food Park: simply scan the QR code on the power bank charging station, available to use while exploring the airport for up to 24 hours.",
-      "arabic": {
+    "dineClick": [
+      {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Arabica-2x.ashx?h=600&iar=0&w=714&hash=3AD9F0E0ED5334475012AA637305C526",
         "title": "Coffee Shops",
         "name": "Arabica",
         "btn": "Read more",
         "open": {
+          "name": "Arabica",
           "title": "Coffee Shops",
           "p": "% Arabica is simple and stylish with a Japanese minimalistic design, strong brand identity and high quality coffee beans that are roasted fresh in store – the success of the business is based on the company’s commitment to quality and service with the goal of letting its customers ‘See the World Through Coffee’.",
           "soatN": "Opening Hours",
           "soat": "24/7"
         }
       },
-      "bottega": {
+       {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/img/Shop-and-Dine/Bottega-Bar-2x.ashx?h=600&iar=0&w=714&hash=005A4508812727693357B491BDEE58A5",
         "title": "Coffee Shops",
         "name": "Bottega",
         "btn": "Bottega Bar",
         "open": {
+          "name": "Bottega",
           "title": "Coffee Shops",
           "p": "Experience the essence of Italian culture at Bottega. Enjoy Venetian charm as you savour exquisite dishes, fine wines, and prosecco in a sophisticated setting. Our bar transports you to the streets of Venice, where warmth, elegance, and culinary excellence meet.",
           "soatN": "Opening Hours",
           "soat": "24/7"
         }
       },
-      "burgerKing": {
+       {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_corporate/data/Burger-King-2x.ashx?h=600&iar=0&w=714&hash=3C98D8C8205A73D4F6C0C5CB78945067",
         "title": "Restaurants",
         "name": "Burger King",
         "btn": "Read more",
         "open": {
+          "name": "Burger King",
           "title": "Restaurants",
           "p": "Great Food Comes First-Every day, more than 11 million guests visit Burger King restaurants around the world. And they do so because our restaurants are known for serving high-quality, great-tasting, and affordable food. Food quality is our top commitment, and we strive to produce the best-tasting food possible. ",
           "soatN": "Opening Hours",
           "soat": "24/7"
         }
       },
-      "camden": {
+       {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Camden-2x.ashx?h=600&iar=0&w=714&hash=359826150148C9BDA39F992951DEAA49",
         "title": "Coffee Shops",
         "name": "Camden Food Co.",
         "btn": "Read more",
         "open": {
+          "name": "Camden Food Co.",
           "title": "Coffee Shops",
           "p": "At Camden Food Co., we offer a balance of healthy options as well as indulgent treats. There is a wide variety of healthy and organic pre-packaged and fresh foods available to guests. You will not regret stopping here if you are a health-conscious traveler.",
           "soatN": "Opening Hours",
           "soat": "24/7"
         }
       },
-      "culto": {
+       {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Culto-Caf.ashx?h=595&iar=0&w=714&hash=26F1AD4B6FE294E01755EC7DE551036C",
         "title": "Coffee Shops",
         "name": "CUTLO cade",
         "btn": "Cutlo Cafe",
         "open": {
+          "name": "CUTLO cade",
           "title": "Coffee Shops",
           "p": "Culto Cafe brings the heart of Italian coffee culture and the Dolce Vita lifestyle to Zayed International Airport. Offering both classic and gourmet brews, complemented by an extensive range of hot and fresh beverages. Our menu showcases classic and contemporary pastries, indulgent cakes, and delectable sweets. For those seeking something savoury, we offer a selection of fresh sandwiches and filled bakery products alongside wholesome soups, salads and hot meals that can be enjoyed on the go.",
           "soatN": "Opening Hours",
           "soat": "24 hours"
         }
       },
-      "jones": {
+      {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Jones-The-Grocer.ashx?h=595&iar=0&w=714&hash=19509E31C73B1D595332A6166207C677",
         "title": "Restaurants",
         "name": "Jones ",
         "btn": "Jones The Grocer",
         "open": {
+          "name": "Jones ",
           "title": "Restaurants",
           "p": "Explore a rich tapestry of flavors to satisfy your individual taste, creating a culinary adventure that's uniquely yours.",
           "soatN": "Opening Hours",
@@ -210,36 +220,42 @@
           "locatName": "Entry to Pier from CPU"
         }
       },
-      "krpsy": {
+      {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Krispy-Kreme-2x.ashx?h=600&iar=0&w=714&hash=F59015FA0A2ABD85568112EC5B4E14D7",
         "title": "Cafeteria",
         "name": "Krispy Kreme",
         "btn": "Read more",
         "open": {
+          "name": "Krispy Kreme",
           "title": "Cafeteria",
           "p": "HAPPINESS THROUGH DOUGHNUTS. Things are better enjoyed together, especially the sweet fluffy clouds of deliciousness we call doughnuts. We make our Original Glazed Doughnut the way we always have. Because it’s the right way. The fun way. And we love doing it that way for you – our customer.",
           "soatN": "Opening Hours",
           "soat": "24/7"
         }
       },
-      "macdonls": {
+       {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Mc-Donalds-2x.ashx?h=600&iar=0&w=714&hash=6757731318585BDF188589FB1B1047C6",
         "title": "Restaurants",
         "name": "McDonald's",
         "btn": "Read more",
         "open": {
+          "name": "McDonald's",
           "title": "Restaurants",
           "p": "Experience the timeless delight of McDonald's your reliable destination for quick bites, and comfort food. Whether you find yourself in a hurry or in search of a familiar, delectable meal, we are committed to meeting your culinary desires.",
           "soatN": "Opening Hours",
           "soat": "24/7"
         }
       },
-      "lulu": {
+       {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Lulu-Roastery.ashx?h=595&iar=0&w=714&hash=ED7C69C0C7A456C1EAF3E366CF06B113",
         "title": "Coffee Shops",
         "name": "LULU ROASTERY",
         "btn": "Read more",
         "open": {
+          "name": "LULU ROASTERY",
           "title": "Coffee Shops",
           "p": "Explore our curated collection of coffee, dry fruits, and chocolates, sourced from the finest suppliers globally.",
           "soatN": "Opening Hours",
@@ -248,12 +264,15 @@
           "locatName": "-"
         }
       },
-      "shawa": {
+      {
+
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/img/Shop-and-Dine/Shawa-2x.ashx?h=600&iar=0&w=714&hash=870EEF983D597F3815C5E3C28F63A823",
         "title": "Restaurants",
+        "icon": "/src/icon/icons8-next-page-50.png",
         "name": "Shawa",
         "btn": "Read more",
         "open": {
+          "name": "Shawa",
           "title": "Restaurants",
           "p": "Savor the flavors of Lebanon at Shawa! Our diverse, customizable dishes cater to all tastes, even the little people in your life! Indulge in irresistible desserts and refresh with homemade lemonades, the ultimate post-shopping treat.",
           "soatN": "Opening Hours",
@@ -262,30 +281,36 @@
           "locatName": "Entry to Pier from CPU"
         }
       },
-      "texas": {
+       {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_corporate/data/Texas-Chicken-2x.ashx?h=600&iar=0&w=714&hash=41AE54F052E52C20B57C2988EFFA4CED",
         "title": "Restaurants",
         "name": "Texas Chicken",
         "btn": "Read more",
         "open": {
+          "name": "Texas Chicken",
           "title": "Restaurants",
           "p": "Texas Chicken delivers authentic traditions, bold tastes, and straightforward, consistent food you can trust. After all, it is more than fresh fried chicken. We are real but not boring. Simple but not basic. Familiar but always surprising.   ",
           "soatN": "Opening Hours",
           "soat": "24/7"
         }
       },
-      "urban": {
+       {
+        "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Urban-Food-Market.ashx?h=600&iar=0&w=714&hash=5EA95A8939118E010E28727FFF8DC94B",
         "title": "Cafeteria",
         "name": "Urban Foot Market",
         "btn": "Urban Foot Market",
         "open": {
+          "name": "Urban Foot Market",
           "title": "Restaurants",
           "p": "Urban Food Market is your go-to spot for quick and tasty sandwiches, breakfast bites, pastries, and beverages. It's all about convenience and deliciousness, perfect for people on the move.",
           "soatN": "Opening Hours",
           "soat": "24 hours"
         }
       }
-    }
+     
+    ]
+
   }
 }

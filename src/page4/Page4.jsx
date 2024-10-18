@@ -43,7 +43,7 @@ function Page4() {
                   alignItems: "center",
                 }}
               >
-                <Link to='/ShopandDine/Dine'>{api.dineLink} </Link> <img width={"20px"} src={next3} alt="" />
+                <Link to='/ShopandDine/dine'>{api.dineLink} </Link> <img width={"20px"} src={next3} alt="" />
               </button>
             </div>
             <div id="box3">
@@ -57,7 +57,7 @@ function Page4() {
                   alignItems: "center",
                 }}
               >
-                <Link to='/ShopandDine/Shop'>{api.shopLink}</Link> <img width={"20px"} src={next3} alt="" />
+                <Link to='/ShopandDine/shop'>{api.shopLink}</Link> <img width={"20px"} src={next3} alt="" />
               </button>
             </div>
           </div>

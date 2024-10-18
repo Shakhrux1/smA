@@ -10,6 +10,7 @@ import Page4 from "./page4/Page4";
 import Wifi from "./page4/pages/Wifi";
 import Shopp from "./page4/pages/Shopp&Dine";
 import ShopDetail from "./page4/pages/ShopOpen"; // Yangi sahifani import qilish
+import DineOpne from "./page4/pages/DineOpen";
 
 function App() {
   const routes = createBrowserRouter([
@@ -25,38 +26,49 @@ function App() {
               <FlightBooking />
               <Page3 />
               <Page4 />
-            </>
-          ]
+            </>,
+          ],
         },
         {
           path: "/Home",
-          element: <Home />
+          element: <Home />,
         },
         {
           path: "/Internet",
-          element: <Wifi />
+          element: <Wifi />,
         },
         {
-          path: "/ShopandDine/Shop",
-          element: <Shopp />
+          path: "/ShopandDine/:tab",
+          element: <Shopp />,
+          children: [
+            { path: "Shop", element: <Shopp /> },
+            {
+              path: "Dine",
+              element: <Shopp />,
+            },
+          ],
         },
         {
-          path: "/ShopandDine/Shop/:id", // Yangi yo'nalish
-          element: <ShopDetail /> // Detallar sahifasini ochish
-        }
-      ]
+          path: "/ShopandDine/shop/:id", // Yangi yo'nalish
+          element: <ShopDetail />, // Detallar sahifasini ochish
+        },
+        {
+          path: "/ShopandDine/dine/:id", // Yangi yo'nalish
+          element: <DineOpne />, // Detallar sahifasini ochish
+        },
+      ],
     },
     {
-      path: '*',
-      element: <NotFound />
-    }
+      path: "*",
+      element: <NotFound />,
+    },
   ]);
 
   return (
     <>
       <RouterProvider router={routes} />
     </>
-  )
+  );
 }
 
 export default App;

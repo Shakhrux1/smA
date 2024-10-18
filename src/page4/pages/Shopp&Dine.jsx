@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
-import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
-
-import './style.css';
+import { useParams, Link } from "react-router-dom";
+import { Helmet } from "react-helmet"; // Helmet ni import qilish
+import "./style.css";
 
 function Shopp() {
+  const { tab } = useParams(); // URL'dan tab parametrini olish
   const [shopDine, setShopDine] = useState(null);
+  const [activeTab, setActiveTab] = useState(tab || "shop");
+  const [fill, setFill] = useState("");
+  const [isAccordionOpen, setIsAccordionOpen] = useState(false); // Accordion ochiq yoki yopiq ekanligini boshqarish
 
   useEffect(() => {
     fetch("/db.json")
@@ -14,33 +17,129 @@ function Shopp() {
       .catch((error) => console.error(`API xatolik: ${error}`));
   }, []);
 
-  if (!shopDine || !shopDine.shopClick) {
+  // Aktiv tabga qarab sarlavha va meta ma'lumotlarini yangilash
+  useEffect(() => {
+    setActiveTab(tab || "shop"); // URL'dan tab qiymatini o'rnating
+  }, [tab]);
+
+  if (!shopDine || !shopDine.shopClick || !shopDine.dineClick) {
     return <div>Loading...</div>;
   }
+
+  const filter = shopDine.dineClick.filter((item) =>
+    fill ? item.title === fill : true
+  );
+
+  // Accordionni ochish/yopish funksiyasi
+  const toggleAccordion = () => {
+    setIsAccordionOpen(!isAccordionOpen);
+  };
+
+  // Filter qiymatini tanlaganda accordion sarlavhasini o'zgartirish va yopish
+  const handleFilterChange = (value) => {
+    setFill(value);
+    setIsAccordionOpen(false); // Accordion yopilsin
+  };
 
   return (
     <>
       <Helmet>
-        <title>Dine & Shop</title>
+        <title>{activeTab === "shop" ? "Shop" : "Dine"}</title>
         <meta
           name="description"
-          content="This is my awesome page description."
+          content={`Explore our ${activeTab} selections.`}
         />
       </Helmet>
       <div className="container">
-        <div className="dine">
-          {shopDine.shopClick.map((item, id) => (
-            <div key={id}>
-              <img src={item.img} alt={item.title} />
-              <h2>{item.title}</h2>
-              <Link to={`/ShopandDine/Shop/${item.title}`}> {/* Do'kon detallariga yo'naltirish */}
-                <button>
-                  {item.btn} <img src={item.icon} alt="" />
-                </button>
-              </Link>
-            </div>
-          ))}
+        <div className="tabs">
+          <Link
+            to="/ShopandDine/shop"
+            className={activeTab === "shop" ? "activeTab" : ""}
+          >
+            <img src={shopDine.img3} alt="" />
+            <button onClick={() => setActiveTab("shop")}>Shop</button>
+          </Link>
+
+          <Link
+            to="/ShopandDine/dine"
+            className={activeTab === "dine" ? "activeTab" : ""}
+          >
+            <img src={shopDine.img2} alt="" />
+            <button onClick={() => setActiveTab("dine")}>Dine</button>
+          </Link>
         </div>
+
+        {activeTab === "shop" && (
+          <div className="shop">
+            {shopDine.shopClick.map((item, id) => (
+              <div key={id}>
+                <img src={item.img} alt={item.title} />
+                <h2>{item.title}</h2>
+                <Link to={`/ShopandDine/shop/${item.title}`}>
+                  <button>
+                    {item.btn} <img src={item.icon} alt="" />
+                  </button>
+                </Link>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Accordionni ochish/yopish tugmasi */}
+        
+        {activeTab === "dine" && (
+          <>
+            <div className="accordion">
+          <div className="accordion-header" onClick={toggleAccordion}>
+            <h2>{fill || "Filter Options"}</h2> {/* Filter Options o'rniga tanlangan qiymat */}
+            <span>{isAccordionOpen ? "-" : "+"}</span> {/* Plus/Minus belgisi */}
+          </div>
+
+          {/* Accordion faqat ochiq bo'lganda ko'rsatiladi */}
+          {isAccordionOpen && (
+            <div className="accordion-content">
+              <ul>
+                <li onClick={() => handleFilterChange("")}>All</li>
+                <li onClick={() => handleFilterChange("Coffee Shops")}>
+                  Coffee Shops
+                </li>
+                <li onClick={() => handleFilterChange("Restaurants")}>
+                  Restaurants
+                </li>
+                <li onClick={() => handleFilterChange("Cafeteria")}>
+                  Cafeteria
+                </li>
+              </ul>
+            </div>
+          )}
+        </div>
+
+          <div className="div">
+            <h5>Need a power bank?</h5>
+            <p>
+              Exclusively offered to customers of Butler’s Chocolate Cafe,
+              Bottega, Todd English, and the Food Park: simply scan the QR code
+              on the power bank charging station, available to use while
+              exploring the airport for up to 24 hours.
+            </p>
+            <div className="dine">
+              {filter.map((item, id) => (
+                <div key={id}>
+                  <img src={item.img} alt={item.title} />
+                  <h4>{item.title}</h4>
+                  <h2>{item.name}</h2>
+                  <Link to={`/ShopandDine/dine/${item.title}`}>
+                    <button>
+                      {item.btn} <img src={item.icon} alt="" />
+                    </button>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+          </>
+          
+        )}
       </div>
     </>
   );

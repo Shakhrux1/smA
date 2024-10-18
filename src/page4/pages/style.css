@@ -3,6 +3,7 @@
   align-items: center;
   margin-top: 130px;
   gap: 50px;
+  padding: 0 10px;
 }
 .wifi div .re {
   position: relative;
@@ -141,7 +142,7 @@
   transform: translateX(5px);
 }
 
-.dine {
+.shop {
   margin-top: 100px;
   padding: 0 10px;
   display: grid;
@@ -149,24 +150,24 @@
   gap: 30px;
   justify-content: center;
 }
-.dine div {
+.shop div {
   transition: all 0.3s;
   padding: 10px 20px;
   box-shadow: 0px 0 10px rgb(229, 229, 229);
 }
-.dine div img {
+.shop div img {
   width: 304px;
   height: 250px;
   -o-object-fit: fill;
      object-fit: fill;
 }
-.dine div h2 {
+.shop div h2 {
   padding: 5px 15px;
 }
-.dine div a {
+.shop div a {
   text-decoration: none;
 }
-.dine div a button {
+.shop div a button {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -179,15 +180,85 @@
   font-size: 18px;
   margin: 10px 0;
 }
-.dine div a button:hover img {
+.shop div a button:hover img {
   transform: translateX(5px);
   opacity: 1;
 }
-.dine div a button:hover {
+.shop div a button:hover {
   color: rgba(18, 118, 190, 0.853);
   border: 1px solid rgba(18, 118, 190, 0.853);
 }
-.dine div a button img {
+.shop div a button img {
+  opacity: 0.3;
+  transition: all 0.3s;
+  width: 20px;
+  height: 20px;
+}
+
+.div {
+  padding: 0 10px;
+}
+.div p {
+  padding: 5px 75px;
+}
+.div h5 {
+  font-size: 18px;
+  padding: 0 75px;
+  margin-top: 90px;
+}
+.div .dine {
+  margin-top: 50px;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 304px);
+  gap: 30px;
+  justify-content: center;
+}
+.div .dine div {
+  transition: all 0.3s;
+  padding: 10px 20px;
+  box-shadow: 0px 0 10px rgb(229, 229, 229);
+}
+.div .dine div img {
+  width: 265px;
+  height: 250px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.div .dine div h4 {
+  margin-left: 15px;
+  padding: 5px 15px;
+  background-color: rgb(255, 250, 243);
+  width: 140px;
+}
+.div .dine div h2 {
+  padding: 5px 15px;
+}
+.div .dine div a {
+  text-decoration: none;
+}
+.div .dine div a button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid rgba(18, 118, 190, 0.17);
+  background-color: transparent;
+  transition: all 0.3s;
+  color: rgba(18, 118, 190, 0.249);
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.div .dine div a button:hover img {
+  transform: translateX(5px);
+  opacity: 1;
+}
+.div .dine div a button:hover {
+  color: rgba(18, 118, 190, 0.853);
+  border: 1px solid rgba(18, 118, 190, 0.853);
+}
+.div .dine div a button img {
   opacity: 0.3;
   transition: all 0.3s;
   width: 20px;
@@ -195,7 +266,109 @@
 }
 
 .openShop {
+  padding: 0 10px;
   margin-top: 100px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 10px rgb(231, 231, 231);
+  align-items: center;
+  margin: 0 70px;
+  margin-top: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.tabs a {
+  gap: 10px;
+  padding: 10px 280px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 3px solid #FFF;
+  text-decoration: none;
+}
+.tabs a img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tabs a button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  font-size: 25px;
+  padding: 15px 0;
+}
+
+.accordion {
+  position: absolute;
+  margin: 20px 0;
+  margin-left: 70px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 200px;
+}
+.accordion .accordion-header {
+  background-color: #f4f4f4;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+.accordion .accordion-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+.accordion .accordion-header span {
+  font-size: 20px;
+}
+.accordion .accordion-header:hover {
+  background-color: #e0e0e0;
+}
+.accordion .accordion-content {
+  background-color: #fff;
+  padding: 0px 15px;
+  border-top: 1px solid #ddd;
+  animation: accordionSlideDown 0.3s ease;
+}
+.accordion .accordion-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.accordion .accordion-content ul li {
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 16px;
+}
+.accordion .accordion-content ul li:last-child {
+  border-bottom: none;
+}
+.accordion .accordion-content ul li:hover {
+  color: #00a2ff;
+}
+
+@keyframes accordionSlideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px;
+  }
+}
+.activeTab {
+  border-bottom: 3px solid rgb(0, 170, 255) !important;
 }
 
 @media (max-width: 768px) {
