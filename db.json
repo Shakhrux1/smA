@@ -312,5 +312,128 @@
      
     ]
 
-  }
+  },
+  "yonalish":[
+    {
+      "img":"https://t3.ftcdn.net/jpg/05/21/39/66/360_F_521396698_RYmt6WYWdnezujQwLKFs1ZEWL1H1PETc.jpg",
+      "t":"Dubai",
+      "ketish":"Departure Date:",
+      "narx":"US 230$",
+      "btn":"Search",
+      "region":"osiyo"
+    },
+    {
+      "img":"https://cdn2.tu-tu.ru/image/pagetree_node_data/1/7bccbc5255a7c50c5a9267a0023175cf/",
+      "t":"Istambul",
+      "ketish":"Departure Date:",
+      "narx":"US 180$",
+      "btn":"Search",
+      "region":"yevropa"
+    },
+    {
+      "img":"https://images.squarespace-cdn.com/content/v1/6270dcb52a53a65bc96c6dae/3fc09a04-9d8d-4e81-a6dc-a74e3c6f36ed/image-asset.jpeg",
+      "t":"Germany",
+      "ketish":"Departure Date:",
+      "narx":"US 200$",
+      "btn":"Search",
+      "region":"yevropa"
+    },
+    {
+      "img":"https://media.istockphoto.com/id/497572532/photo/cityscape-of-guiyang-at-night.jpg?s=612x612&w=0&k=20&c=iZ2avxaTDglVbfygFduRdxADXI-KqUO1nhX4DlPgFZs=",
+      "t":"China",
+      "ketish":"Departure Date:",
+      "narx":"US 210$",
+      "btn":"Search",
+      "region":"osiyo"
+    },
+    {
+      "img":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0c/ea/bb/ottawa-city-view.jpg?w=1400&h=1400&s=1",
+      "t":"Canada",
+      "ketish":"Departure Date:",
+      "narx":"US 250$",
+      "btn":"Search",
+      "region":"aqsh"
+    },
+    {
+      "img":"https://uz.basmalah.uz/thumb/2/MlURu-qK_dMTEZKMmjaH5A/1200r/d/1376474711_www-radionetplus-ru_860.jpg",
+      "t":"Fransiya",
+      "ketish":"Departure Date:",
+      "narx":"US 195$",
+      "btn":"Search",
+      "region":"yevropa"
+    },
+    {
+      "img":"https://www.spot.uz/media/img/2023/01/bxNyEP16730818635463_l.jpg",
+      "t":"Saudi Arabia",
+      "ketish":"Departure Date:",
+      "narx":"US 150$",
+      "btn":"Search",
+      "region":"osiyo"
+    },
+    {
+      "img":"https://t4.ftcdn.net/jpg/03/58/32/29/360_F_358322998_eWHzJmEnujVtb41bolba1Iz3tfIuCGYh.jpg",
+      "t":"Korea",
+      "ketish":"Departure Date:",
+      "narx":"US 260$",
+      "btn":"Search",
+      "region":"osiyo"
+    },
+    {
+      "img":"https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg",
+      "t":"Brazil",
+      "ketish":"Departure Date:",
+      "narx":"US 230$",
+      "btn":"Search",
+      "region":"aqsh"
+    },
+    {
+      "img":"https://a.storyblok.com/f/176292/1536x864/769df664ce/iran-residency-by-investment-2021-285020271.jpg",
+      "t":"Iran",
+      "ketish":"Departure Date:",
+      "narx":"US 175$",
+      "btn":"Search",
+      "region":"osiyo"
+    },
+    {
+      "img":"https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
+      "t":"England",
+      "ketish":"Departure Date:",
+      "narx":"US 195$",
+      "btn":"Search",
+      "region":"yevropa"
+    },
+    {
+      "img":"https://grantlar.uz/wp-content/uploads/2018/11/Webp.net-resizeimage.jpg",
+      "t":"America",
+      "ketish":"Departure Date:",
+      "narx":"US 295$",
+      "btn":"Search",
+      "region":"aqsh"
+    },
+    {
+      "img":"https://cdn.tripster.ru/thumbs2/ad74c10e-c3af-11ee-aaf6-f6eac2c3b054.1220x600.jpeg",
+      "t":"Norway",
+      "ketish":"Departure Date:",
+      "narx":"US 130$",
+      "btn":"Search",
+      "region":"yevropa"
+    },
+    {
+      "img":"https://avatars.dzeninfra.ru/get-zen_doc/10147568/pub_64cc3edb926e1425bcd79eb4_64cc403b65a3327156aec98a/scale_1200",
+      "t":"Urugvay",
+      "ketish":"Departure Date:",
+      "narx":"US 160$",
+      "btn":"Search",
+      "region":"aqsh"
+    },
+    {
+      "img":"https://www.karelia.fi/wp-content/uploads/2017/06/DJI_0124-nettisivut.jpg",
+      "t":"Finland",
+      "ketish":"Departure Date:",
+      "narx":"US 109$",
+      "btn":"Search",
+      "region":"aqsh"
+    }
+  ]
+
 }

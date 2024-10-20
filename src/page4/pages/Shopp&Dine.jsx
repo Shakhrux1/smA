@@ -91,7 +91,7 @@ function Shopp() {
           <>
             <div className="accordion">
           <div className="accordion-header" onClick={toggleAccordion}>
-            <h2>{fill || "Filter Options"}</h2> {/* Filter Options o'rniga tanlangan qiymat */}
+            <h2>{fill || "Select a category"}</h2> {/* Filter Options o'rniga tanlangan qiymat */}
             <span>{isAccordionOpen ? "-" : "+"}</span> {/* Plus/Minus belgisi */}
           </div>
 

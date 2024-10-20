@@ -11,6 +11,7 @@ import Wifi from "./page4/pages/Wifi";
 import Shopp from "./page4/pages/Shopp&Dine";
 import ShopDetail from "./page4/pages/ShopOpen"; // Yangi sahifani import qilish
 import DineOpne from "./page4/pages/DineOpen";
+import Yonalish from "./yonalishlar/Yonalish";
 
 function App() {
   const routes = createBrowserRouter([
@@ -24,6 +25,7 @@ function App() {
             <>
               <Scrollpage />,
               <FlightBooking />
+              <Yonalish/>
               <Page3 />
               <Page4 />
             </>,

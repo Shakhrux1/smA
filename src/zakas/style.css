@@ -187,7 +187,7 @@
   border-color: #0e63da;
 }
 
-.accordion .accordion-buttons {
+.accordionn .accordion-buttons {
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -200,29 +200,65 @@
   background-color: rgba(159, 163, 166, 0.121);
   transition: all 0.3s;
 }
-.accordion .accordion-buttons:hover {
+.accordionn .accordion-buttons:hover {
   border: 1px solid #0e63da;
 }
-.accordion .accordion-buttons:active {
+.accordionn .accordion-buttons:active {
   opacity: 0.5;
 }
-.accordion .accordion-contents {
+.accordionn .accordion-contents {
   transition: all 0.3s;
   background-color: white;
   border: 1px solid rgb(147, 147, 147);
-  padding: 10px 45px;
+  padding: 10px 25px;
+  width: 208px !important;
   width: 12.8rem;
+  z-index: 66;
   border-radius: 5px;
-  margin-top: 5px;
   position: absolute;
-  z-index: 8;
+  margin-top: 5px;
 }
-.accordion .accordion-contents ul li {
+.accordionn .accordion-contents .passenger-count {
+  margin-top: 10px;
+  display: flex;
+  gap: 65px;
+  align-items: center;
+}
+.accordionn .accordion-contents .passenger-count .counter {
+  border: 0;
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+.accordionn .accordion-contents .passenger-count .counter img {
   cursor: pointer;
-  transition: all 0.3a;
+  width: 20px !important;
 }
-.accordion .accordion-contents ul li:hover {
-  color: #0e63da;
+.accordionn .accordion-contents .accordion-buttons {
+  padding: 10px 53px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: rgba(166, 159, 159, 0.307);
+}
+.accordionn .accordion-contents .accordion-buttons:active {
+  opacity: 0.5;
+}
+.accordionn .accordion-contents #click {
+  padding: 5px 93px;
+  margin: 5px 0;
+  background-color: #0e63da;
+  border: 0;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.accordionn .accordion-contents #click:hover {
+  background-color: rgba(14, 99, 218, 0.6745098039);
 }
 
 .passengers .accordion-button {
@@ -294,7 +330,7 @@
   cursor: pointer;
   transition: all 0.3s;
 }
-.passengers .accordion-content #click:Hover {
+.passengers .accordion-content #click:hover {
   background-color: rgba(14, 99, 218, 0.6745098039);
 }
 

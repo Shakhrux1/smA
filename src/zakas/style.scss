@@ -219,8 +219,10 @@
     }
 }
 
-.accordion {
+.accordionn {
+    
     .accordion-buttons {
+
         padding: 10px 20px;
         display: flex;
         align-items: center;
@@ -247,20 +249,66 @@
         transition: all .3s;
         background-color: white;
         border: 1px solid rgb(147, 147, 147);
-        padding: 10px 45px;
+        padding: 10px 25px;
+        width: 208px !important;
         width: 12.8rem;
+        z-index: 66;
         border-radius: 5px;
-        margin-top: 5px;
         position: absolute;
-        z-index: 8;
-        ul {
-            li {
-                cursor: pointer;
-                transition: all .3a;
+        margin-top: 5px;
+        
+        
+        .passenger-count {
+            margin-top: 10px;
+            display: flex;
 
-                &:hover {
-                    color: #0e63da;
+            gap: 65px;
+
+            align-items: center;
+
+            .counter {
+                border: 0;
+                padding: 5px;
+                gap: 5px;
+                display: flex;
+                align-items: center;
+                background-color: transparent;
+
+                img {
+                    cursor: pointer;
+
+                    width: 20px !important;
                 }
+            }
+        }
+
+        .accordion-buttons {
+            padding: 10px 53px;
+            border: 1px solid gray;
+            cursor: pointer;
+
+            font-size: 14px;
+            border-radius: 8px;
+            background-color: rgba(166, 159, 159, 0.307);
+
+            &:active {
+                opacity: .5;
+            }
+        }
+
+        #click {
+
+            padding: 5px 93px;
+            margin: 5px 0;
+            background-color: #0e63da;
+            border: 0;
+            border-radius: 5px;
+            color: #FFF;
+            cursor: pointer;
+            transition: all .3s;
+
+            &:hover {
+                background-color: #0e63daac;
             }
         }
     }
@@ -268,6 +316,7 @@
 }
 
 .passengers {
+    
     .accordion-button {
         padding: 10px 30px;
         border: 1px solid gray;
@@ -348,7 +397,7 @@
             cursor: pointer;
             transition: all .3s;
 
-            &:Hover {
+            &:hover {
                 background-color: #0e63daac;
             }
         }
@@ -438,3 +487,8 @@
     height: 500px;
     background-attachment: fixed;
 }
+
+// .error{
+//     border: 1px solid red;
+    
+// }

@@ -1,0 +1,136 @@
+.yonalish {
+  margin-top: 80px;
+  padding: 0 10px;
+}
+.yonalish .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.yonalish .flex h1 {
+  padding: 10px 0;
+  font-size: 50px;
+}
+.yonalish .flex article {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  z-index: 99;
+  position: relative;
+}
+.yonalish .flex article .accordion {
+  position: absolute;
+  top: -12px;
+  left: -280px;
+  margin: 10px 0;
+}
+.yonalish .flex article .accordion-header {
+  background-color: rgb(9, 153, 255);
+  color: white;
+  padding: 9px;
+  cursor: pointer;
+}
+.yonalish .flex article .accordion-content {
+  background-color: rgba(241, 241, 241, 0.737254902);
+  padding: 0px;
+}
+.yonalish .flex article .accordion-content ul {
+  list-style-type: none;
+  padding: 0 15px;
+}
+.yonalish .flex article .accordion-content ul li {
+  padding: 3px 0;
+  cursor: pointer;
+}
+.yonalish .flex article .accordion-content ul li:hover {
+  color: #007bff;
+}
+.yonalish .flex article .btn {
+  cursor: pointer;
+  padding: 15px 50px;
+  background-color: rgb(9, 153, 255);
+  border: 0;
+  font-size: 15px;
+  font-family: 900;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.yonalish .flex article .btn::after {
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
+  width: 100%;
+  height: 48px;
+  transition: all 0.5s;
+  top: 0;
+  padding: 15px 0;
+  content: "View All";
+  background-color: rgb(18, 118, 190);
+}
+.yonalish .flex article .btn:hover::after {
+  transform: translateX(0%);
+}
+.yonalish .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 378px);
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.yonalish .grid .box {
+  overflow: hidden;
+  transition: all 0.3s;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 8px;
+}
+.yonalish .grid .box img {
+  width: 378px;
+  height: 240px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.yonalish .grid .box h5 {
+  padding: 0px 10px;
+  font-weight: 600;
+}
+.yonalish .grid .box h2 {
+  padding: 0 10px;
+}
+.yonalish .grid .box article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.yonalish .grid .box article p {
+  padding: 0 10px;
+  padding-bottom: 8px;
+  color: rgb(92, 92, 92);
+}
+.yonalish .grid .box article p span {
+  font-size: 20px;
+  font-family: 1000;
+  color: rgb(18, 118, 190);
+}
+.yonalish .grid .box article .btn2 {
+  padding: 8px 25px;
+  cursor: pointer;
+  border: 0;
+  background-color: gold;
+  color: #FFF;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  margin: 0 10px;
+  margin-bottom: 8px;
+}
+.yonalish .grid .box article .btn2:hover {
+  box-shadow: 1px 1px 10px rgb(151, 151, 151);
+}
+.yonalish .grid .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 1px 1px 10px rgb(151, 151, 151);
+}/*# sourceMappingURL=style.css.map */

@@ -329,7 +329,7 @@ const FlightBooking = () => {
               </div>
 
               {/* Economy Class Accordion */}
-              <div className="accordion" ref={classAccordionRef}>
+              <div className="accordionn" ref={classAccordionRef}>
                 <button
                   className="accordion-buttons"
                   onClick={() => setIsClassAccordionOpen(!isClassAccordionOpen)}
