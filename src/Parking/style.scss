@@ -1,0 +1,113 @@
+.booking-form{
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 120px;
+}
+.color{
+    margin: 40px 30px ;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #e8e8e8;
+    padding: 50px 20px;
+    form{
+        position: relative;
+        display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    input{
+        padding: 10px 5px;
+        width: 250px;
+        margin: 5px 0;
+        border: 1px solid;
+        outline: 0;
+        border-radius: 5px;
+    }
+    .custom-datepicker{
+        padding: 13px 5px;
+    }
+    .btn{
+        position: absolute;
+        top: 130px;
+        border: 0;
+        border: 0;
+        padding: 10px 40px;
+        cursor: pointer;
+        font-family: 700;
+        font-size: 18px;
+        right:100px;
+        border-radius: 5px;
+    }
+    }
+    .modal-overlay {
+        position: fixed;
+        padding:  0 100px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .modal-content {
+          background: white;
+          padding: 50px;
+          border-radius: 8px;
+          .ff{
+            display: flex;
+            align-items: start;
+            gap: 2px;
+            article{
+                border: 1px solid gray;
+                height: 150px;
+                margin: 10px 0;
+                h4{
+                    padding: 5px;
+                    background-color: antiquewhite;
+                }
+                h5{
+                    padding: 5px ;
+                    font-size: 16px;
+                    color: gray;
+                }
+                h6{
+                    font-size: 19px;
+                    padding:  0 5px;
+                    width: 120px;
+                }
+                p{
+                    padding: 0px 5px;
+                    color: gray; 
+                }
+                h3{
+                    padding:0 5px ;
+                }
+                ul{
+                    li{
+                        margin-left: 35px;
+                        color: gray;
+                    }
+                }
+            }
+
+          }
+          .btn-secondary {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover {
+              background: #0056b3;
+            }
+          }
+        }
+      }
+      
+      
+      
+      
+}

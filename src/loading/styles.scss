@@ -1,0 +1,19 @@
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    z-index: 10;
+    animation: l1 1s infinite;
+  }
+  @keyframes l1 {
+      100% {box-shadow: 0 0 0 30px #00aeff00}
+  }
+  .asa{
+    background-color: aqua;
+  }

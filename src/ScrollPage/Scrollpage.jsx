@@ -15,7 +15,7 @@ const Scrollpage = () => {
   };
   const [vidiooo, setVidio] = useState([])
     useEffect(() => {
-        fetch("/db.json")
+        fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
         .then((response) => response.json())
         .then((data) => setVidio(data.page1))
 

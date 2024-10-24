@@ -9,7 +9,7 @@ function Yonalish() {
     const [fill, setFill] = useState(""); // Tanlangan kategoriya
 
     useEffect(() => {
-        fetch("/db.json")
+        fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
             .then((response) => response.json())
             .then((data) => {
                 const updatedData = data.yonalish.map(item => {
@@ -75,7 +75,7 @@ function Yonalish() {
                                     </div>
                                 )}
                             </div>
-                            <button className="btn">View All</button>
+                            <button className="btn">More</button>
                         </article>
                     </div>
                     <div className="grid">

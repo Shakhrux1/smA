@@ -3,6 +3,7 @@ import logo from "../icon/photo_2024-10-01_15-58-27-removebg-preview.png";
 import { Link, Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
 import iq from '../icon/letter-iq-logo-or-icon-design-vector-removebg-preview.png'
+import losd from '../icon/Screenshot_2024-10-24_193400-removebg-preview.png'
 export default function Navbar() {
   const [isHidden, setIsHidden] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -85,10 +86,10 @@ export default function Navbar() {
       </header>
       <footer>
         
-          <div className="bgc">
+          <div className="bgcc">
           <div className="container">
           <div className="footer">
-            <img src={logo} alt="" />
+            <img src={losd} alt="" />
             <ul>
               <li>Privacy policy</li>
               <li>Terms of use</li>

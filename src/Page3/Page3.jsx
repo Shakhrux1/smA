@@ -10,12 +10,13 @@ import "./style.css"; // SCSS faylini import qilish
 
 // Import required modules
 import { Autoplay,  Navigation } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 function Page3() {
   const [page, setPage] = useState([]);
 
   useEffect(() => {
-    fetch("/db.json")
+    fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
       .then((response) => response.json())
       .then((data) => {
         setPage(data.page3); // JSON ma'lumotlarni state-ga saqlash
@@ -64,7 +65,7 @@ function Page3() {
                   <p>{item.days2}</p>
                   <p>{item.days3}</p>
                   <h4>{item.chegirma}</h4>
-                  <button>{item.btn} <img src={n} alt="" /></button>
+                  <button><Link to="Parking" >{item.btn}</Link> <img src={n} alt="" /></button>
                 </div>
               </div>
             </div>

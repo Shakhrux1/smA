@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Helmet } from "react-helmet"; // Helmet ni import qilish
 import "./style.css";
+import Loading from "../../loading/Loading";
 
 function Shopp() {
   const { tab } = useParams(); // URL'dan tab parametrini olish
@@ -11,7 +12,7 @@ function Shopp() {
   const [isAccordionOpen, setIsAccordionOpen] = useState(false); // Accordion ochiq yoki yopiq ekanligini boshqarish
 
   useEffect(() => {
-    fetch("/db.json")
+    fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
       .then((response) => response.json())
       .then((data) => setShopDine(data.page4))
       .catch((error) => console.error(`API xatolik: ${error}`));
@@ -23,7 +24,7 @@ function Shopp() {
   }, [tab]);
 
   if (!shopDine || !shopDine.shopClick || !shopDine.dineClick) {
-    return <div>Loading...</div>;
+    return <Loading/>;
   }
 
   const filter = shopDine.dineClick.filter((item) =>

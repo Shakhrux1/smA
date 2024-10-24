@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
@@ -9,27 +10,39 @@ import NotFound from "./NotFount/NotFound";
 import Page4 from "./page4/Page4";
 import Wifi from "./page4/pages/Wifi";
 import Shopp from "./page4/pages/Shopp&Dine";
-import ShopDetail from "./page4/pages/ShopOpen"; // Yangi sahifani import qilish
+import ShopDetail from "./page4/pages/ShopOpen";
 import DineOpne from "./page4/pages/DineOpen";
 import Yonalish from "./yonalishlar/Yonalish";
+import BookingForm from "./Parking/BookingForm";
+import Loading from "./loading/Loading";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true); 
+
+  useEffect(() => {
+    // Simulate data loading or other operations
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); 
+  }, []);
+
   const routes = createBrowserRouter([
     {
       path: "/",
-      element: <Navbar />,
+      element: !isLoading ? <Navbar /> : null, // Conditionally render Navbar when loading is false
       children: [
         {
           path: "/",
-          element: [
+          element: (
             <>
-              <Scrollpage />,
+              <Scrollpage />
               <FlightBooking />
-              <Yonalish/>
+              <Yonalish />
               <Page3 />
               <Page4 />
-            </>,
-          ],
+              
+            </>
+          ),
         },
         {
           path: "/Home",
@@ -40,23 +53,24 @@ function App() {
           element: <Wifi />,
         },
         {
+          path:"/Parking",
+          element:<BookingForm />
+        },
+        {
           path: "/ShopandDine/:tab",
           element: <Shopp />,
           children: [
             { path: "Shop", element: <Shopp /> },
-            {
-              path: "Dine",
-              element: <Shopp />,
-            },
+            { path: "Dine", element: <Shopp /> },
           ],
         },
         {
-          path: "/ShopandDine/shop/:id", // Yangi yo'nalish
-          element: <ShopDetail />, // Detallar sahifasini ochish
+          path: "/ShopandDine/shop/:id",
+          element: <ShopDetail />,
         },
         {
-          path: "/ShopandDine/dine/:id", // Yangi yo'nalish
-          element: <DineOpne />, // Detallar sahifasini ochish
+          path: "/ShopandDine/dine/:id",
+          element: <DineOpne />,
         },
       ],
     },
@@ -67,9 +81,9 @@ function App() {
   ]);
 
   return (
-    <>
-      <RouterProvider router={routes} />
-    </>
+    <div style={{ backgroundColor: isLoading ? "#254a88" : "white", minHeight: "100vh" }}>
+      {isLoading ? <Loading /> : <RouterProvider router={routes} />}
+    </div>
   );
 }
 

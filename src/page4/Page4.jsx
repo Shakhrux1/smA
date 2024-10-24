@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Page4() {
   const [api, setApi] = useState([]);
   useEffect(() => {
-    fetch("/db.json")
+    fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
       .then((response) => response.json())
       .then((data) => setApi(data.page4))
       .catch((error) => console.error(` aipdan xatolik ${error}`));

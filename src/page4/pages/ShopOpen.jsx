@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import './style.css'
 import { Helmet } from "react-helmet";
+import Loading from "../../loading/Loading";
 
 function ShopDetail() {
   const { id } = useParams(); // URL'dan ID ni olish
@@ -9,7 +10,7 @@ function ShopDetail() {
 
   useEffect(() => {
     // Do'kon ma'lumotlarini olish
-    fetch("/db.json")
+    fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
       .then((response) => response.json())
       .then((data) => {
         const selectedShop = data.page4.shopClick.find((item) => item.title === id); // IDga mos do'konni topish
@@ -19,7 +20,7 @@ function ShopDetail() {
   }, [id]);
 
   if (!shopDetails) {
-    return <div>Loading...</div>;
+    return <Loading/>;
   }
 
   return (
