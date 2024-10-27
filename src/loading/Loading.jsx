@@ -4,13 +4,15 @@ import './styles.css'; // Assuming you prefer SCSS for styling
 
 const Loading = () => {
   return (
-    <div id="asa">
+    <>
+      <div id="asa" style={{backgroundColor:"#054692", width:"100%",height:"100vh",position:'relative', zIndex:666}}>
         <div className="container">
             <div className="asa">
             <img className='loader' src={a} alt="" />
             </div>
         </div>
     </div>
+      </>
   );
 };
 

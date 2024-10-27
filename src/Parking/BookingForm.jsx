@@ -2,6 +2,7 @@ import { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./style.css";
+import { Helmet } from "react-helmet";
 
 const BookingForm = () => {
   const [startDate, setStartDate] = useState(null);
@@ -124,6 +125,15 @@ const BookingForm = () => {
   };
 
   return (
+    <>
+    
+      <Helmet>
+   <title>Parking</title> {/* Do'kon nomi titlega kiritildi */}
+        <meta
+          name="description"
+          content="This is my awesome page description."
+        />
+   </Helmet>
     <div className="booking-form">
       <div className="container">
         <h1 style={{ fontSize: "25px" }}>Car Park Pre-booking</h1>
@@ -232,6 +242,7 @@ const BookingForm = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
