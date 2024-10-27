@@ -52,7 +52,7 @@ function Wifi() {
           </div>
           <div>
             <div className="re">
-              <div className="border"></div>
+              <div className="borders"></div>
               <img src={wifi.img} alt="Wi-Fi Facility" />
             </div>
           </div>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter,  RouterProvider } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Scrollpage from "./ScrollPage/Scrollpage";
@@ -15,6 +15,11 @@ import DineOpne from "./page4/pages/DineOpen";
 import Yonalish from "./yonalishlar/Yonalish";
 import BookingForm from "./Parking/BookingForm";
 import Loading from "./loading/Loading";
+import CommentSection from "./sharh/CommentSection";
+import WorldMapChart from "./sharh/WorldMapChart";
+
+
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true); 
@@ -35,6 +40,8 @@ function App() {
           path: "/",
           element: (
             <>
+            <WorldMapChart/>
+              <CommentSection/>
               <Scrollpage />
               <FlightBooking />
               <Yonalish />

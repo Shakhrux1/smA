@@ -50,15 +50,38 @@ nav .container .flex ul:hover a {
   color: gray;
 }
 nav .container button {
-  padding: 15px 50px;
-  background-color: #333;
+  background-color: transparent;
   color: white;
   border: none;
   cursor: pointer;
   font-size: 16px;
+  transition: all 0.3s;
 }
 nav .container button:hover {
-  background-color: #555;
+  transform: scale(1.02);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 1000000vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Yopiq fon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  z-index: 10000;
 }
 
 nav.hidden {

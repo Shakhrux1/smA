@@ -6,10 +6,10 @@
   padding: 0 10px;
   div {
     .re {
+      
+      
       position: relative;
-      cursor: pointer;
-
-      .border {
+      .borders {
         position: absolute;
         left: -30px;
         top: 30px;
@@ -18,27 +18,29 @@
         height: 463px;
         background-color: transparent;
         border: 3px solid rgba(0, 102, 255, 0.601);
-        z-index: -1;
+        z-index: 1;
       }
 
       img {
+        position: relative;
+        z-index: 8;
         filter: grayscale(100%);
         transition: all .3s;
         cursor: pointer;
         width: 822px;
-
+        &:hover{
+          filter: grayscale(0);
+        }
       }
 
-      &:hover .border {
-        left: 0;
-        top: 0;
-        width: 800px;
-        height: 450px;
+      img:hover + .borders {
+        left: -2.3px;
+        top: -2px;
+        width: 826.5px;
+        height: 466.5px;
       }
 
-      &:hover img {
-        filter: grayscale(0);
-      }
+     
     }
 
     h1 {
