@@ -66,7 +66,6 @@ function App() {
           ),
         },
         { path: "/Home", element: <Home /> },
-       
         { path: "/Internet", element: <Wifi /> },
         { path: "/Parking", element: <BookingForm /> },
         { path: "/ShopandDine/:tab", element: <Shopp /> },
