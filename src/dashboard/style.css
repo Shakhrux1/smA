@@ -21,20 +21,19 @@
   font-size: calc(12px + 4 * (100vw - 320px) / 2240);
 }
 
-body,
 button {
   color: var(--gray9);
   font: 1em/1.5 "DM Sans", sans-serif;
 }
 
-body {
+.body {
   background-color: var(--gray5);
   background-image: url("https://assets.codepen.io/416221/sales_bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 162.5vh;
   transition: background-color var(--trans-dur), color var(--trans-dur);
 }
 

@@ -27,7 +27,7 @@ const Scrollpage = () => {
         {
           scale: 1,
           x: "0px",
-          y: '-140px'
+          y: '-128px'
         },
         {
           scale: 0.4,

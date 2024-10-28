@@ -215,11 +215,11 @@ const FlightBooking = () => {
   };
 
   return (
-    <div id="bgc">
+    <div id="bgc" >
       <div className="container">
-        <div className="flight-booking">
+        <div className="flight-booking" >
           <div className="flexbox">
-            <h2>Book a Ticket</h2>
+            <h2 >Book a Ticket</h2>
             <article id="article">
               <div className="passengers" ref={accordionRef}>
                 <button
