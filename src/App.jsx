@@ -18,6 +18,7 @@ import CommentSection from "./sharh/CommentSection";
 import { Helmet } from "react-helmet";
 import Loading from "./loading/Loading";
 import Dashboard from "./dashboard/Dash";
+import YonalishOpen from "./yonalishlar/YonalishOpen";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -69,6 +70,7 @@ function App() {
         { path: "/Internet", element: <Wifi /> },
         { path: "/Parking", element: <BookingForm /> },
         { path: "/ShopandDine/:tab", element: <Shopp /> },
+        {path:'/Direction/:id', element: <YonalishOpen/>},
         { path: "/ShopandDine/shop/:id", element: <ShopDetail /> },
         { path: "/ShopandDine/dine/:id", element: <DineOpne /> },
         { path: "/Comments", element: <CommentSection /> },

@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import './style.css';
 import { Helmet } from "react-helmet";
@@ -32,13 +32,23 @@ function DineOpne() {
           content="This is my awesome page description."
         />
    </Helmet>
-     <div className="openShop">
+    <div className="container">
+    <Link to='/ShopandDine/dine'>
+        <button id="bs">  Back</button>
+      </Link>
+      
+    <div className="openShop">
         
+        <div>
         <h2>{shopDetails.title}</h2>
-        <p>{shopDetails.p}</p>
-        <p>{shopDetails.soatN} <br /> {shopDetails.soat}</p>
-        <p>{shopDetails.locat} <br /> {shopDetails.locatName }</p>
+        <p >{shopDetails.p}</p>
+        </div>
+        <div>
+        <p style={{backgroundColor:" rgb(0, 170, 255, 0.864)", padding:"5px 15px", width:"180px",color:"#FFF", marginTop:"10px"}}>{shopDetails.soatN} <br /> {shopDetails.soat}</p>
+        <p >{shopDetails.locat} <br /> {shopDetails.locatName }</p>
+        </div>
       </div>
+    </div>
    </>
   );
 }

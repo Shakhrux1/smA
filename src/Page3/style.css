@@ -20,7 +20,7 @@
   cursor: pointer;
   border-radius: 10px;
   height: 480px;
-  max-width: 1020px;
+  max-width: 1020px !important;
 }
 .flexx .cover .bgc {
   position: absolute;

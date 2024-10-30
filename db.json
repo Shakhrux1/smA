@@ -3,7 +3,6 @@
     "vidios": "./src/icon/videoplayback.mp4"
   },
   "page3": [
-    
     {
       "bayram": "Enjoy exclusive holiday savings",
       "p": "Book now and save on airport parking.",
@@ -50,75 +49,69 @@
     "shop": "Duty free shopping.",
     "shopP": "Explore Shops and Abu Dhabi Duty Free.",
     "shopLink": "Duty free shopping",
-    
     "shopClick": [
-  
-    
-  {
-    "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/ADIB.ashx?h=595&iar=0&w=714&hash=34672A9632E7CE9EE6FE0A419BB8C12C",
-    "title": "Banks & ATMs",
-    "btn": "Read more",
-    "icon": "/src/icon/icons8-next-page-50.png",
-    "open": {
-      "title": "Banks & ATMs",
-      "p": "With a strong customer franchise, we provide comprehensive banking services.",
-      "soatN": "Opening Hours",
-      "soat": "24/7"
-    }
-  },
-  {
-    "img": "https://www.zayedinternationalairport.ae/-/media/Adidas-2x.ashx?h=600&iar=0&w=714&hash=494273219BF4441F32FAC56404165E8B",
-    "title": "Shops",
-    "icon": "/src/icon/icons8-next-page-50.png",
-    "name": "Adidas",
-    "btn": "Read more",
-    "open": {
-      "title": "Shops",
-      "p": "Athletes do not settle for average. Discover the latest Adidas collections.",
-      "soatN": "Opening Hours",
-      "soat": "24/7"
-    }
-  },
-  {
-    "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Polo-Ralph-Lauren.ashx?h=595&iar=0&w=714&hash=C9BC3096884F0FAB7C407AEAE62E03E0",
-    "title": "Fashion",
-    "btn": "Read more",
-    "icon": "/src/icon/icons8-next-page-50.png",
-    "open": {
-      "title": "Fashion",
-      "p": "Polo Ralph Lauren epitomizes iconic American style.",
-      "soatN": "Opening Hours",
-      "soat": "24/7"
-    }
-  },
-  {
-    "img": "https://luxurywatchrolls.com/cdn/shop/files/luxury-watch-rolls-logo-text-transparent.png?v=1705850317&width=600",
-    "title": "Luxury Watches",
-    "btn": "Read more",
-    "icon": "/src/icon/icons8-next-page-50.png",
-    "open": {
-      "title": "Luxury Watches",
-      "p": "Explore exclusive timepieces from the world's finest brands.",
-      "soatN": "Opening Hours",
-      "soat": "24/7"
-    }
-  },
-  {
-    "img": "https://png.pngtree.com/png-clipart/20200709/original/pngtree-technology-logo-template-png-image_3669868.jpg",
-    "title": "Technology",
-    "btn": "Read more",
-    "icon": "/src/icon/icons8-next-page-50.png",
-
-    "open": {
-      "title": "Technology",
-      "p": "Latest gadgets and tech accessories from top brands.",
-      "soatN": "Opening Hours",
-      "soat": "24/7"
-    }
-  }
-  
-],
-
+      {
+        "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/ADIB.ashx?h=595&iar=0&w=714&hash=34672A9632E7CE9EE6FE0A419BB8C12C",
+        "title": "Banks & ATMs",
+        "btn": "Read more",
+        "icon": "/src/icon/icons8-next-page-50.png",
+        "open": {
+          "title": "Banks & ATMs",
+          "p": "With a strong customer franchise, we provide comprehensive banking services.",
+          "soatN": "Opening Hours",
+          "soat": "24/7"
+        }
+      },
+      {
+        "img": "https://www.zayedinternationalairport.ae/-/media/Adidas-2x.ashx?h=600&iar=0&w=714&hash=494273219BF4441F32FAC56404165E8B",
+        "title": "Shops",
+        "icon": "/src/icon/icons8-next-page-50.png",
+        "name": "Adidas",
+        "btn": "Read more",
+        "open": {
+          "title": "Shops",
+          "p": "Athletes do not settle for average. Discover the latest Adidas collections.",
+          "soatN": "Opening Hours",
+          "soat": "24/7"
+        }
+      },
+      {
+        "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Polo-Ralph-Lauren.ashx?h=595&iar=0&w=714&hash=C9BC3096884F0FAB7C407AEAE62E03E0",
+        "title": "Fashion",
+        "btn": "Read more",
+        "icon": "/src/icon/icons8-next-page-50.png",
+        "open": {
+          "title": "Fashion",
+          "p": "Polo Ralph Lauren epitomizes iconic American style.",
+          "soatN": "Opening Hours",
+          "soat": "24/7"
+        }
+      },
+      {
+        "img": "https://luxurywatchrolls.com/cdn/shop/files/luxury-watch-rolls-logo-text-transparent.png?v=1705850317&width=600",
+        "title": "Luxury Watches",
+        "btn": "Read more",
+        "icon": "/src/icon/icons8-next-page-50.png",
+        "open": {
+          "title": "Luxury Watches",
+          "p": "Explore exclusive timepieces from the world's finest brands.",
+          "soatN": "Opening Hours",
+          "soat": "24/7"
+        }
+      },
+      {
+        "img": "https://png.pngtree.com/png-clipart/20200709/original/pngtree-technology-logo-template-png-image_3669868.jpg",
+        "title": "Technology",
+        "btn": "Read more",
+        "icon": "/src/icon/icons8-next-page-50.png",
+        "open": {
+          "title": "Technology",
+          "p": "Latest gadgets and tech accessories from top brands.",
+          "soatN": "Opening Hours",
+          "soat": "24/7"
+        }
+      }
+    ],
     "wifiClik": {
       "img": "https://www.changiairport.com/content/dam/cacorp/Media-Centre/Resources/Changijourney/Apr24/Wifi.jpg",
       "h1": "Internet Connection",
@@ -148,7 +141,7 @@
           "soat": "24/7"
         }
       },
-       {
+      {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/img/Shop-and-Dine/Bottega-Bar-2x.ashx?h=600&iar=0&w=714&hash=005A4508812727693357B491BDEE58A5",
         "title": "Coffee Shops",
@@ -162,7 +155,7 @@
           "soat": "24/7"
         }
       },
-       {
+      {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_corporate/data/Burger-King-2x.ashx?h=600&iar=0&w=714&hash=3C98D8C8205A73D4F6C0C5CB78945067",
         "title": "Restaurants",
@@ -176,7 +169,7 @@
           "soat": "24/7"
         }
       },
-       {
+      {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Camden-2x.ashx?h=600&iar=0&w=714&hash=359826150148C9BDA39F992951DEAA49",
         "title": "Coffee Shops",
@@ -190,7 +183,7 @@
           "soat": "24/7"
         }
       },
-       {
+      {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Culto-Caf.ashx?h=595&iar=0&w=714&hash=26F1AD4B6FE294E01755EC7DE551036C",
         "title": "Coffee Shops",
@@ -234,7 +227,7 @@
           "soat": "24/7"
         }
       },
-       {
+      {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Mc-Donalds-2x.ashx?h=600&iar=0&w=714&hash=6757731318585BDF188589FB1B1047C6",
         "title": "Restaurants",
@@ -248,7 +241,7 @@
           "soat": "24/7"
         }
       },
-       {
+      {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Lulu-Roastery.ashx?h=595&iar=0&w=714&hash=ED7C69C0C7A456C1EAF3E366CF06B113",
         "title": "Coffee Shops",
@@ -265,7 +258,6 @@
         }
       },
       {
-
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/img/Shop-and-Dine/Shawa-2x.ashx?h=600&iar=0&w=714&hash=870EEF983D597F3815C5E3C28F63A823",
         "title": "Restaurants",
         "icon": "/src/icon/icons8-next-page-50.png",
@@ -281,7 +273,7 @@
           "locatName": "Entry to Pier from CPU"
         }
       },
-       {
+      {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_corporate/data/Texas-Chicken-2x.ashx?h=600&iar=0&w=714&hash=41AE54F052E52C20B57C2988EFFA4CED",
         "title": "Restaurants",
@@ -295,7 +287,7 @@
           "soat": "24/7"
         }
       },
-       {
+      {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Urban-Food-Market.ashx?h=600&iar=0&w=714&hash=5EA95A8939118E010E28727FFF8DC94B",
         "title": "Cafeteria",
@@ -309,131 +301,221 @@
           "soat": "24 hours"
         }
       }
-     
     ]
-
   },
-  "yonalish":[
+  "yonalish": [
     {
-      "img":"https://t3.ftcdn.net/jpg/05/21/39/66/360_F_521396698_RYmt6WYWdnezujQwLKFs1ZEWL1H1PETc.jpg",
-      "t":"Dubai",
-      "ketish":"Departure Date:",
-      "narx":"US 230$",
-      "btn":"Search",
-      "region":"osiyo"
+      "img": "https://t3.ftcdn.net/jpg/05/21/39/66/360_F_521396698_RYmt6WYWdnezujQwLKFs1ZEWL1H1PETc.jpg",
+      "t": "Dubai",
+      "ketish": "Departure Date:",
+      "narx": "US 230$",
+      "btn": "Search",
+      "region": "osiyo",
+      "open": {
+        "img": "https://t3.ftcdn.net/jpg/05/21/39/66/360_F_521396698_RYmt6WYWdnezujQwLKFs1ZEWL1H1PETc.jpg",
+        "lorem": "The city of Dubai is the largest and most populated city in the United Arab Emirates (UAE) and the capital city of the emirate of Dubai UAE. The city is sometimes called 'Dubai City' to prevent it from being mixed up with the emirate.Dubai is a city and emirate in the United Arab Emirates known for luxury shopping ultramodern architecture and a lively nightlife scene. Burj Khalifa an 828m-tall tower dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain with jets and lights choreographed to music. On artificial islands just offshore is Atlantis The Palm a resort with water and marine-animal parks.",
+        "img2": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg/1200px-Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg",
+        "img3": "https://img.pac.ru/resorts/213079/349252/big/3866BA187F000101443EEC87AA90DCF1.jpg"
+      }
     },
     {
-      "img":"https://cdn2.tu-tu.ru/image/pagetree_node_data/1/7bccbc5255a7c50c5a9267a0023175cf/",
-      "t":"Istambul",
-      "ketish":"Departure Date:",
-      "narx":"US 180$",
-      "btn":"Search",
-      "region":"yevropa"
+      "img": "https://cdn2.tu-tu.ru/image/pagetree_node_data/1/7bccbc5255a7c50c5a9267a0023175cf/",
+      "t": "Istambul",
+      "ketish": "Departure Date:",
+      "narx": "US 180$",
+      "btn": "Search",
+      "region": "yevropa",
+      "open": {
+        "img": "https://cdn2.tu-tu.ru/image/pagetree_node_data/1/7bccbc5255a7c50c5a9267a0023175cf/",
+        "img2": "https://yuz.uz/imageproxy/1200x/https://yuz.uz/file/news/05433e9d14a5e7d01e9544cb1741ef64.jpg",
+        "lorem": "Istanbul, formerly known as Constantinople, is a mega city that sits in both Europe and Asia, divided by the Bosporus. Although it is the largest city of Turkey, it is not the capital. It is the largest city in Europe by population. It is also the 3rd largest European city in size. It was the capital city of the old Ottoman Empire until 1923. The city has been known since ancient times by the older names Byzantium and Constantinople (Latin: Constantinopolis; Greek: Κωνσταντινούπολις, Konstantinoúpolis). Being a seaport, Istanbul is the main trade center of Turkey.",
+        "img3": "https://storage.kun.uz/source/3/Rb_ts39GSKV1eiFLzfxMp1qM8d9c_GPq.jpg"
+      }
     },
     {
-      "img":"https://images.squarespace-cdn.com/content/v1/6270dcb52a53a65bc96c6dae/3fc09a04-9d8d-4e81-a6dc-a74e3c6f36ed/image-asset.jpeg",
-      "t":"Germany",
-      "ketish":"Departure Date:",
-      "narx":"US 200$",
-      "btn":"Search",
-      "region":"yevropa"
+      "img": "https://images.squarespace-cdn.com/content/v1/6270dcb52a53a65bc96c6dae/3fc09a04-9d8d-4e81-a6dc-a74e3c6f36ed/image-asset.jpeg",
+      "t": "Germany",
+      "ketish": "Departure Date:",
+      "narx": "US 200$",
+      "btn": "Search",
+      "region": "yevropa",
+      "open": {
+        "img": "https://images.squarespace-cdn.com/content/v1/6270dcb52a53a65bc96c6dae/3fc09a04-9d8d-4e81-a6dc-a74e3c6f36ed/image-asset.jpeg",
+        "imp2": "https://i.natgeofe.com/k/92cd9f34-bfe8-4b3c-99b2-dcd67bf3f07b/germany-munich-city-scene_16x9.jpg?w=1200",
+        "lorem": "We know what it's like to have Germany become your new home. Many of us have gone through the experience ourselves. And we know all about the many questions that pop up as you start over here. In our project Handbook Germany : Together, we offer answers– from A to Z of life in Germany in articles, videos and podcasts, all on our information platform handbookgermany.de.In nine languages, we provide essential tips on residence law issues, housing, health, work and vocational training, child care, studying and much more",
+        "img3": "https://static.toiimg.com/photo/msid-111576967,width-96,height-65.cms"
+      }
     },
     {
-      "img":"https://media.istockphoto.com/id/497572532/photo/cityscape-of-guiyang-at-night.jpg?s=612x612&w=0&k=20&c=iZ2avxaTDglVbfygFduRdxADXI-KqUO1nhX4DlPgFZs=",
-      "t":"China",
-      "ketish":"Departure Date:",
-      "narx":"US 210$",
-      "btn":"Search",
-      "region":"osiyo"
+      "img": "https://media.istockphoto.com/id/497572532/photo/cityscape-of-guiyang-at-night.jpg?s=612x612&w=0&k=20&c=iZ2avxaTDglVbfygFduRdxADXI-KqUO1nhX4DlPgFZs=",
+      "t": "China",
+      "ketish": "Departure Date:",
+      "narx": "US 210$",
+      "btn": "Search",
+      "region": "osiyo",
+      "open": {
+        "img": "https://media.istockphoto.com/id/497572532/photo/cityscape-of-guiyang-at-night.jpg?s=612x612&w=0&k=20&c=iZ2avxaTDglVbfygFduRdxADXI-KqUO1nhX4DlPgFZs=",
+        "imp2": "https://uceap.universityofcalifornia.edu/sites/default/files/marketing-images/country-page-images/china-page-header.jpg",
+        "lorem": "China, officially the People's Republic of China (PRC), is a country in East Asia. With a population exceeding 1.4 billion, it is the second-most populous country after India, representing 17.4% of the world population. China spans the equivalent of five time zones and borders fourteen countries by land. With an area of nearly 9.6 million square kilometers (3,700,000 sq mi), it is the third-largest country by total land area.The country is divided into 33 province-level divisions: 22 provinces, five autonomous regions, four municipalities, and two semi-autonomous special administrative regions.",
+        "img3": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5398_Ultimate_China_WEB_HERO_2_GreatWall.jpg"
+      }
     },
     {
-      "img":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0c/ea/bb/ottawa-city-view.jpg?w=1400&h=1400&s=1",
-      "t":"Canada",
-      "ketish":"Departure Date:",
-      "narx":"US 250$",
-      "btn":"Search",
-      "region":"aqsh"
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0c/ea/bb/ottawa-city-view.jpg?w=1400&h=1400&s=1",
+      "t": "Canada",
+      "ketish": "Departure Date:",
+      "narx": "US 250$",
+      "btn": "Search",
+      "region": "aqsh",
+      "open": {
+        "imp2": "https://media.cnn.com/api/v1/images/stellar/prod/140630124917-12-canada-most-beautiful-places.jpg?q=w_2000,h_1363,x_0,y_0,c_fill",
+        "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0c/ea/bb/ottawa-city-view.jpg?w=1400&h=1400&s=1",
+        "lorem": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, making it the world's second-largest country by total area, with the world's longest coastline. Its border with the United States is the world's longest international land border. The country is characterized by a wide range of both meteorologic and geological regions. It is a sparsely inhabited country of just over 41 million people, with the majority residing in urban areas. Canada's capital is Ottawa and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.",
+        "img3": "https://www.planetware.com/wpimages/2019/11/canada-in-pictures-beautiful-places-to-photograph-morraine-lake.jpg"
+      }
     },
     {
-      "img":"https://uz.basmalah.uz/thumb/2/MlURu-qK_dMTEZKMmjaH5A/1200r/d/1376474711_www-radionetplus-ru_860.jpg",
-      "t":"Fransiya",
-      "ketish":"Departure Date:",
-      "narx":"US 195$",
-      "btn":"Search",
-      "region":"yevropa"
+      "img": "https://uz.basmalah.uz/thumb/2/MlURu-qK_dMTEZKMmjaH5A/1200r/d/1376474711_www-radionetplus-ru_860.jpg",
+      "t": "France",
+      "ketish": "Departure Date:",
+      "narx": "US 195$",
+      "btn": "Search",
+      "region": "yevropa",
+      "open": {
+        "img": "https://uz.basmalah.uz/thumb/2/MlURu-qK_dMTEZKMmjaH5A/1200r/d/1376474711_www-radionetplus-ru_860.jpg",
+        "img2": "https://hayatestate.com/wp-content/uploads/2020/05/louvre-102840_1280-1024x682.jpg",
+        "img3": "https://www.svoiludi.ru/images/tb/25/france-1693982138271_w990h1000.jpg",
+        "lorem": "France retains its centuries-long status as a global centre of art, science, and philosophy. It hosts the fourth-largest number of UNESCO World Heritage Sites and is the world's leading tourist destination, receiving 100 million foreign visitors in 2023.[15] A developed country, France has a high nominal per capita income globally, and its advanced economy ranks among the largest in the world. It is a great power,[16] being one of the five permanent members of the United Nations Security Council and an official nuclear-weapon state. France is a founding and leading member of the European Union and the eurozone."
+      }
     },
     {
-      "img":"https://www.spot.uz/media/img/2023/01/bxNyEP16730818635463_l.jpg",
-      "t":"Saudi Arabia",
-      "ketish":"Departure Date:",
-      "narx":"US 150$",
-      "btn":"Search",
-      "region":"osiyo"
+      "img": "https://www.spot.uz/media/img/2023/01/bxNyEP16730818635463_l.jpg",
+      "t": "Saudi Arabia",
+      "ketish": "Departure Date:",
+      "narx": "US 150$",
+      "btn": "Search",
+      "region": "osiyo",
+      "open": {
+        "img2": "https://media.istockphoto.com/id/1293325404/photo/buildings-landmarks.jpg?s=612x612&w=0&k=20&c=xrpZQM_eRsXaJMQbZ-FgdJfhqJLMUlqceVHnbtcj5vE=",
+        "img3": "https://cms.forbesafrica.com/wp-content/uploads/2024/01/GettyImages-1464744716.jpg",
+        "lorem": "There is evidence that human habitation in the Arabian Peninsula dates back to about 125000 years ago.[47] A 2011 study found that the first modern humans to spread east across Asia left Africa about 75000 years ago across the Bab-el-Mandeb connecting the Horn of Africa and Arabia.[48] The Arabian Peninsula is regarded as central to the understanding of evolution and dispersals of Man. Arabia underwent an extreme environmental fluctuation in the Quaternary that led to profound evolutionary and demographic changes. Arabia has a rich Lower Paleolithic record",
+        "img": "https://www.spot.uz/media/img/2023/01/bxNyEP16730818635463_l.jpg"
+      }
     },
     {
-      "img":"https://t4.ftcdn.net/jpg/03/58/32/29/360_F_358322998_eWHzJmEnujVtb41bolba1Iz3tfIuCGYh.jpg",
-      "t":"Korea",
-      "ketish":"Departure Date:",
-      "narx":"US 260$",
-      "btn":"Search",
-      "region":"osiyo"
+      "img": "https://t4.ftcdn.net/jpg/03/58/32/29/360_F_358322998_eWHzJmEnujVtb41bolba1Iz3tfIuCGYh.jpg",
+      "t": "Korea",
+      "lorem": "In 1392, the general Yi Seong-gye overthrew the Goryeo dynasty after he staged a coup and defeated General Ch'oe Yŏng. Yi Seong-gye named his new dynasty Joseon and moved the capital from Kaesong to Hanseong (formerly Hanyang; modern-day Seoul) and built the Gyeongbokgung palace.[119] In 1394, he adopted Confucianism as the country's official ideology, resulting in much loss of power and wealth by the Buddhists. The prevailing philosophy of the Joseon dynasty was Neo-Confucianism, which was epitomised by the seonbi class",
+      "img2": "https://plus.unsplash.com/premium_photo-1661963468634-71b9482a3efe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c291dGglMjBrb3JlYXxlbnwwfHwwfHx8MA%3D%3D",
+      "img3": "https://media.istockphoto.com/id/521707831/photo/seoul-south-korea-skyline.jpg?s=612x612&w=0&k=20&c=Zlxokjq-Yf_lkGDDReM4SlOXvCebTpFBxZ6b2-MknW8=",
+      "ketish": "Departure Date:",
+      "narx": "US 260$",
+      "btn": "Search",
+      "region": "osiyo",
+      "open": {
+        "img": "https://t4.ftcdn.net/jpg/03/58/32/29/360_F_358322998_eWHzJmEnujVtb41bolba1Iz3tfIuCGYh.jpg",
+        "lorem": "In 1392, the general Yi Seong-gye overthrew the Goryeo dynasty after he staged a coup and defeated General Ch'oe Yŏng. Yi Seong-gye named his new dynasty Joseon and moved the capital from Kaesong to Hanseong (formerly Hanyang; modern-day Seoul) and built the Gyeongbokgung palace.[119] In 1394, he adopted Confucianism as the country's official ideology, resulting in much loss of power and wealth by the Buddhists. The prevailing philosophy of the Joseon dynasty was Neo-Confucianism, which was epitomised by the seonbi class",
+        "img2": "https://plus.unsplash.com/premium_photo-1661963468634-71b9482a3efe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c291dGglMjBrb3JlYXxlbnwwfHwwfHx8MA%3D%3D",
+        "img3": "https://media.istockphoto.com/id/521707831/photo/seoul-south-korea-skyline.jpg?s=612x612&w=0&k=20&c=Zlxokjq-Yf_lkGDDReM4SlOXvCebTpFBxZ6b2-MknW8="
+      }
     },
     {
-      "img":"https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg",
-      "t":"Brazil",
-      "ketish":"Departure Date:",
-      "narx":"US 230$",
-      "btn":"Search",
-      "region":"aqsh"
+      "img": "https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg",
+      "t": "Brazil",
+      "ketish": "Departure Date:",
+      "narx": "US 230$",
+      "btn": "Search",
+      "region": "aqsh",
+      "open": {
+        "img": "https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg",
+        "img2": "https://www.celebritycruises.com/blog/content/uploads/2021/09/what-is-brazil-known-for-christ-the-redeemer-aerial-hero.jpg",
+        "lorem": "The word Brazil probably comes from the Portuguese word for brazilwood, a tree that once grew plentifully along the Brazilian coast. In Portuguese, brazilwood is called pau-brasil, with the word brasil commonly given the etymology 'red like an ember', formed from brasa ('ember') and the suffix -il (from -iculum or -ilium). It has alternatively been suggested that this is a folk etymology for a word for the plant related to an Arabic or Asian word for a red plant.[35] As brazilwood produces a deep red dye, it was highly valued by the European ",
+        "img3": "https://www.ozai.com.br/wp-content/uploads/2022/06/doing-business-in-brazil-sao-paulo-for-small-and-medium-entities.jpg"
+      }
     },
     {
-      "img":"https://a.storyblok.com/f/176292/1536x864/769df664ce/iran-residency-by-investment-2021-285020271.jpg",
-      "t":"Iran",
-      "ketish":"Departure Date:",
-      "narx":"US 175$",
-      "btn":"Search",
-      "region":"osiyo"
+      "img": "https://a.storyblok.com/f/176292/1536x864/769df664ce/iran-residency-by-investment-2021-285020271.jpg",
+      "t": "Iran",
+      "ketish": "Departure Date:",
+      "narx": "US 175$",
+      "btn": "Search",
+      "region": "osiyo",
+      "open": {
+        "lorem": "Iran endured invasions by the Macedonians, Arabs, Turks, and Mongols. Despite these invasions, Iran continually reasserted its national identity and developed as a distinct political and cultural entity. The Muslim conquest of Persia (632–654) ended the Sasanian Empire and marked a turning point in Iranian history, leading to the Islamization of Iran from the eighth to tenth centuries and the decline of Zoroastrianism. However, the achievements of prior Persian civilizations were absorbed into the new Islamic polity. ",
+        "img": "https://a.storyblok.com/f/176292/1536x864/769df664ce/iran-residency-by-investment-2021-285020271.jpg",
+        "img2": "https://www.shutterstock.com/image-photo/tehran-night-260nw-762604726.jpg",
+        "img3": "https://media.istockphoto.com/id/1319189526/photo/milad-tower-tehran-iran.jpg?s=612x612&w=0&k=20&c=ZfnqoYElw11WdacKcMHG8WYcPko__m0FB_8VzNigA5k="
+      }
     },
     {
-      "img":"https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
-      "t":"England",
-      "ketish":"Departure Date:",
-      "narx":"US 195$",
-      "btn":"Search",
-      "region":"yevropa"
+      "img": "https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
+      "t": "England",
+      "ketish": "Departure Date:",
+      "narx": "US 195$",
+      "btn": "Search",
+      "region": "yevropa",
+      "open": {
+        "img": "https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
+        "lorem": "During the Iron Age, Celtic culture, deriving from the Hallstatt and La Tène cultures, arrived from Central Europe. Brythonic was the spoken language during this time. Society was tribal; according to Ptolemy's Geographia there were around 20 tribes in the area. Like other regions on the edge of the Empire, Britain had long enjoyed trading links with the Romans. Julius Caesar of the Roman Republic attempted to invade",
+        "img2": "https://plus.unsplash.com/premium_photo-1661962726504-fa8f464a1bb8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5nbGFuZHxlbnwwfHwwfHx8MA%3D%3D",
+        "img3": "https://media.cnn.com/api/v1/images/stellar/prod/160418173456-beautiful-england-18-london-england.jpg?q=w_1900,h_1095,x_0,y_0,c_fill/h_447"
+      }
     },
     {
-      "img":"https://grantlar.uz/wp-content/uploads/2018/11/Webp.net-resizeimage.jpg",
-      "t":"America",
-      "ketish":"Departure Date:",
-      "narx":"US 295$",
-      "btn":"Search",
-      "region":"aqsh"
+      "img": "https://grantlar.uz/wp-content/uploads/2018/11/Webp.net-resizeimage.jpg",
+      "t": "United States",
+      "ketish": "Departure Date:",
+      "narx": "US 295$",
+      "btn": "Search",
+      "region": "aqsh",
+      "open": {
+        "img": "https://grantlar.uz/wp-content/uploads/2018/11/Webp.net-resizeimage.jpg",
+        "img2": "https://wallpapers.com/images/featured/america-pictures-r6jsqyj9mgl0bwxw.jpg",
+        "lorem": "The United States of America (USA), commonly known as the United States (U.S.) or simply America, is a sovereign country mostly in North America. It is divided into 50 states. Forty-eight of these states and the District of Columbia border each other between the Pacific and Atlantic Oceans. They are bordered by Canada to the north and Mexico to the south. The state of Alaska is in the northwestern area of the continent and is separated from the other 48 states by Canada making it an exclave. Alaska is bordered by Canada to its east. ",
+        "img3": "https://st3.depositphotos.com/33115474/36856/i/450/depositphotos_368561444-stock-photo-empire-state-building-illuminated-blue.jpg"
+      }
     },
     {
-      "img":"https://cdn.tripster.ru/thumbs2/ad74c10e-c3af-11ee-aaf6-f6eac2c3b054.1220x600.jpeg",
-      "t":"Norway",
-      "ketish":"Departure Date:",
-      "narx":"US 130$",
-      "btn":"Search",
-      "region":"yevropa"
+      "img": "https://cdn.tripster.ru/thumbs2/ad74c10e-c3af-11ee-aaf6-f6eac2c3b054.1220x600.jpeg",
+      "t": "Norway",
+      "ketish": "Departure Date:",
+      "narx": "US 130$",
+      "btn": "Search",
+      "region": "yevropa",
+      "open": {
+        "img2": "https://png.pngtree.com/thumb_back/fh260/background/20230216/pngtree-view-on-bergen-norway-tilt-shift-lens-image_1599916.jpg",
+        "img3": "https://media.istockphoto.com/id/459642695/photo/night-panorama-of-bergen.jpg?s=612x612&w=0&k=20&c=NAaxSbxV5fWBAfK_MfY-8cyO6jFfw2iOqgbggsRTw14=",
+        "lorem": "The earliest traces of human occupation in Norway are found along the coast, where the huge ice shelf of the last ice age first melted between 11,000 and 8000 BC. The oldest finds are stone tools dating from 9500 to 6000 BC, discovered in Finnmark (Komsa culture) in the north and Rogaland (Fosna culture) in the southwest. Theories about the two cultures being separate were deemed obsolete in the 1970s.Between 3000 and 2500 BC, new settlers (Corded Ware culture) arrived in eastern Norway.",
+        "img": "https://cdn.tripster.ru/thumbs2/ad74c10e-c3af-11ee-aaf6-f6eac2c3b054.1220x600.jpeg"
+      }
     },
     {
-      "img":"https://avatars.dzeninfra.ru/get-zen_doc/10147568/pub_64cc3edb926e1425bcd79eb4_64cc403b65a3327156aec98a/scale_1200",
-      "t":"Urugvay",
-      "ketish":"Departure Date:",
-      "narx":"US 160$",
-      "btn":"Search",
-      "region":"aqsh"
+      "img": "https://avatars.dzeninfra.ru/get-zen_doc/10147568/pub_64cc3edb926e1425bcd79eb4_64cc403b65a3327156aec98a/scale_1200",
+      "t": "Urugvay",
+      "ketish": "Departure Date:",
+      "narx": "US 160$",
+      "btn": "Search",
+      "region": "aqsh",
+      "open": {
+        "img": "https://avatars.dzeninfra.ru/get-zen_doc/10147568/pub_64cc3edb926e1425bcd79eb4_64cc403b65a3327156aec98a/scale_1200",
+        "lorem": "The country of Uruguay takes its name from the Río Uruguay, from the Indigenous Guaraní language. There are several interpretations, including 'bird-river' ('the river of the uru, via Charruan, urú being a common noun of any wild fowl).[19][20] The name could also refer to a river snail called uruguá (Pomella megastoma) that was plentiful across its shores.One of the most popular interpretations of the name was proposed by the renowned Uruguayan poet Juan Zorrilla de San Martín, 'the river of painted birds'",
+        "img2": "https://travelingwellburys.com/wp-content/uploads/2023/07/uruguay-trip.jpg?w=1024",
+        "img3": "https://img.freepik.com/photos-premium/coucher-du-soleil-montevideo-capitale-amerique-du-sud-uruguay_846485-8338.jpg"
+      }
     },
     {
-      "img":"https://www.karelia.fi/wp-content/uploads/2017/06/DJI_0124-nettisivut.jpg",
-      "t":"Finland",
-      "ketish":"Departure Date:",
-      "narx":"US 109$",
-      "btn":"Search",
-      "region":"aqsh"
+      "img": "https://www.karelia.fi/wp-content/uploads/2017/06/DJI_0124-nettisivut.jpg",
+      "t": "Finland",
+      "ketish": "Departure Date:",
+      "narx": "US 109$",
+      "btn": "Search",
+      "region": "aqsh",
+      "open": {
+        "img": "https://www.karelia.fi/wp-content/uploads/2017/06/DJI_0124-nettisivut.jpg",
+        "img2": "https://cdn.outsideonline.com/wp-content/uploads/2023/03/finland-lead-h.jpg",
+        "img3": "https://cdn.kimkim.com/files/a/images/3e10efc4ba2ba75621eb9e531741c1b71c78ad33/original-82c27190794cafc872425b483e96352c.jpg",
+        "lorem": "As a result of the crusades (mostly with the second crusade led by Birger Jarl) and the colonization of some Finnish coastal areas with Christian Swedish population during the Middle Ages, Finland gradually became part of the kingdom of Sweden and the sphere of influence of the Catholic Church."
+      }
     }
   ]
-
 }

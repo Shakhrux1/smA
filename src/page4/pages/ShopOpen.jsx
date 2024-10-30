@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import './style.css'
 import { Helmet } from "react-helmet";
@@ -32,11 +32,18 @@ function ShopDetail() {
           content="This is my awesome page description."
         />
       </Helmet>
+     <div className="container">
+     <Link to='/ShopandDine/shop'>
+        <button id="bs">  Back</button>
+      </Link>
     <div className="openShop">
+      <article>
       <h2>{shopDetails.title}</h2>
       <p>{shopDetails.p}</p>
+      </article>
       <p>{shopDetails.soatN} <br /> {shopDetails.soat}</p>
     </div>
+     </div>
     </>
   );
 }
