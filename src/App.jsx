@@ -19,6 +19,9 @@ import { Helmet } from "react-helmet";
 import Loading from "./loading/Loading";
 import Dashboard from "./dashboard/Dash";
 import YonalishOpen from "./yonalishlar/YonalishOpen";
+import Facilities from "./F/Fa";
+import Hotel from "./Pages/Hotel";
+import Room from "./Pages/Room";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -58,6 +61,7 @@ function App() {
           path: "/",
           element: (
             <>
+              
               <Scrollpage />
               <FlightBooking />
               <Yonalish />
@@ -67,6 +71,9 @@ function App() {
           ),
         },
         { path: "/Home", element: <Home /> },
+        {path:"/Facilities", element:<Facilities/>},
+        {path:"/Facilities/PrayerRooms", element:<Room/>},
+        {path:"/AuHotel", element:<Hotel/>}, 
         { path: "/Internet", element: <Wifi /> },
         { path: "/Parking", element: <BookingForm /> },
         { path: "/ShopandDine/:tab", element: <Shopp /> },

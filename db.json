@@ -49,6 +49,7 @@
     "shop": "Duty free shopping.",
     "shopP": "Explore Shops and Abu Dhabi Duty Free.",
     "shopLink": "Duty free shopping",
+    
     "shopClick": [
       {
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/ADIB.ashx?h=595&iar=0&w=714&hash=34672A9632E7CE9EE6FE0A419BB8C12C",
@@ -517,5 +518,57 @@
         "lorem": "As a result of the crusades (mostly with the second crusade led by Birger Jarl) and the colonization of some Finnish coastal areas with Christian Swedish population during the Middle Ages, Finland gradually became part of the kingdom of Sweden and the sphere of influence of the Catholic Church."
       }
     }
+  ],
+  "fa":[
+    
+  {
+    "a":"/ShopAndDine/shop",
+    "icon": "https://static.thenounproject.com/png/52811-200.png",
+    "title": "Shop & Dine",
+    "description": "Explore our Shop & Dine offerings",
+    "linkText": "Explore Shop & Dine",
+    "linkHref": "#"
+  },
+  {
+    "a":"/AuHotel",
+    "icon": "https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+    "title": "AUHotel",
+    "description": "Offers convenient and affordable rooms",
+    "linkText": "Explore AUHotel",
+    "linkHref": "#"
+  },
+  {
+    "a":"/as",
+    "icon": "https://cdn.iconscout.com/icon/free/png-256/free-smoking-rooms-1780837-1514254.png",
+    "title": "Smoking rooms",
+    "description": "We’ve set out a few areas where you can smoke.",
+    "linkText": "See smoking rooms",
+    "linkHref": "#"
+  },
+  {
+    "a":"/Facilities/PrayerRooms",
+    "icon": "https://www.shutterstock.com/image-vector/masjid-prayer-room-signs-can-260nw-2309697251.jpg",
+    "title": "Prayer rooms",
+    "description": "Find a quiet retreat for prayer.",
+    "linkText": "Find our prayer rooms",
+    "linkHref": "#"
+  },
+  {
+    "a":"/Internet",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT79Vwzz5vity8oFzxoHgzqcC89uv0cDsIx2w&s",
+    "title": "Free Wifi",
+    "description": "Unlimited internet",
+    "linkText": "Connect to WiFi",
+    "linkHref": "#"
+  },
+  {
+    "icon": "https://cdn1.iconfinder.com/data/icons/social-productivity-line-art-4/128/shopping-cart2-512.png",
+    "title": "Trolleys",
+    "description": "Find a free trolley in key areas around the airport",
+    "linkText": "Find trolleys",
+    "linkHref": "#"
+  }
   ]
+  
+
 }

@@ -1,0 +1,113 @@
+.accordions {
+  width: 100%;
+  padding: 0 150px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  flex-direction: column;
+}
+.accordions .accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.accordions .accordion-item .accordion-title {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.accordions .accordion-item .accordion-title.icon {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+.accordions .accordion-item .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+  padding: 0 50px;
+}
+.accordions .accordion-item .accordion-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+  padding: 20px;
+  height: 250px;
+}
+.accordions .accordion-item .accordion-content.open {
+  max-height: 800px;
+  /* Adjust max height if needed */
+  opacity: 1;
+  padding: 0 50px;
+}
+
+.alm {
+  background-color: rgba(0, 149, 255, 0.803);
+  margin-left: 150px;
+  color: #fff;
+  padding: 8px 30px;
+  border: 0;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0 150px;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.pa {
+  margin: 0 150px;
+  font-size: 18px;
+}
+
+.la {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
+.la h4 {
+  text-align: center;
+  padding: 5px 0;
+  width: 500px;
+}
+.la h2 {
+  font-size: 25px;
+}
+.la .sk {
+  overflow: hidden;
+}
+.la .sk img {
+  transition: all 0.3s;
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 15px;
+  filter: blur(1px) grayscale(50%);
+  cursor: pointer;
+}
+.la .sk:hover img {
+  transform: scale(1.08);
+  filter: blur(0px);
+}
+.la .fs {
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.q {
+  margin-top: 100px;
+}/*# sourceMappingURL=style.css.map */

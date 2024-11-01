@@ -38,7 +38,6 @@ nav .container .flex ul li a {
   cursor: pointer;
   font-size: 18px;
   color: #000;
-  text-transform: uppercase;
 }
 nav .container .flex ul li a:hover {
   color: rgb(18, 118, 190);

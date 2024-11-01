@@ -51,7 +51,6 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [lastScrollY]);
-
   return (
     <>
       <main>
@@ -77,13 +76,13 @@ export default function Navbar() {
                     <Link to="/about">about</Link>
                   </li>
                   <li key="info">
-                    <Link to="/info">info</Link>
+                    <Link to="/Facilities">Facilities</Link>
                   </li>
                   <li key="register">
-                    <Link to="/register">register</Link>
+                    <Link to="/Comments">Comments</Link>
                   </li>
-                  <li key="contact">
-                    <Link to="/contact">contact</Link>
+                  <li key=""   >
+                    <Link to="/ShopandDine/shop">Shop & Dine</Link>
                   </li>
                 </ul>
               </div>

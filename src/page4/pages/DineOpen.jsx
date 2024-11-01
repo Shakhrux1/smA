@@ -34,7 +34,7 @@ function DineOpne() {
    </Helmet>
     <div className="container">
     <Link to='/ShopandDine/dine'>
-        <button id="bs">  Back</button>
+        <button id="bsss"><img src="https://cdn1.iconfinder.com/data/icons/essential-28/24/arrow-ios-back-outline-512.png" alt="" />  Back</button>
       </Link>
       
     <div className="openShop">

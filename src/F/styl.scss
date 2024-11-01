@@ -1,0 +1,108 @@
+.facilities {
+    padding: 2rem;
+    margin: 0 140px;
+    // background-color: #;
+    text-align: start;
+    padding-top: 120px;
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+      color: #666;
+      
+    }
+  
+    .facilities-grid {
+      display: grid;
+      gap: 3rem;
+      justify-content: center;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  
+      .facility-card {
+        background-color: #ffffff;
+        padding: 2rem;    
+        height: 150px;
+        gap: 45px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+        display: flex;
+        align-items: start;
+        &:hover {
+          transform: translateY(-5px);
+        }
+  
+        .icon {
+          width: 40px;
+        //   background-color: rgba(9, 152, 255, 0.788);
+          object-fit: cover;
+          
+          color: #00a99d;
+          
+        }
+  
+        h3 {
+          font-size: 1.25rem;
+          color: #333;
+        //   margin-bottom: 0.5rem;
+        }
+  
+        p {
+          font-size: 1rem;
+          color: #666;
+         padding: 3px 0;
+        }
+  
+        a {
+          font-size: 1rem;
+          color: rgb(18, 118, 190);
+          font-weight: bold;
+          text-decoration: none;
+            cursor: pointer;
+            transition: all .3s;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
+  .bank{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    .da{
+        display: flex;
+        align-items: start;
+        gap: 30px;
+        transition: all .3s;
+       padding: 20px;
+        height: 150px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        p{
+            padding: 3px 0;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: rgb(18, 118, 190);
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        &:hover{
+            transform: translateY(-5px);
+        }
+    }
+  }
