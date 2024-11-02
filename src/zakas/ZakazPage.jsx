@@ -536,7 +536,7 @@ const FlightBooking = () => {
 
           {showModal && ( // Agar showModal true bo'lsa, modalni ko'rsatish
         <div className="modal">
-          <div className="modal-content">
+          <div className="modal-contents">
             <span className="close" onClick={closeModal}>
               &times; {/* Modalni yopish uchun tugma */}
             </span>
@@ -585,7 +585,7 @@ const FlightBooking = () => {
       {/* Yangi modal */}
       {showNextModal && ( // Agar showNextModal true bo'lsa, yangi modalni ko'rsatish
         <div className="modal">
-          <div className="modal-content">
+          <div className="modal-contents">
             <span className="close" onClick={() => setShowNextModal(false)}>
               &times; {/* Yangi modalni yopish uchun tugma */}
             </span>
@@ -606,7 +606,7 @@ const FlightBooking = () => {
                 <p>{`Departure Date: ${departureDate ? departureDate.toLocaleDateString() : 'Not selected'}`}</p>
                 <p>{`Return Date: ${isReturnChecked ? (returnDate ? returnDate.toLocaleDateString() : 'Not selected') : 'Not applicable'}`}</p>
                 </article>
-              <img src="https://cdn.prod.website-files.com/5f493c28a3dde53ac5e21dd2/5f5f9b61aa3c75138ea4421d_ZKgujxyClGEHousdrECljq_GrBC7HXrfS6CEs8K7lAx93m2Ev4fr1-clA5fUD8ai6SM7Ea0FUi1shYO1-BrTjBy3dMGzF9lQfy5rk5PlM4jYaqMtpxaEyZNn7ndiG3L2db5gz6n5.png" alt="" />
+              <img width={'100px'} src="https://cdn.prod.website-files.com/5f493c28a3dde53ac5e21dd2/5f5f9b61aa3c75138ea4421d_ZKgujxyClGEHousdrECljq_GrBC7HXrfS6CEs8K7lAx93m2Ev4fr1-clA5fUD8ai6SM7Ea0FUi1shYO1-BrTjBy3dMGzF9lQfy5rk5PlM4jYaqMtpxaEyZNn7ndiG3L2db5gz6n5.png" alt="" />
               </div>
             </div>
           </div>

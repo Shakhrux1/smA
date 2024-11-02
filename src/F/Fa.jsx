@@ -21,8 +21,8 @@ function Facilities() {
         <meta name="description" content="This is my awesome page description." />
       </Helmet>
       
-    <div style={{ backgroundColor: "#f7f7f5" }}>
-      <div className="container">
+    <div >
+      <div className="container" >
         
         <section className="facilities">
           <h2>General Facilities</h2>

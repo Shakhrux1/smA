@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet"
 import { Link } from "react-router-dom"
-
+import as from '../icon/icons8-next-page-50.png'
 
 function Room() {
     return (
@@ -11,7 +11,11 @@ function Room() {
       </Helmet>
       
         <div className="container">
-        <Link to="Facilities" className="q">Back</Link>
+          <div className="aq">
+          <Link to="/Facilities" className="qq">
+        <button className="qq"> <img src={as} alt="" />Back</button>
+        </Link>
+          </div>
         
            <div className="la">
            <h2>

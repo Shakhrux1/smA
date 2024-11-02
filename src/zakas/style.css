@@ -10,25 +10,25 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.modal .modal-content {
+.modal .modal-contents {
   background: white;
   padding: 20px;
   border-radius: 5px;
   position: relative;
 }
-.modal .modal-content .close {
+.modal .modal-contents .close {
   cursor: pointer;
   font-size: 30px;
 }
-.modal .modal-content .dad {
+.modal .modal-contents .dad {
   display: flex;
   align-items: start;
   gap: 80px;
 }
-.modal .modal-content .dad div img {
+.modal .modal-contents .dad div img {
   cursor: pointer;
 }
-.modal .modal-content .dad div input {
+.modal .modal-contents .dad div input {
   outline: none;
   border: 1px solid #0e63da;
   padding: 10px;
@@ -36,13 +36,13 @@
   margin: 5px 0;
   border-radius: 8px;
 }
-.modal .modal-content .a {
+.modal .modal-contents .a {
   margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.modal .modal-content .a .oky {
+.modal .modal-contents .a .oky {
   padding: 5px 30px;
   background-color: rgba(0, 106, 255, 0.431372549);
   border: 0;
@@ -52,30 +52,30 @@
   transition: all 0.3s;
   color: #FFF;
 }
-.modal .modal-content .a .oky:hover {
+.modal .modal-contents .a .oky:hover {
   box-shadow: 1px 1px 10px #0e63da;
   background-color: #0e63da;
 }
-.modal .modal-content .cards .alis {
+.modal .modal-contents .cards .alis {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-.modal .modal-content .cards .alis p {
+.modal .modal-contents .cards .alis p {
   color: red;
 }
-.modal .modal-content .cards .al {
+.modal .modal-contents .cards .al {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.modal .modal-content .cards .al article {
+.modal .modal-contents .cards .al article {
   width: 300px;
 }
-.modal .modal-content .cards .al article p {
+.modal .modal-contents .cards .al article p {
   padding: 5px 0;
 }
-.modal .modal-content .cards .al img {
+.modal .modal-contents .cards .al img {
   width: 100px;
   transform: rotate(-90deg);
 }

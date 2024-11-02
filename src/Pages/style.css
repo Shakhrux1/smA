@@ -58,7 +58,7 @@
   cursor: pointer;
 }
 
-h1 {
+.h1 {
   margin: 0 150px;
   font-size: 30px;
   padding: 10px 0;
@@ -74,7 +74,7 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 120px;
+  margin-top: 20px;
 }
 .la h4 {
   text-align: center;
@@ -108,6 +108,23 @@ h1 {
   justify-content: center;
 }
 
-.q {
-  margin-top: 100px;
+.aq {
+  margin-top: 150px;
+}
+
+.qq {
+  font-size: 18px;
+  padding: 3px 15px;
+  background-color: transparent;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+.qq img {
+  transform: rotate(180deg);
+  width: 18px;
+  transition: all 0.3s;
+}
+.qq:hover img {
+  transform: translateX(-5px) rotate(180deg);
 }/*# sourceMappingURL=style.css.map */
