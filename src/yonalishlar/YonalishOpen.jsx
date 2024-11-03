@@ -1,4 +1,3 @@
-// YonalishOpen.jsx
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Loading from "../loading/Loading";
@@ -8,18 +7,20 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import back from '../icon/icons8-next-page-50.png'
+import back from '../icon/icons8-next-page-50.png';
 import "./styles.css";
+import { useTranslation } from "react-i18next";
 
 function YonalishOpen() {
   const { id } = useParams();
   const [api, setApi] = useState(null);
+  const { t, i18n } = useTranslation(); // Initialize translation and i18n
 
   useEffect(() => {
     fetch("/db.json")
       .then((response) => response.json())
       .then((data) => {
-        const selectedShop = data.yonalish.find((item) => item.t === id);
+        const selectedShop = data.yonalish.find((item) => item.t.en.toLowerCase() === id.toLowerCase());
         setApi(selectedShop ? selectedShop : null);
       })
       .catch((error) => console.error(error));
@@ -29,45 +30,44 @@ function YonalishOpen() {
     return <Loading />;
   }
 
+  const currentLang = i18n.language; // Get the current language using i18n
+
   return (
     <>
       <Helmet>
-        <title>{api.t}</title>
-        <meta name="description" content="This is my awesome page description." />
+        <title>{api.t[currentLang] || api.t.en}</title>
+        <meta name="description" content={`Details about ${api.t[currentLang] || api.t.en}.`} />
       </Helmet>
-      <div className="container">
-        <Link to='/Direction'>
-        <button id="bs"> <img src={back} alt="" /> Back</button>
-        </Link>
-        <div className="flex-container">
-          <Swiper
-            spaceBetween={30}
-            centeredSlides={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Autoplay]}
-            className="mySwipers"
-          >
-            <SwiperSlide  >
-              <img src={api.open.img} alt={`${api.t} image 1`} />
+      <Link to="/Direction" id="bs">
+        <img src={back} alt="back" /> {t("back")}
+      </Link>
+      <div className="flex-container container">
+        
+        <Swiper 
+          className="mySwipers"
+          modules={[Autoplay]}
+          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          loop={true}
+        >
+          {api.open.img && (
+            <SwiperSlide>
+              <img src={api.open.img} alt="Slide 1" />
             </SwiperSlide>
-            <SwiperSlide >
-              <img src={api.open.img2} alt={`${api.t} image 2`} />
+          )}
+          {api.open.img2 && (
+            <SwiperSlide>
+              <img src={api.open.img2} alt="Slide 2" />
             </SwiperSlide>
-            <SwiperSlide >
-              <img src={api.open.img3} alt={`${api.t} image 3`} />
+          )}
+          {api.open.img3 && (
+            <SwiperSlide>
+              <img src={api.open.img3} alt="Slide 3" />
             </SwiperSlide>
-          </Swiper>
-          <div className="text-container">
-            <h3>{api.open.lorem}</h3>
-          </div>
-        </div>
+          )}
+        </Swiper>
+        <p className="text-container ">
+          {api.open.lorem[currentLang] || api.open.lorem.en}
+        </p>
       </div>
     </>
   );

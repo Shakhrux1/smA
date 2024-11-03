@@ -13,6 +13,7 @@ import peop from "../icon/icons8-people-24.png";
 import seat from "../icon/icons8-seating-50.png";
 import next from "../icon/next.png";
 import humo from '../icon/Humo-01.jpg'
+import { useTranslation } from "react-i18next";
 import uz from '../icon/uzcard1.png'
 import visa from '../icon/Visa_Inc._logo.svg.png'
 const cities = [
@@ -60,7 +61,7 @@ const cities = [
 ];
 
 const FlightBooking = () => {
-  
+  const {t} = useTranslation()
   const [showNextModal, setShowNextModal] = useState(false);
   const accordionRef = useRef(null);
   const classAccordionRef = useRef(null);
@@ -219,14 +220,14 @@ const FlightBooking = () => {
       <div className="container">
         <div className="flight-booking" >
           <div className="flexbox">
-            <h2 >Book a Ticket</h2>
+            <h2 >{t("z")}</h2>
             <article id="article">
               <div className="passengers" ref={accordionRef}>
                 <button
                   onClick={() => setIsAccordionOpen(!isAccordionOpen)}
                   className="accordion-button"
                 >
-                  <img src={peop} alt="" />({adults} Adult, {children} Children,{" "}
+                  <img src={peop} alt="" />({adults} {t("ab")} {children} {t("ch")},{" "}
                   {infants} Infant)
                 </button>
                 {isAccordionOpen && (
@@ -240,9 +241,9 @@ const FlightBooking = () => {
                           width: "80px",
                         }}
                       >
-                        <label>Adults</label>
+                        <label>{t("ad")}</label>
                         <span style={{ fontSize: "8px", padding: 0 }}>
-                          (age 12 and over)
+                          {t("age")}
                         </span>
                       </article>
                       <div className="counter">
@@ -269,9 +270,9 @@ const FlightBooking = () => {
                           width: "80px",
                         }}
                       >
-                        <label>Children</label>
+                        <label>{t("chil")}</label>
                         <span style={{ fontSize: "8px", padding: 0 }}>
-                          (Age 2 - 11)
+                          {t("age2")}
                         </span>
                       </article>
                       <div className="counter">
@@ -298,9 +299,9 @@ const FlightBooking = () => {
                           width: "80px",
                         }}
                       >
-                        <label>Infants</label>
+                        <label>{t("in")}</label>
                         <span style={{ fontSize: "8px", padding: 0 }}>
-                          (below age 2)
+                          {t("bel")}
                         </span>
                       </article>
                       <div className="counter">
@@ -322,7 +323,7 @@ const FlightBooking = () => {
                       onClick={() => setIsAccordionOpen(false)}
                       id="click"
                     >
-                      Done
+                      {t("done")}
                     </button>
                   </div>
                 )}
@@ -346,7 +347,7 @@ const FlightBooking = () => {
                           setIsClassAccordionOpen(false);
                         }}
                       >
-                        Premium{" "}
+                        {t("pr")}{" "}
                       </li>
                       <li
                         onClick={() => {
@@ -354,7 +355,7 @@ const FlightBooking = () => {
                           setIsClassAccordionOpen(false);
                         }}
                       >
-                        Business
+                        {t("bu")}
                       </li>
                       <li
                         onClick={() => {
@@ -362,7 +363,7 @@ const FlightBooking = () => {
                           setIsClassAccordionOpen(false);
                         }}
                       >
-                        Economy
+                        {t("ec")}
                       </li>
                       <li
                         onClick={() => {
@@ -370,7 +371,7 @@ const FlightBooking = () => {
                           setIsClassAccordionOpen(false);
                         }}
                       >
-                        First Class
+                        {t("fi")}
                       </li>
                     </ul>
                   </div>
@@ -382,7 +383,7 @@ const FlightBooking = () => {
             <div className="flex">
               <div className="from-to">
                 <div className="from">
-                  <label htmlFor="from">From</label>
+                  <label htmlFor="from">{t("from")}</label>
                   <div
                     style={{ display: "flex", alignItems: "center" }}
                     className="border1"
@@ -437,7 +438,7 @@ const FlightBooking = () => {
                 </div>
 
                 <div className="to">
-                  <label htmlFor="to">To</label>
+                  <label htmlFor="to">{t("to")}</label>
                   <div
                     className="border"
                     style={{ display: "flex", alignItems: "center" }}
@@ -480,7 +481,7 @@ const FlightBooking = () => {
 
               <div className="dates">
                 <div className="departure-date">
-                  <label htmlFor="departure">Departure Date</label>
+                  <label htmlFor="departure">{t("date")}</label>
                   <br />
                   <div
                     className="calendar"
@@ -503,7 +504,7 @@ const FlightBooking = () => {
                       checked={isReturnChecked}
                       onChange={() => setIsReturnChecked(!isReturnChecked)}
                     />
-                    Return Date
+                    {t("return")}
                   </label>
                   <br />
                   <div
@@ -526,7 +527,7 @@ const FlightBooking = () => {
 
             <div className="margin">
               <button onClick={handleSearch} className="search-button">
-                Next{" "}
+                {t("next")}{" "}
                 <span>
                   <img src={next} alt="next" />
                 </span>
@@ -542,7 +543,7 @@ const FlightBooking = () => {
             </span>
             <div className="dad">
               <div>
-                <label htmlFor="name">Name</label><br />
+                <label htmlFor="name">{t("name")}</label><br />
                 <input
                   id="name"
                   type="text"
@@ -550,7 +551,7 @@ const FlightBooking = () => {
                   value={name}
                   onChange={(e) => setName(e.target.value)} // Ismni o'zgartirish
                 /><br />
-                <label htmlFor="last-name">Last name</label><br />
+                <label htmlFor="last-name">{t("Lname")}</label><br />
                 <input
                   id="last-name"
                   type="text"
@@ -560,7 +561,7 @@ const FlightBooking = () => {
                 />
               </div>
               <div>
-                <label htmlFor="card-number">Card number</label><br />
+                <label htmlFor="card-number">{t("cNumber")}</label><br />
                 <input
                   id="card-number"
                   type="text"
@@ -576,7 +577,7 @@ const FlightBooking = () => {
               </div>
             </div>
             <div className="a">
-              <button className="oky" onClick={validateInputs}>Shopping</button> {/* Shopping tugmasi */}
+              <button className="oky" onClick={validateInputs}>{t("shop")}</button> {/* Shopping tugmasi */}
             </div>
           </div>
         </div>

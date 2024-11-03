@@ -1,29 +1,30 @@
 import { Helmet } from "react-helmet"
 import { Link } from "react-router-dom"
 import as from '../icon/icons8-next-page-50.png'
-
+import { useTranslation } from "react-i18next";
 function Room() {
+  const {t} = useTranslation()
     return (
      <>
      <Helmet>
-        <title>Prayer Rooms</title>
+        <title>{t("pp")}</title>
         <meta name="description" content="This is my awesome page description." />
       </Helmet>
       
         <div className="container">
           <div className="aq">
           <Link to="/Facilities" className="qq">
-        <button className="qq"> <img src={as} alt="" />Back</button>
+        <button className="qq"> <img src={as} alt="" />{t("back")}</button>
         </Link>
           </div>
         
            <div className="la">
            <h2>
-            Location
+            {t("loc")}
             </h2>
             <h4>
-            Throughout our terminal, youll discover well-indicated male and female prayer rooms. The prayer rooms are equipped with information screens that display prayer times and are designed to accommodate guests of all abilities.
-            </h4>
+              {t("P")}
+              </h4>
             <div className="fs">
                 <div  className="sk">            <img src="https://homesynchronize.com/wp-content/uploads/2020/04/Homemydesign.jpg" alt="" />
                 </div>

@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 import us from '../icon/user.png';
 import "./style.css";
 import { Helmet } from "react-helmet";
-
+import { useTranslation } from "react-i18next";
 const CommentSection = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [error, setError] = useState("");
@@ -15,8 +15,10 @@ const CommentSection = () => {
   const [comment, setComment] = useState("");
   const [comments, setComments] = useState(() => {
     const savedComments = localStorage.getItem("comments");
+   
     return savedComments ? JSON.parse(savedComments) : [];
   });
+  const {t} = useTranslation()
   const [timeLeft, setTimeLeft] = useState(() => {
     const savedTime = localStorage.getItem("timeLeft");
     return savedTime ? JSON.parse(savedTime) : 300;
@@ -125,30 +127,30 @@ const CommentSection = () => {
   return (
     <>
       <Helmet>
-        <title>Comments</title>
+        <title>{t("com")}</title>
         <meta name="description" content="This is my awesome page description." />
       </Helmet>
       <div className="container">
         <div className="fl">
           <div>
             <div className="comment-section">
-              <h2>Leave a Comment</h2>
+              <h2>{t("lcom")}</h2>
               <form onSubmit={handleCommentSubmit}>
                 <input
                   type="text"
-                  placeholder="Enter your name (optional)"
-                  onChange={(e) => setName(e.target.value || "Automatic Name User")}
+                  placeholder={t("entr")}
+                  onChange={(e) => setName(e.target.value || " User1")}
                   disabled={!canComment}
                 />
                 <textarea
-                  placeholder="Write your comment (max 120 words)"
+                  placeholder={t("user")}
                   value={comment}
                   onChange={(e) => setComment(e.target.value)}
                   maxLength={120}
                   disabled={!canComment}
                 />
                 <button type="submit" disabled={!canComment}>
-                  Send
+                  {t("send")}
                 </button>
               </form>
               <div className="timer">

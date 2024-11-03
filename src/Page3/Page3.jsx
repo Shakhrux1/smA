@@ -1,56 +1,53 @@
 import { useEffect, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import n from '../icon/icons8-next-page-50.png'
-// Import Swiper styles
+import n from '../icon/icons8-next-page-50.png';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "./style.css"; // SCSS faylini import qilish
-
-// Import required modules
-import { Autoplay,  Navigation } from "swiper/modules";
+import { useTranslation } from "react-i18next";
+import "./style.css";
+import { Autoplay, Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
 
 function Page3() {
   const [page, setPage] = useState([]);
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
+    fetch("/db.json")
       .then((response) => response.json())
       .then((data) => {
-        setPage(data.page3); // JSON ma'lumotlarni state-ga saqlash
+        setPage(data.page3);
       })
       .catch((error) => console.error("Error fetching data:", error));
-  }, []); // faqat bir marta fetch qilinadi
+  }, []);
 
   return (
     <div className="slider-container container">
-      <h1 className="relative">Pre-book Your Parking
-      </h1>
+      <h1 className="relative">{t("prs")}</h1>
       <Swiper
-        spaceBetween={60} // Slide'lar orasidagi masofa (30px)
+        spaceBetween={60}
         centeredSlides={true}
-        slidesPerView={1.4} // Birinchi slaydning yonida ikkinchi slaydning qismi ko'rinishi uchun
+        slidesPerView={1.4}
         autoplay={{
-          delay: 4000, // Slayder o'rtasidagi vaqt (4 soniya)
+          delay: 4000,
           disableOnInteraction: false,
         }}
-        speed={2000} // O'tish vaqtini sekinlashtirish (1.5 soniya)
+        speed={2000}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay,  Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper"
         breakpoints={{
           768: {
-            slidesPerView: 1.2, // 768px va undan kichik ekranlar uchun 1.2 slayd ko'rsatiladi
-            spaceBetween: 100, // Mobil qurilmalar uchun oraliqni kamaytirish
+            slidesPerView: 1.2,
+            spaceBetween: 100,
           },
           480: {
-            slidesPerView: 1.1, // 480px va undan kichik ekranlar uchun 1.1 slayd
-            spaceBetween: 10, // Eng kichik ekranlar uchun oraliq
+            slidesPerView: 1.1,
+            spaceBetween: 10,
           },
         }}
       >
@@ -60,12 +57,16 @@ function Page3() {
               <div className="cover">
                 <img src={item.img} alt="Parking offer" />
                 <div className="bgc">
-                  <h1>{item.p}</h1>
-                  <p>{item.days}</p>
-                  <p>{item.days2}</p>
-                  <p>{item.days3}</p>
-                  <h4>{item.chegirma}</h4>
-                  <button><Link to="Parking" >{item.btn}</Link> <img src={n} alt="" /></button>
+                  
+                  <h1>{item.p[i18n.language] || item.p.en}</h1>
+                  <p>{item.days[i18n.language] || item.days.en}</p>
+                  <p>{item.days2[i18n.language] || item.days2.en}</p>
+                  <p>{item.days3[i18n.language] || item.days3.en}</p>
+                  <h4>{item.chegirma[i18n.language] || item.chegirma.en}</h4>
+                  <button>
+                    <Link to="/Parking">{item.btn[i18n.language] || item.btn.en}</Link>
+                    <img src={n} alt="" />
+                  </button>
                 </div>
               </div>
             </div>

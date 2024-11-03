@@ -55,7 +55,25 @@ nav {
             }
         }
         }
-
+       .UIC-Language{
+        display: flex;
+        border: 1px solid gray;
+        cursor: pointer;
+        border-radius: 5px;
+        // padding: 3px 20px;
+        align-items: center;
+        img{
+          width: 20px;
+        }
+        .sssss{
+          cursor: pointer;
+          
+          padding: 5px;
+          outline: none;
+          background-color: transparent;
+          width: 100px;
+        } 
+       }
         button {
             
             background-color: transparent;
@@ -183,3 +201,4 @@ nav.hidden {
       }
       
   }
+  

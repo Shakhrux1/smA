@@ -1,6 +1,6 @@
-// Yonalish.jsx
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import "./styles.css";
 
 function Yonalish({ showAll = false }) {
@@ -10,28 +10,32 @@ function Yonalish({ showAll = false }) {
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
   const [fill, setFill] = useState("");
   const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     fetch("/db.json")
       .then((response) => response.json())
       .then((data) => {
-        const updatedData = data.yonalish.map((item) => {
-          const today = new Date();
-          const futureDate = new Date(today);
-          futureDate.setDate(today.getDate() + 6);
-          const options = { month: "long", day: "numeric" };
-          const formattedDate = futureDate.toLocaleDateString("en-US", options);
+        const today = new Date();
+        const futureDate = new Date(today);
+        futureDate.setDate(today.getDate() + 6);
+        const options = { month: "long", day: "numeric" };
+        const formattedDate = futureDate.toLocaleDateString("en-US", options);
 
-          return {
-            ...item,
-            ketish: `Departure Date: ${formattedDate}`,
-          };
-        });
+        const updatedData = data.yonalish.map((item) => ({
+          ...item,
+          ketish: {
+            en: `Departure Date: ${formattedDate}`,
+            ru: `Дата вылета: ${formattedDate}`,
+            uz: `Ketish sanasi: ${formattedDate}`,
+          },
+        }));
         setYol(updatedData);
         setFilteredYol(updatedData);
       })
-      .catch((error) => console.error(`apidan xatolik ${error}`));
+      .catch((error) => console.error(`Api error: ${error}`));
   }, []);
+  
 
   useEffect(() => {
     if (selectedRegion === "") {
@@ -59,7 +63,7 @@ function Yonalish({ showAll = false }) {
     <div className="container">
       <div className="yonalish" style={{ marginTop: "120px" }}>
         <div className="flex">
-          <h1>Main Directions</h1>
+          <h1>{t("main")}</h1>
           <article>
             <div className="accordion">
               <div className="accordion-header" onClick={toggleAccordion}>
@@ -69,21 +73,17 @@ function Yonalish({ showAll = false }) {
               {isAccordionOpen && (
                 <div className="accordion-content">
                   <ul>
-                    <li onClick={() => handleFilterChange("", "All")}>All</li>
-                    <li onClick={() => handleFilterChange("osiyo", "Asia")}>
-                      Asia
-                    </li>
-                    <li onClick={() => handleFilterChange("yevropa", "Europe")}>
-                      Europe
-                    </li>
-                    <li onClick={() => handleFilterChange("aqsh", "US")}>US</li>
+                    <li onClick={() => handleFilterChange("", "All")}>{t("all")}</li>
+                    <li onClick={() => handleFilterChange("osiyo", "Asia")}>{t("asia")}</li>
+                    <li onClick={() => handleFilterChange("yevropa", "Europe")}>{t("ev")}</li>
+                    <li onClick={() => handleFilterChange("aqsh", "US")}>{t("us")}</li>
                   </ul>
                 </div>
               )}
             </div>
             {!showAll && (
               <button className="btn" onClick={handleMoreClick}>
-                More
+                {t("more")}
               </button>
             )}
           </article>
@@ -92,14 +92,14 @@ function Yonalish({ showAll = false }) {
           {(showAll ? filteredYol : filteredYol.slice(0, 7)).map((item, id) => (
             <div key={id} className="box">
               <img src={item.img} alt="" />
-              <h2>{item.t}</h2>
-              <h5>{item.ketish}</h5>
+              <h2>{item.t[i18n.language] || item.t.en}</h2>
+              <h5>{item.ketish[i18n.language] || item.ketish.en}</h5>
               <article>
                 <p>
-                  From: <span>{item.narx}</span>
+                  {t("from")}: <span>{item.narx[i18n.language] || item.narx.en}</span>
                 </p>
-                <Link to={`/Direction/${item.t}`}>
-                  <button className="btn2">{item.btn}</button>
+                <Link to={`/Direction/${item.t.en}`}>
+                  <button className="btn2">{item.btn[i18n.language] || item.btn.en}</button>
                 </Link>
               </article>
             </div>
@@ -111,5 +111,3 @@ function Yonalish({ showAll = false }) {
 }
 
 export default Yonalish;
-
-

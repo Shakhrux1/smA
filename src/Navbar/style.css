@@ -48,6 +48,23 @@ nav .container .flex ul li:hover ~ a {
 nav .container .flex ul:hover a {
   color: gray;
 }
+nav .container .UIC-Language {
+  display: flex;
+  border: 1px solid gray;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+}
+nav .container .UIC-Language img {
+  width: 20px;
+}
+nav .container .UIC-Language .sssss {
+  cursor: pointer;
+  padding: 5px;
+  outline: none;
+  background-color: transparent;
+  width: 100px;
+}
 nav .container button {
   background-color: transparent;
   color: white;

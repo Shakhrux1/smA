@@ -3,63 +3,62 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom"; // Corrected import
 import "./style.css";
 import as from '../icon/icons8-next-page-50.png'
+import { useTranslation } from "react-i18next";
 function Hotel() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+  const {t} = useTranslation()
 
   return (
     <>
       <Helmet>
-        <title>AU Hotel</title>
+        <title> {t("ho")} </title>
         <meta name="description" content="This is my awesome page description." />
       </Helmet>
       
       <div className="container">
       <div className="aq">
       <Link to="/Facilities" className="qq">
-        <button className="qq"> <img src={as} alt="" />Back</button>
+        <button className="qq"> <img src={as} alt="" />{t("back")}</button>
         </Link>
       </div>
         <div className="divs" style={{ marginTop: "20px" }}>
-          <h1 className="h1">AUHotel - Zayed International Airport</h1>
+          <h1 className="h1">{t("hh1")}</h1>
           <p className="pa">
-            Situated at the heart of Zayed International Airport, AUHotel caters
-            to those guests travelling through the airport in need of both
-            comfortable and flexible timings for rest options.
+           {t("hp")}
           </p>
           <br />
           <p className="pa">
-            Newly built in 2024, AUHotel offers convenient and affordable rooms
-            ensuring you arrive relaxed and refreshed at your next destination.
+              {t("hpa")}
           </p>
         </div>
-        <button className="alm">Book</button>
+        <button className="alm">{t('book')}</button>
         <div className="accordions">
           <div className="accordion-item">
             <div
               className={`accordion-title ${activeIndex === 0 ? "active" : ""}`}
               onClick={() => toggleAccordion(0)}
             >
-              Hotel Amenities
+              {t("ha")}
               <span className="icon">{activeIndex === 0 ? "-" : "+"}</span>
             </div>
             <div
               className={`accordion-content ${activeIndex === 0 ? "open" : ""}`}
             >
               <ul>
-                <li>Free WIFI</li>
-                <li>Family rooms</li>
-                <li>Non-smoking rooms</li>
-                <li>Restaurant</li>
-                <li>In Room Dining</li>
-                <li>24-hour front desk</li>
-                <li>Elevator</li>
-                <li>TV in every room</li>
-                <li>Tea & coffee Tray</li>
-                <li>Hairdryer</li>
+                <li>{t("l1")}</li>
+                <li>{t("l2")}</li>
+                <li>{t("l3")}</li>
+                <li>{t("l4")}</li>
+                <li>{t("l5")}</li>
+                <li>{t("l6")}</li>
+                <li>{t("l7")}</li>
+                <li>{t("l8")}</li>
+                <li>{t("l9")}</li>
+                <li>{t("l10")}</li>
               </ul>
             </div>
           </div>
@@ -69,7 +68,7 @@ function Hotel() {
               className={`accordion-title ${activeIndex === 1 ? "active" : ""}`}
               onClick={() => toggleAccordion(1)}
             >
-              Image Gallery
+             {t("gs")}
               <span className="icon">{activeIndex === 1 ? "-" : "+"}</span>
             </div>
             <div

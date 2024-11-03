@@ -2,26 +2,27 @@ import next3 from "../icon/icons8-next-page-50.png";
 import { useEffect, useState } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 function Page4() {
   const [api, setApi] = useState([]);
   useEffect(() => {
-    fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
+    fetch("/db.json")
       .then((response) => response.json())
       .then((data) => setApi(data.page4))
       .catch((error) => console.error(` aipdan xatolik ${error}`));
   }, []);
+  const {t} = useTranslation()
   return (
     <>
       <div className="container">
         <div className="page4">
-          <p className="p">{api.xizmatlar}</p>
-          <h1>{api.title}</h1>
+          <p className="p">{t("xizmatlar")}</p>
+          <h1>{t("title")}</h1>
           <div className="grid">
             <div id="box1">
               <img  className="img"  src={api.img} width={"50px"} alt="" />
-              <h2>{api.wifi}</h2>
-              <p>{api.wifiP}</p>
+              <h2>{t("wifi")}</h2>
+              <p>{t("wifiP")}</p>
               <button
                 style={{
                   display: "flex",
@@ -29,13 +30,13 @@ function Page4() {
                   alignItems: "center",
                 }}
               >
-                <Link to='/Internet'>{api.wifiLink} </Link> <img width={"20px"} src={next3} alt="" />
+                <Link to='/Internet'>{t("wifiLink")} </Link> <img width={"20px"} src={next3} alt="" />
               </button>
             </div>
             <div id="box2">
               <img  className="img" src={api.img2} width={"50px"} alt="" />
-              <h2>{api.dine}</h2>
-              <p>{api.dineP}</p>
+              <h2>{t("dine")}</h2>
+              <p>{t("dineP")}</p>
               <button
                 style={{
                   display: "flex",
@@ -43,13 +44,13 @@ function Page4() {
                   alignItems: "center",
                 }}
               >
-                <Link to='/ShopandDine/dine'>{api.dineLink} </Link> <img width={"20px"} src={next3} alt="" />
+                <Link to='/ShopandDine/dine'>{t("dineLink")} </Link> <img width={"20px"} src={next3} alt="" />
               </button>
             </div>
             <div id="box3">
               <img className="img"  src={api.img3} width={"50px"} alt="" />
-              <h2>{api.shop}</h2>
-              <p>{api.shopP}</p>
+              <h2>{t("shop")}</h2>
+              <p>{t("shopP")}</p>
               <button
                 style={{
                   display: "flex",
@@ -57,7 +58,7 @@ function Page4() {
                   alignItems: "center",
                 }}
               >
-                <Link to='/ShopandDine/shop'>{api.shopLink}</Link> <img width={"20px"} src={next3} alt="" />
+                <Link to='/ShopandDine/shop'>{t("shopLink")}</Link> <img width={"20px"} src={next3} alt="" />
               </button>
             </div>
           </div>

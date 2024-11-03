@@ -2,646 +2,1498 @@
   "page1": {
     "vidios": "./src/icon/videoplayback.mp4"
   },
-  
-    "en": {
-      "page3": [
-        {
-          "bayram": "Enjoy exclusive holiday savings",
-          "p": "Book now and save on airport parking.",
-          "days": "1 - 2 days: AED 200",
-          "days2": "3 - 5 days: AED 300",
-          "days3": "6 - 10 days: AED 375",
-          "chegirma": "Pre-book online and get discounts.",
-          "btn": "Reserve Your Spot",
-          "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/component/Sub-Banner-Desktop_/Family-desktop.ashx?h=900&iar=0&w=2100&hash=5D0BC8772D229C78F8A114808C25D2F5"
-        },
-        {
-          "bayram": "Start your family vacation right",
-          "p": "Get special offers on parking for your next trip.",
-          "days": "2 - 4 days: AED 250",
-          "days2": "5 - 8 days: AED 350",
-          "days3": "9 - 15 days: AED 425",
-          "chegirma": "Save more by pre-booking your parking.",
-          "btn": "Book Parking Now",
-          "img": "https://familytravellerimages.s3.eu-west-2.amazonaws.com/wp-content/uploads/2021/06/16105915/Qatar-Airways-Kids-Fly-Free-campaign-in-flight-family-with-cabin-crew.jpg"
-        },
-        {
-          "bayram": "Make your travel stress-free",
-          "p": "Convenient and affordable airport parking.",
-          "days": "3 - 5 days: AED 275",
-          "days2": "6 - 9 days: AED 375",
-          "days3": "10 - 16 days: AED 450",
-          "chegirma": "Book early and enjoy reduced rates.",
-          "btn": "Pre-Book Parking Now",
-          "img": "https://www.torontolegends.com/blog/wp-content/uploads/2023/12/family-airport.jpg"
-        }
-      ]
+  "page3": [
+    {
+      "bayram": {
+        "en": "Enjoy exclusive holiday savings",
+        "ru": "Наслаждайтесь эксклюзивными праздничными скидками",
+        "uz": "Eksklyuziv bayram chegirmalaridan bahramand bo'ling"
+      },
+      "p": {
+        "en": "Book now and save on airport parking.",
+        "ru": "Забронируйте сейчас и сэкономьте на парковке в аэропорту.",
+        "uz": "Hozir bron qiling va aeroportda parkinngizda tejang."
+      },
+      "days": {
+        "en": "1 - 2 days: AED 200",
+        "ru": "1 - 2 дня: AED 200",
+        "uz": "1 - 2 kun: AED 200"
+      },
+      "days2": {
+        "en": "3 - 5 days: AED 300",
+        "ru": "3 - 5 дней: AED 300",
+        "uz": "3 - 5 kun: AED 300"
+      },
+      "days3": {
+        "en": "6 - 10 days: AED 375",
+        "ru": "6 - 10 дней: AED 375",
+        "uz": "6 - 10 kun: AED 375"
+      },
+      "chegirma": {
+        "en": "Pre-book online and get discounts.",
+        "ru": "Предварительно забронируйте онлайн и получите скидки.",
+        "uz": "Onlayn oldindan bron qiling va chegirmalar oling."
+      },
+      "btn": {
+        "en": "Reserve Your Spot",
+        "ru": "Забронируйте своё место",
+        "uz": "O'z joyingizni bron qiling"
+      },
+      "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/component/Sub-Banner-Desktop_/Family-desktop.ashx?h=900&iar=0&w=2100&hash=5D0BC8772D229C78F8A114808C25D2F5"
     },
-    "ru": {
-      "page3": [
-        {
-          "bayram": "Наслаждайтесь эксклюзивными праздничными скидками",
-          "p": "Забронируйте сейчас и сэкономьте на парковке в аэропорту.",
-          "days": "1 - 2 дня: AED 200",
-          "days2": "3 - 5 дней: AED 300",
-          "days3": "6 - 10 дней: AED 375",
-          "chegirma": "Предварительно забронируйте онлайн и получите скидки.",
-          "btn": "Забронируйте своё место",
-          "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/component/Sub-Banner-Desktop_/Family-desktop.ashx?h=900&iar=0&w=2100&hash=5D0BC8772D229C78F8A114808C25D2F5"
-        },
-        {
-          "bayram": "Начните свой семейный отпуск правильно",
-          "p": "Получите специальные предложения на парковку для вашей следующей поездки.",
-          "days": "2 - 4 дня: AED 250",
-          "days2": "5 - 8 дней: AED 350",
-          "days3": "9 - 15 дней: AED 425",
-          "chegirma": "Сэкономьте больше, предварительно забронировав парковку.",
-          "btn": "Забронировать парковку сейчас",
-          "img": "https://familytravellerimages.s3.eu-west-2.amazonaws.com/wp-content/uploads/2021/06/16105915/Qatar-Airways-Kids-Fly-Free-campaign-in-flight-family-with-cabin-crew.jpg"
-        },
-        {
-          "bayram": "Сделайте свою поездку беззаботной",
-          "p": "Удобная и доступная парковка в аэропорту.",
-          "days": "3 - 5 дней: AED 275",
-          "days2": "6 - 9 дней: AED 375",
-          "days3": "10 - 16 дней: AED 450",
-          "chegirma": "Бронируйте заранее и наслаждайтесь снижением цен.",
-          "btn": "Предварительно забронируйте парковку",
-          "img": "https://www.torontolegends.com/blog/wp-content/uploads/2023/12/family-airport.jpg"
-        }
-      ]
+    {
+      "bayram": {
+        "en": "Start your family vacation right",
+        "ru": "Начните свой семейный отпуск правильно",
+        "uz": "Oila ta'tilingizni to'g'ri boshlang"
+      },
+      "p": {
+        "en": "Get special offers on parking for your next trip.",
+        "ru": "Получите специальные предложения на парковку для вашей следующей поездки.",
+        "uz": "Keyingi sayohatingiz uchun parkinngizda maxsus takliflardan foydalaning."
+      },
+      "days": {
+        "en": "2 - 4 days: AED 250",
+        "ru": "2 - 4 дня: AED 250",
+        "uz": "2 - 4 kun: AED 250"
+      },
+      "days2": {
+        "en": "5 - 8 days: AED 350",
+        "ru": "5 - 8 дней: AED 350",
+        "uz": "5 - 8 kun: AED 350"
+      },
+      "days3": {
+        "en": "9 - 15 days: AED 425",
+        "ru": "9 - 15 дней: AED 425",
+        "uz": "9 - 15 kun: AED 425"
+      },
+      "chegirma": {
+        "en": "Save more by pre-booking your parking.",
+        "ru": "Сэкономьте больше, предварительно забронировав парковку.",
+        "uz": "Parkovka oldindan bron qilish orqali ko'proq tejang."
+      },
+      "btn": {
+        "en": "Book Parking Now",
+        "ru": "Забронировать парковку сейчас",
+        "uz": "Parkovka uchun bron qiling"
+      },
+      "img": "https://familytravellerimages.s3.eu-west-2.amazonaws.com/wp-content/uploads/2021/06/16105915/Qatar-Airways-Kids-Fly-Free-campaign-in-flight-family-with-cabin-crew.jpg"
     },
-    "uz": {
-      "page3": [
-        {
-          "bayram": "Eksklyuziv bayram chegirmalaridan bahramand bo'ling",
-          "p": "Hozir bron qiling va aeroportda parkinngizda tejang.",
-          "days": "1 - 2 kun: AED 200",
-          "days2": "3 - 5 kun: AED 300",
-          "days3": "6 - 10 kun: AED 375",
-          "chegirma": "Onlayn oldindan bron qiling va chegirmalar oling.",
-          "btn": "O'z joyingizni bron qiling",
-          "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/component/Sub-Banner-Desktop_/Family-desktop.ashx?h=900&iar=0&w=2100&hash=5D0BC8772D229C78F8A114808C25D2F5"
-        },
-        {
-          "bayram": "Oila ta'tilingizni to'g'ri boshlang",
-          "p": "Keyingi sayohatingiz uchun parkinngizda maxsus takliflardan foydalaning.",
-          "days": "2 - 4 kun: AED 250",
-          "days2": "5 - 8 kun: AED 350",
-          "days3": "9 - 15 kun: AED 425",
-          "chegirma": "Parkovka oldindan bron qilish orqali ko'proq tejang.",
-          "btn": "Parkovka uchun bron qiling",
-          "img": "https://familytravellerimages.s3.eu-west-2.amazonaws.com/wp-content/uploads/2021/06/16105915/Qatar-Airways-Kids-Fly-Free-campaign-in-flight-family-with-cabin-crew.jpg"
-        },
-        {
-          "bayram": "Sayohatingizni bezovta qilmay o'tkazing",
-          "p": "Qulay va arzon aeroport parkinngiz.",
-          "days": "3 - 5 kun: AED 275",
-          "days2": "6 - 9 kun: AED 375",
-          "days3": "10 - 16 kun: AED 450",
-          "chegirma": "Oldindan bron qiling va arzon narxlardan bahramand bo'ling.",
-          "btn": "Parkovkani oldindan bron qiling",
-          "img": "https://www.torontolegends.com/blog/wp-content/uploads/2023/12/family-airport.jpg"
-        }
-      ]
+    {
+      "bayram": {
+        "en": "Make your travel stress-free",
+        "ru": "Сделайте свою поездку беззаботной",
+        "uz": "Sayohatingizni bezovta qilmay o'tkazing"
+      },
+      "p": {
+        "en": "Convenient and affordable airport parking.",
+        "ru": "Удобная и доступная парковка в аэропорту.",
+        "uz": "Qulay va arzon aeroport parkinngiz."
+      },
+      "days": {
+        "en": "3 - 5 days: AED 275",
+        "ru": "3 - 5 дней: AED 275",
+        "uz": "3 - 5 kun: AED 275"
+      },
+      "days2": {
+        "en": "6 - 9 days: AED 375",
+        "ru": "6 - 9 дней: AED 375",
+        "uz": "6 - 9 kun: AED 375"
+      },
+      "days3": {
+        "en": "10 - 16 days: AED 450",
+        "ru": "10 - 16 дней: AED 450",
+        "uz": "10 - 16 kun: AED 450"
+      },
+      "chegirma": {
+        "en": "Book early and enjoy reduced rates.",
+        "ru": "Бронируйте заранее и наслаждайтесь снижением цен.",
+        "uz": "Oldindan bron qiling va arzon narxlardan bahramand bo'ling."
+      },
+      "btn": {
+        "en": "Pre-Book Parking Now",
+        "ru": "Предварительно забронируйте парковку",
+        "uz": "Parkovkani oldindan bron qiling"
+      },
+      "img": "https://www.torontolegends.com/blog/wp-content/uploads/2023/12/family-airport.jpg"
     }
-  ,
-  
+  ],
   "page4": {
-    "xizmatlar": "Airport Services",
-    "title": "Enhancing Your Airport Experience",
     "img": "https://business.orange.be/sites/default/files/Wifi.png",
-    "wifi": "Wi-Fi & Internet",
-    "wifiP": "Stay always connected with our free wireless connection.",
-    "wifiLink": "Connect to Wifi",
     "img2": "https://static.vecteezy.com/system/resources/thumbnails/021/013/596/small/spoon-fork-and-knife-icon-set-on-transparent-background-free-png.png",
-    "dine": "Dine",
-    "dineP": "Explore a variety of exquisite dining options.",
-    "dineLink": "Dine",
     "img3": "https://static.thenounproject.com/png/760836-200.png",
-    "shop": "Duty free shopping.",
-    "shopP": "Explore Shops and Abu Dhabi Duty Free.",
-    "shopLink": "Duty free shopping",
-    
     "shopClick": [
       {
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/ADIB.ashx?h=595&iar=0&w=714&hash=34672A9632E7CE9EE6FE0A419BB8C12C",
-        "title": "Banks & ATMs",
-        "btn": "Read more",
+        "title": {
+          "en": "Banks & ATMs",
+          "ru": "Банки и банкоматы",
+          "uz": "Banklar va ATMlar"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "icon": "/src/icon/icons8-next-page-50.png",
         "open": {
-          "title": "Banks & ATMs",
-          "p": "With a strong customer franchise, we provide comprehensive banking services.",
-          "soatN": "Opening Hours",
+          "title": {
+            "en": "Banks & ATMs",
+            "ru": "Банки и банкоматы",
+            "uz": "Banklar va ATMlar"
+          },
+          "p": {
+            "en": "With a strong customer franchise, we provide comprehensive banking services.",
+            "ru": "С сильной клиентской франшизой мы предоставляем комплексные банковские услуги.",
+            "uz": "Kuchli mijoz franshizasi bilan keng qamrovli bank xizmatlarini taqdim etamiz."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       },
       {
         "img": "https://www.zayedinternationalairport.ae/-/media/Adidas-2x.ashx?h=600&iar=0&w=714&hash=494273219BF4441F32FAC56404165E8B",
-        "title": "Shops",
+        "title": {
+          "en": "Shops",
+          "ru": "Магазины",
+          "uz": "Do‘konlar"
+        },
         "icon": "/src/icon/icons8-next-page-50.png",
         "name": "Adidas",
-        "btn": "Read more",
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "title": "Shops",
-          "p": "Athletes do not settle for average. Discover the latest Adidas collections.",
-          "soatN": "Opening Hours",
+          "title": {
+            "en": "Shops",
+            "ru": "Магазины",
+            "uz": "Do‘konlar"
+          },
+          "p": {
+            "en": "Athletes do not settle for average. Discover the latest Adidas collections.",
+            "ru": "Спортсмены не довольствуются средним. Откройте для себя последние коллекции Adidas.",
+            "uz": "Sportchilar o‘rtachadan qoniqmaydi. Eng so‘nggi Adidas kolleksiyalarini kashf eting."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       },
       {
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Polo-Ralph-Lauren.ashx?h=595&iar=0&w=714&hash=C9BC3096884F0FAB7C407AEAE62E03E0",
-        "title": "Fashion",
-        "btn": "Read more",
+        "title": {
+          "en": "Fashion",
+          "ru": "Мода",
+          "uz": "Moda"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "icon": "/src/icon/icons8-next-page-50.png",
         "open": {
-          "title": "Fashion",
-          "p": "Polo Ralph Lauren epitomizes iconic American style.",
-          "soatN": "Opening Hours",
+          "title": {
+            "en": "Fashion",
+            "ru": "Мода",
+            "uz": "Moda"
+          },
+          "p": {
+            "en": "Polo Ralph Lauren epitomizes iconic American style.",
+            "ru": "Polo Ralph Lauren олицетворяет иконический американский стиль.",
+            "uz": "Polo Ralph Lauren ikoniks Amerikan uslubini ifodalaydi."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       },
       {
         "img": "https://luxurywatchrolls.com/cdn/shop/files/luxury-watch-rolls-logo-text-transparent.png?v=1705850317&width=600",
-        "title": "Luxury Watches",
-        "btn": "Read more",
+        "title": {
+          "en": "Luxury Watches",
+          "ru": "Роскошные часы",
+          "uz": "Luks soatlar"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "icon": "/src/icon/icons8-next-page-50.png",
         "open": {
-          "title": "Luxury Watches",
-          "p": "Explore exclusive timepieces from the world's finest brands.",
-          "soatN": "Opening Hours",
+          "title": {
+            "en": "Luxury Watches",
+            "ru": "Роскошные часы",
+            "uz": "Luks soatlar"
+          },
+          "p": {
+            "en": "Explore exclusive timepieces from the world's finest brands.",
+            "ru": "Изучите эксклюзивные часы от лучших брендов мира.",
+            "uz": "Dunyodagi eng yaxshi brendlardan eksklyuziv soatlarni kashf eting."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       },
       {
         "img": "https://png.pngtree.com/png-clipart/20200709/original/pngtree-technology-logo-template-png-image_3669868.jpg",
-        "title": "Technology",
-        "btn": "Read more",
+        "title": {
+          "en": "Technology",
+          "ru": "Технологии",
+          "uz": "Texnologiya"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "icon": "/src/icon/icons8-next-page-50.png",
         "open": {
-          "title": "Technology",
-          "p": "Latest gadgets and tech accessories from top brands.",
-          "soatN": "Opening Hours",
+          "title": {
+            "en": "Technology",
+            "ru": "Технологии",
+            "uz": "Texnologiya"
+          },
+          "p": {
+            "en": "Latest gadgets and tech accessories from top brands.",
+            "ru": "Последние гаджеты и аксессуары от ведущих брендов.",
+            "uz": "Eng so‘nggi gadjetlar va texnik aksessuarlar eng yaxshi brendlaridan."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       }
     ],
-    "wifiClik": {
-      "img": "https://www.changiairport.com/content/dam/cacorp/Media-Centre/Resources/Changijourney/Apr24/Wifi.jpg",
-      "h1": "Internet Connection",
-      "p": "Stay connected throughout your airport journey.",
-      "p2": "Access our complimentary, unlimited Wi-Fi network.",
-      "p3": "Free Wi-Fi Anywhere you are within Zayed International Airport, you can enjoy free access to our Wi-Fi network.",
-      "p4": "To connect to the network, just follow these steps:",
-      "p5": "1. Search for available wireless networks on your device or laptop.",
-      "p6": "2. Connect to the network named 'Zayed Intl Airport Free Wi-Fi.'",
-      "p7": "3. Once the welcome box appears, click 'CONNECT.'",
-      "p8": "4. You will be directed to Abu Dhabi International Airport's website landing page, granting you full internet access.",
-      "p9": "Enjoy browsing! Free Wi-Fi access.",
-      "icon": "./src/icon/icons8-next-page-50.png"
-    },
     "dineClick": [
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Arabica-2x.ashx?h=600&iar=0&w=714&hash=3AD9F0E0ED5334475012AA637305C526",
-        "title": "Coffee Shops",
-        "name": "Arabica",
-        "btn": "Read more",
+        "title": {
+          "en": "Coffee Shops",
+          "ru": "Кофейни",
+          "uz": "Qahvaxonalar"
+        },
+        "name": {
+          "en": "Arabica",
+          "ru": "Арабика",
+          "uz": "Arabica"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Arabica",
-          "title": "Coffee Shops",
-          "p": "% Arabica is simple and stylish with a Japanese minimalistic design, strong brand identity and high quality coffee beans that are roasted fresh in store – the success of the business is based on the company’s commitment to quality and service with the goal of letting its customers ‘See the World Through Coffee’.",
-          "soatN": "Opening Hours",
+          "name": {
+            "en": "Arabica",
+            "ru": "Арабика",
+            "uz": "Arabica"
+          },
+          "title": {
+            "en": "Coffee Shops",
+            "ru": "Кофейни",
+            "uz": "Qahvaxonalar"
+          },
+          "p": {
+            "en": "% Arabica is simple and stylish with a Japanese minimalistic design, strong brand identity and high quality coffee beans that are roasted fresh in store – the success of the business is based on the company’s commitment to quality and service with the goal of letting its customers ‘See the World Through Coffee’.",
+            "ru": "% Arabica прост и стильный, с японским минималистским дизайном, сильной идентичностью бренда и высококачественными кофейными зернами, которые обжариваются прямо в магазине. Успех бизнеса основан на приверженности компании качеству и обслуживанию, с целью позволить своим клиентам «Увидеть мир через кофе».",
+            "uz": "% Arabica oddiy va zamonaviy, yapon minimalistik dizayni, kuchli brend identifikatsiyasi va do‘konda yangi qovurilgan yuqori sifatli qahva donalari bilan ajralib turadi - biznesning muvaffaqiyati kompaniyaning sifat va xizmatga sodiqligiga asoslanadi, maqsadi esa mijozlarga 'Qahva orqali dunyoni ko‘rish' imkoniyatini berishdir."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/img/Shop-and-Dine/Bottega-Bar-2x.ashx?h=600&iar=0&w=714&hash=005A4508812727693357B491BDEE58A5",
-        "title": "Coffee Shops",
-        "name": "Bottega",
-        "btn": "Bottega Bar",
+        "title": {
+          "en": "Coffee Shops",
+          "ru": "Кофейни",
+          "uz": "Qahvaxonalar"
+        },
+        "name": {
+          "en": "Bottega",
+          "ru": "Боттега",
+          "uz": "Bottega"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Bottega",
-          "title": "Coffee Shops",
-          "p": "Experience the essence of Italian culture at Bottega. Enjoy Venetian charm as you savour exquisite dishes, fine wines, and prosecco in a sophisticated setting. Our bar transports you to the streets of Venice, where warmth, elegance, and culinary excellence meet.",
-          "soatN": "Opening Hours",
+          "name": {
+            "en": "Bottega",
+            "ru": "Боттега",
+            "uz": "Bottega"
+          },
+          "title": {
+            "en": "Coffee Shops",
+            "ru": "Кофейни",
+            "uz": "Qahvaxonalar"
+          },
+          "p": {
+            "en": "Experience the essence of Italian culture at Bottega. Enjoy Venetian charm as you savour exquisite dishes, fine wines, and prosecco in a sophisticated setting. Our bar transports you to the streets of Venice, where warmth, elegance, and culinary excellence meet.",
+            "ru": "Погрузитесь в суть итальянской культуры в Bottega. Наслаждайтесь венецианским шармом, наслаждаясь изысканными блюдами, изысканными винами и просекко в изысканной обстановке. Наш бар перенесет вас на улицы Венеции, где встречаются тепло, элегантность и кулинарное мастерство.",
+            "uz": "Bottega'da italiyan madaniyatining mohiyatini his qiling. Ajoyib taomlar, noyob vinolar va prosekkoni zamonaviy muhitda tatib ko'ring. Bizning barimiz sizni Venetsiya ko'chalarga olib boradi, u erda iliqlik, nafislik va oshpazlik mukammalligi birlashadi."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_corporate/data/Burger-King-2x.ashx?h=600&iar=0&w=714&hash=3C98D8C8205A73D4F6C0C5CB78945067",
-        "title": "Restaurants",
-        "name": "Burger King",
-        "btn": "Read more",
+        "title": {
+          "en": "Restaurants",
+          "ru": "Рестораны",
+          "uz": "Restoranlar"
+        },
+        "name": {
+          "en": "Burger King",
+          "ru": "Бургер Кинг",
+          "uz": "Burger King"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Burger King",
-          "title": "Restaurants",
-          "p": "Great Food Comes First-Every day, more than 11 million guests visit Burger King restaurants around the world. And they do so because our restaurants are known for serving high-quality, great-tasting, and affordable food. Food quality is our top commitment, and we strive to produce the best-tasting food possible. ",
-          "soatN": "Opening Hours",
+          "name": {
+            "en": "Burger King",
+            "ru": "Бургер Кинг",
+            "uz": "Burger King"
+          },
+          "title": {
+            "en": "Restaurants",
+            "ru": "Рестораны",
+            "uz": "Restoranlar"
+          },
+          "p": {
+            "en": "Great Food Comes First - Every day, more than 11 million guests visit Burger King restaurants around the world. And they do so because our restaurants are known for serving high-quality, great-tasting, and affordable food. Food quality is our top commitment, and we strive to produce the best-tasting food possible.",
+            "ru": "Вкусная еда на первом месте - Каждый день более 11 миллионов гостей посещают рестораны Burger King по всему миру. И они делают это, потому что наши рестораны известны тем, что предлагают высококачественную, вкусную и доступную еду. Качество пищи - наш главный приоритет, и мы стремимся производить вкусную еду.",
+            "uz": "Zo‘r ovqat birinchi o‘rinda - Har kuni 11 milliondan ortiq mehmon Burger King restoranlarini aylanib chiqadilar. Ular buni qilishadi, chunki restoranlarimiz sifatli, mazali va arzon ovqatlar bilan tanilgan. Ovqat sifati bizning asosiy majburiyatimiz bo‘lib, eng mazali ovqatlarni tayyorlashga intilamiz."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Camden-2x.ashx?h=600&iar=0&w=714&hash=359826150148C9BDA39F992951DEAA49",
-        "title": "Coffee Shops",
-        "name": "Camden Food Co.",
-        "btn": "Read more",
+        "title": {
+          "en": "Coffee Shops",
+          "ru": "Кофейни",
+          "uz": "Qahvaxonalar"
+        },
+        "name": {
+          "en": "Camden Food Co.",
+          "ru": "Кэмден Фуд Ко.",
+          "uz": "Camden Food Co."
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Camden Food Co.",
-          "title": "Coffee Shops",
-          "p": "At Camden Food Co., we offer a balance of healthy options as well as indulgent treats. There is a wide variety of healthy and organic pre-packaged and fresh foods available to guests. You will not regret stopping here if you are a health-conscious traveler.",
-          "soatN": "Opening Hours",
+          "name": {
+            "en": "Camden Food Co.",
+            "ru": "Кэмден Фуд Ко.",
+            "uz": "Camden Food Co."
+          },
+          "title": {
+            "en": "Coffee Shops",
+            "ru": "Кофейни",
+            "uz": "Qahvaxonalar"
+          },
+          "p": {
+            "en": "At Camden Food Co., we offer a balance of healthy options as well as indulgent treats. There is a wide variety of healthy and organic pre-packaged and fresh foods available to guests. You will not regret stopping here if you are a health-conscious traveler.",
+            "ru": "В Camden Food Co. мы предлагаем баланс здоровых вариантов и изысканных угощений. У нас есть широкий выбор здоровых и органических упакованных и свежих продуктов для гостей. Вы не пожалеете, если остановитесь здесь, если вы заботитесь о своем здоровье.",
+            "uz": "Camden Food Co.'da biz sog‘lom variantlar va shirinliklar o‘rtasida muvozanat taklif etamiz. Mehmonlar uchun sog‘lom va organik, oldindan qadoqlangan va yangi ovqatlarning keng tanlovi mavjud. Agar siz sog‘lom turmush tarzini tanlagan sayohatchi bo‘lsangiz, bu yerda to‘xtaganingiz uchun afsuslanmaysiz."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24/7"
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Culto-Caf.ashx?h=595&iar=0&w=714&hash=26F1AD4B6FE294E01755EC7DE551036C",
-        "title": "Coffee Shops",
-        "name": "CUTLO cade",
-        "btn": "Cutlo Cafe",
+        "title": {
+          "en": "Coffee Shops",
+          "ru": "Кофейни",
+          "uz": "Qahvaxonalar"
+        },
+        "name": {
+          "en": "CUTLO cade",
+          "ru": "КУТЛО КАДЕ",
+          "uz": "CUTLO cade"
+        },
+        "btn": {
+          "en": "Cutlo Cafe",
+          "ru": "Кафе Кутло",
+          "uz": "Cutlo Cafe"
+        },
         "open": {
-          "name": "CUTLO cade",
-          "title": "Coffee Shops",
-          "p": "Culto Cafe brings the heart of Italian coffee culture and the Dolce Vita lifestyle to Zayed International Airport. Offering both classic and gourmet brews, complemented by an extensive range of hot and fresh beverages. Our menu showcases classic and contemporary pastries, indulgent cakes, and delectable sweets. For those seeking something savoury, we offer a selection of fresh sandwiches and filled bakery products alongside wholesome soups, salads and hot meals that can be enjoyed on the go.",
-          "soatN": "Opening Hours",
+          "name": {
+            "en": "CUTLO cade",
+            "ru": "КУТЛО КАДЕ",
+            "uz": "CUTLO cade"
+          },
+          "title": {
+            "en": "Coffee Shops",
+            "ru": "Кофейни",
+            "uz": "Qahvaxonalar"
+          },
+          "p": {
+            "en": "Culto Cafe brings the heart of Italian coffee culture and the Dolce Vita lifestyle to Zayed International Airport. Offering both classic and gourmet brews, complemented by an extensive range of hot and fresh beverages. Our menu showcases classic and contemporary pastries, indulgent cakes, and delectable sweets. For those seeking something savoury, we offer a selection of fresh sandwiches and filled bakery products alongside wholesome soups, salads and hot meals that can be enjoyed on the go.",
+            "ru": "Кафе Culto привносит суть итальянской кофейной культуры и стиль Dolce Vita в международный аэропорт Зайед. Мы предлагаем как классические, так и гурманские напитки, дополненные обширным ассортиментом горячих и свежих напитков. Наше меню включает классическую и современную выпечку, изысканные торты и вкусные сладости. Для тех, кто ищет что-то соленое, мы предлагаем выбор свежих бутербродов и наполненных хлебобулочных изделий, а также сытные супы, салаты и горячие блюда, которые можно наслаждаться на ходу.",
+            "uz": "Culto Cafe italiyan qahva madaniyatining mohiyatini va Dolce Vita turmush tarzini Zayed xalqaro aeroportiga olib keladi. Biz klassik va gourmet ichimliklarni, shuningdek, keng doirada issiq va yangi ichimliklarni taklif qilamiz. Bizning menyumiz klassik va zamonaviy pishiriqlar, shirin tortlar va mazali shirinliklarni o'z ichiga oladi. Tuzli narsa qidirayotganlar uchun, biz yangi sendvichlar va to‘ldirilgan non mahsulotlari, shuningdek, sog‘lom sho'rvalar, salatlar va harakatda iste'mol qilinadigan issiq taomlarni taklif etamiz."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
           "soat": "24 hours"
+        }
+      },
+      {
+        "icon": "/src/icon/icons8-next-page-50.png",
+        "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/starbucks.ashx?h=595&iar=0&w=714&hash=0D19059A530A9307F83C51DBA52DF6A8",
+        "title": {
+          "en": "Coffee Shops",
+          "ru": "Кофейни",
+          "uz": "Kofe do'konlari"
+        },
+        "name": {
+          "en": "Starbucks",
+          "ru": "Старбакс",
+          "uz": "Starbucks"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
+        "open": {
+          "name": {
+            "en": "Starbucks",
+            "ru": "Старбакс",
+            "uz": "Starbucks"
+          },
+          "title": {
+            "en": "Coffee Shops",
+            "ru": "Кофейни",
+            "uz": "Kofe do'konlari"
+          },
+          "p": {
+            "en": "At Starbucks, we believe in a genuine connection, great coffee, and good food. Visit us for an unforgettable experience.",
+            "ru": "В Старбаксе мы верим в искреннюю связь, отличное кофе и хорошую еду. Посетите нас для незабываемого опыта.",
+            "uz": "Starbucksda biz haqiqiy aloqalarni, ajoyib kofeni va yaxshi ovqatni ishonamiz. Unutilmas tajriba uchun bizni ziyorat qiling."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
+          "soat": {
+            "en": "24/7",
+            "ru": "24/7",
+            "uz": "24 soat"
+          }
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Jones-The-Grocer.ashx?h=595&iar=0&w=714&hash=19509E31C73B1D595332A6166207C677",
-        "title": "Restaurants",
-        "name": "Jones ",
-        "btn": "Jones The Grocer",
+        "title": {
+          "en": "Restaurants",
+          "ru": "Рестораны",
+          "uz": "Restoranlar"
+        },
+        "name": {
+          "en": "Jones",
+          "ru": "Джонс",
+          "uz": "Jones"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Jones ",
-          "title": "Restaurants",
-          "p": "Explore a rich tapestry of flavors to satisfy your individual taste, creating a culinary adventure that's uniquely yours.",
-          "soatN": "Opening Hours",
-          "soat": "24 hours",
-          "lacat": "Location",
-          "locatName": "Entry to Pier from CPU"
+          "name": {
+            "en": "Jones",
+            "ru": "Джонс",
+            "uz": "Jones"
+          },
+          "title": {
+            "en": "Restaurants",
+            "ru": "Рестораны",
+            "uz": "Restoranlar"
+          },
+          "p": {
+            "en": "Explore a rich tapestry of flavors to satisfy your individual taste, creating a culinary adventure that's uniquely yours.",
+            "ru": "Изучите богатую палитру вкусов, чтобы удовлетворить ваш индивидуальный вкус, создавая кулинарное приключение, которое уникально для вас.",
+            "uz": "Barchamizning shaxsiy ta'bimizni qondirish uchun ta'mlarning rang-barang to'qimasini o'rganing, o'ziga xos gastronomik sarguzasht yaratish."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
+          "soat": {
+            "en": "24 hours",
+            "ru": "24 часа",
+            "uz": "24 soat"
+          }
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
-        "img": "https://www.zayedinternationalairport.ae/-/media/Krispy-Kreme-2x.ashx?h=600&iar=0&w=714&hash=F59015FA0A2ABD85568112EC5B4E14D7",
-        "title": "Cafeteria",
-        "name": "Krispy Kreme",
-        "btn": "Read more",
+        "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/mcdonalds.ashx?h=595&iar=0&w=714&hash=8A9D8777A57FDDCFAE64B6F1B24D72A3",
+        "title": {
+          "en": "Restaurants",
+          "ru": "Рестораны",
+          "uz": "Restoranlar"
+        },
+        "name": {
+          "en": "McDonald's",
+          "ru": "Макдональдс",
+          "uz": "McDonald's"
+        },
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Krispy Kreme",
-          "title": "Cafeteria",
-          "p": "HAPPINESS THROUGH DOUGHNUTS. Things are better enjoyed together, especially the sweet fluffy clouds of deliciousness we call doughnuts. We make our Original Glazed Doughnut the way we always have. Because it’s the right way. The fun way. And we love doing it that way for you – our customer.",
-          "soatN": "Opening Hours",
-          "soat": "24/7"
-        }
-      },
-      {
-        "icon": "/src/icon/icons8-next-page-50.png",
-        "img": "https://www.zayedinternationalairport.ae/-/media/Mc-Donalds-2x.ashx?h=600&iar=0&w=714&hash=6757731318585BDF188589FB1B1047C6",
-        "title": "Restaurants",
-        "name": "McDonald's",
-        "btn": "Read more",
-        "open": {
-          "name": "McDonald's",
-          "title": "Restaurants",
-          "p": "Experience the timeless delight of McDonald's your reliable destination for quick bites, and comfort food. Whether you find yourself in a hurry or in search of a familiar, delectable meal, we are committed to meeting your culinary desires.",
-          "soatN": "Opening Hours",
-          "soat": "24/7"
+          "name": {
+            "en": "McDonald's",
+            "ru": "Макдональдс",
+            "uz": "McDonald's"
+          },
+          "title": {
+            "en": "Restaurants",
+            "ru": "Рестораны",
+            "uz": "Restoranlar"
+          },
+          "p": {
+            "en": "Welcome to McDonald's, where you can enjoy delicious meals and snacks in a comfortable setting, available for you 24/7.",
+            "ru": "Добро пожаловать в Макдональдс, где вы можете наслаждаться вкусными блюдами и закусками в комфортной обстановке, доступной для вас круглосуточно.",
+            "uz": "McDonald'sga xush kelibsiz, bu yerda siz 24/7 vaqt davomida qulay sharoitda mazali taomlar va gazaklar iste'mol qilishingiz mumkin."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
+          "soat": {
+            "en": "24/7",
+            "ru": "24/7",
+            "uz": "24 soat"
+          }
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Lulu-Roastery.ashx?h=595&iar=0&w=714&hash=ED7C69C0C7A456C1EAF3E366CF06B113",
-        "title": "Coffee Shops",
+        "title": "Kofe do'konlari",
         "name": "LULU ROASTERY",
-        "btn": "Read more",
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "LULU ROASTERY",
-          "title": "Coffee Shops",
-          "p": "Explore our curated collection of coffee, dry fruits, and chocolates, sourced from the finest suppliers globally.",
-          "soatN": "Opening Hours",
-          "soat": "24 hours",
-          "lacat": "Location",
-          "locatName": "-"
+          "name": {
+            "en": "LULU ROASTERY",
+            "ru": "ЛУЛУ РОАСТЕРИ",
+            "uz": "LULU ROASTERY"
+          },
+          "title": {
+            "en": "Coffee Shops",
+            "ru": "Кофейни",
+            "uz": "Kofe do'konlari"
+          },
+          "p": {
+            "en": "Explore our curated collection of coffee, dry fruits, and chocolates, sourced from the finest suppliers globally.",
+            "ru": "Исследуйте нашу курируемую коллекцию кофе, сухофруктов и шоколада, полученных от лучших поставщиков по всему миру.",
+            "uz": "Dunyodagi eng yaxshi yetkazib beruvchilardan olingan qahva, quritilgan mevalar va shokoladlarni o'z ichiga olgan kollektsiyamizni o'rganing."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
+          "soat": {
+            "en": "24 hours",
+            "ru": "24 часа",
+            "uz": "24 soat"
+          },
+          "lacat": {
+            "en": "Location",
+            "ru": "Местоположение",
+            "uz": "Joylashuv"
+          },
+          "locatName": {
+            "en": "-",
+            "ru": "-",
+            "uz": "-"
+          }
         }
       },
       {
-        "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/img/Shop-and-Dine/Shawa-2x.ashx?h=600&iar=0&w=714&hash=870EEF983D597F3815C5E3C28F63A823",
-        "title": "Restaurants",
         "icon": "/src/icon/icons8-next-page-50.png",
+        "img": "https://www.zayedinternationalairport.ae/-/media/adac_passengers/data/media/img/Shop-and-Dine/Shawa-2x.ashx?h=600&iar=0&w=714&hash=870EEF983D597F3815C5E3C28F63A823",
+        "title": "Restoranlar",
         "name": "Shawa",
-        "btn": "Read more",
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Shawa",
-          "title": "Restaurants",
-          "p": "Savor the flavors of Lebanon at Shawa! Our diverse, customizable dishes cater to all tastes, even the little people in your life! Indulge in irresistible desserts and refresh with homemade lemonades, the ultimate post-shopping treat.",
-          "soatN": "Opening Hours",
-          "soat": "24 hours",
-          "lacat": "Location",
-          "locatName": "Entry to Pier from CPU"
+          "name": {
+            "en": "Shawa",
+            "ru": "Шава",
+            "uz": "Shawa"
+          },
+          "title": {
+            "en": "Restaurants",
+            "ru": "Рестораны",
+            "uz": "Restoranlar"
+          },
+          "p": {
+            "en": "Savor the flavors of Lebanon at Shawa! Our diverse, customizable dishes cater to all tastes, even the little people in your life! Indulge in irresistible desserts and refresh with homemade lemonades, the ultimate post-shopping treat.",
+            "ru": "Насладитесь вкусами Ливана в Шаве! Наши разнообразные, настраиваемые блюда подходят для всех вкусов, даже для маленьких людей в вашей жизни! Насладитесь неотразимыми десертами и освежитесь домашними лимонадами — идеальное угощение после шопинга.",
+            "uz": "Shawa'da Livan ta'mlarini tatib ko'ring! Bizning xilma-xil, moslashtiriladigan taomlarimiz har qanday didga mos keladi, hatto hayotingizdagi kichkina insonlar uchun ham! Ta'sirli desertlarga o'z selfingizni qo'shing va do'kondan keyin sizni yoqtiradigan uy limonadlari bilan yangilang."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
+          "soat": {
+            "en": "24 hours",
+            "ru": "24 часа",
+            "uz": "24 soat"
+          },
+          "lacat": {
+            "en": "Location",
+            "ru": "Местоположение",
+            "uz": "Joylashuv"
+          },
+          "locatName": {
+            "en": "Entry to Pier from CPU",
+            "ru": "Вход на пирс от CPU",
+            "uz": "CPU'dan Pierga kirish"
+          }
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/adac_corporate/data/Texas-Chicken-2x.ashx?h=600&iar=0&w=714&hash=41AE54F052E52C20B57C2988EFFA4CED",
-        "title": "Restaurants",
+        "title": "Restoranlar",
         "name": "Texas Chicken",
-        "btn": "Read more",
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Texas Chicken",
-          "title": "Restaurants",
-          "p": "Texas Chicken delivers authentic traditions, bold tastes, and straightforward, consistent food you can trust. After all, it is more than fresh fried chicken. We are real but not boring. Simple but not basic. Familiar but always surprising.   ",
-          "soatN": "Opening Hours",
-          "soat": "24/7"
+          "name": {
+            "en": "Texas Chicken",
+            "ru": "Техас Чикен",
+            "uz": "Texas Chicken"
+          },
+          "title": {
+            "en": "Restaurants",
+            "ru": "Рестораны",
+            "uz": "Restoranlar"
+          },
+          "p": {
+            "en": "Texas Chicken delivers authentic traditions, bold tastes, and straightforward, consistent food you can trust. After all, it is more than fresh fried chicken. We are real but not boring. Simple but not basic. Familiar but always surprising.",
+            "ru": "Texas Chicken предлагает аутентичные традиции, смелые вкусы и простую, надежную еду, которой вы можете доверять. В конце концов, это больше, чем просто жареный курица. Мы настоящие, но не скучные. Простые, но не базовые. Знакомые, но всегда удивляющие.",
+            "uz": "Texas Chicken haqiqiy an'analarga, jasur ta'mlarga va ishonchli, oddiy ovqatlarga ega. Natijada, bu yangi qovurilgan tovuqdan ko'ra ko'proq. Biz haqiqiy, ammo zerikarli emas. Oddiy, lekin oddiy emas. Tanish, lekin doimo hayratga soluvchi."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
+          "soat": {
+            "en": "24/7",
+            "ru": "24/7",
+            "uz": "24/7"
+          }
         }
       },
       {
         "icon": "/src/icon/icons8-next-page-50.png",
         "img": "https://www.zayedinternationalairport.ae/-/media/Group-114/Urban-Food-Market.ashx?h=600&iar=0&w=714&hash=5EA95A8939118E010E28727FFF8DC94B",
-        "title": "Cafeteria",
+        "title": "Kafeteriya",
         "name": "Urban Foot Market",
-        "btn": "Urban Foot Market",
+        "btn": {
+          "en": "Read more",
+          "ru": "Читать далее",
+          "uz": "Batafsil"
+        },
         "open": {
-          "name": "Urban Foot Market",
-          "title": "Restaurants",
-          "p": "Urban Food Market is your go-to spot for quick and tasty sandwiches, breakfast bites, pastries, and beverages. It's all about convenience and deliciousness, perfect for people on the move.",
-          "soatN": "Opening Hours",
-          "soat": "24 hours"
+          "name": {
+            "en": "Urban Foot Market",
+            "ru": "Городской рынок продуктов",
+            "uz": "Urban Foot Market"
+          },
+          "title": {
+            "en": "Restaurants",
+            "ru": "Рестораны",
+            "uz": "Restoranlar"
+          },
+          "p": {
+            "en": "Urban Food Market is your go-to spot for quick and tasty sandwiches, breakfast bites, pastries, and beverages. It's all about convenience and deliciousness, perfect for people on the move.",
+            "ru": "Городской продуктовый рынок — это ваше идеальное место для быстрых и вкусных бутербродов, завтраков, выпечки и напитков. Все о удобстве и вкусе, идеально подходит для людей на ходу.",
+            "uz": "Urban Food Market sizning tez va mazali sendvichlar, nonushta taomlari, pishiriqlar va ichimliklar uchun ajoyib joyingizdir. Bu qulaylik va mazali taomlar haqida, harakatda bo'lgan odamlar uchun mukammal."
+          },
+          "soatN": {
+            "en": "Opening Hours",
+            "ru": "Часы работы",
+            "uz": "Ish vaqti"
+          },
+          "soat": {
+            "en": "24 hours",
+            "ru": "24 часа",
+            "uz": "24 soat"
+          },
+          "lacat": {
+            "en": "Location",
+            "ru": "Местоположение",
+            "uz": "Joylashuv"
+          },
+          "locatName": {
+            "en": "-",
+            "ru": "-",
+            "uz": "-"
+          }
         }
       }
-    ]
+    ],
+    "wifiClik": {
+      "img": "https://www.changiairport.com/content/dam/cacorp/Media-Centre/Resources/Changijourney/Apr24/Wifi.jpg",
+      "icon": "./src/icon/icons8-next-page-50.png"
+    }
   },
   "yonalish": [
     {
       "img": "https://t3.ftcdn.net/jpg/05/21/39/66/360_F_521396698_RYmt6WYWdnezujQwLKFs1ZEWL1H1PETc.jpg",
-      "t": "Dubai",
-      "ketish": "Departure Date:",
-      "narx": "US 230$",
-      "btn": "Search",
-      "region": "osiyo",
+      "t": {
+        "en": "Dubai",
+        "ru": "Дубай",
+        "uz": "Dubay"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата отправления:",
+        "uz": "Ketish sanasi:"
+      },
+      "narx": {
+        "en": "US 230$",
+        "ru": "US 230$",
+        "uz": "US 230$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "Asia",
+        "ru": "Азия",
+        "uz": "Osiyo"
+      },
       "open": {
         "img": "https://t3.ftcdn.net/jpg/05/21/39/66/360_F_521396698_RYmt6WYWdnezujQwLKFs1ZEWL1H1PETc.jpg",
-        "lorem": "The city of Dubai is the largest and most populated city in the United Arab Emirates (UAE) and the capital city of the emirate of Dubai UAE. The city is sometimes called 'Dubai City' to prevent it from being mixed up with the emirate.Dubai is a city and emirate in the United Arab Emirates known for luxury shopping ultramodern architecture and a lively nightlife scene. Burj Khalifa an 828m-tall tower dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain with jets and lights choreographed to music. On artificial islands just offshore is Atlantis The Palm a resort with water and marine-animal parks.",
         "img2": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg/1200px-Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg",
+        "lorem": {
+          "en": "The city of Dubai is the largest and most populated city in the United Arab Emirates (UAE) and the capital city of the emirate of Dubai. The city is sometimes called 'Dubai City' to prevent it from being mixed up with the emirate. Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture, and a lively nightlife scene. Burj Khalifa, an 828m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain with jets and lights choreographed to music.",
+          "ru": "Город Дубай - крупнейший и самый населённый город Объединённых Арабских Эмиратов (ОАЭ) и столица эмирата Дубай. Город иногда называют 'Дубай Сити', чтобы избежать путаницы с эмиратом. Дубай известен своей роскошной покупкой, ультрасовременной архитектурой и бурной ночной жизнью. Башня Бурдж-Халифа высотой 828 м доминирует над небоскрёбами города. У её подножия расположён фонтан Дубая, который исполняет танцы и световые шоу под музыку.",
+          "uz": "Dubay shahri Birlashgan Arab Amirliklarining (BAA) eng katta va eng ko'p aholi yashaydigan shahridir va Dubay emirligining poytaxtidir. Ba'zan shahar 'Dubay Shahri' deb ataladi, bu emirlik bilan aralashmaslik uchun. Dubay, hashamatli xarid qilish, ultramodern arxitektura va jonli tungi hayoti bilan mashhur. Burj Xalifa 828 metr balandlikdagi minorasi, osmonni to'ldirgan osmonyuraklar orasida joylashgan. Uning asosida esa, musiqaga mos ravishda ishlov berilgan jetlar va chiroqlar bilan ajralib turuvchi Dubay fonteri joylashgan."
+        },
         "img3": "https://img.pac.ru/resorts/213079/349252/big/3866BA187F000101443EEC87AA90DCF1.jpg"
       }
     },
     {
       "img": "https://cdn2.tu-tu.ru/image/pagetree_node_data/1/7bccbc5255a7c50c5a9267a0023175cf/",
-      "t": "Istambul",
-      "ketish": "Departure Date:",
-      "narx": "US 180$",
-      "btn": "Search",
-      "region": "yevropa",
+      "t": {
+        "en": "Istanbul",
+        "ru": "Стамбул",
+        "uz": "Istanbul"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата отправления:",
+        "uz": "Ketish sanasi:"
+      },
+      "narx": {
+        "en": "US 180$",
+        "ru": "US 180$",
+        "uz": "US 180$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "Europe",
+        "ru": "Европа",
+        "uz": "Yevropa"
+      },
       "open": {
         "img": "https://cdn2.tu-tu.ru/image/pagetree_node_data/1/7bccbc5255a7c50c5a9267a0023175cf/",
         "img2": "https://yuz.uz/imageproxy/1200x/https://yuz.uz/file/news/05433e9d14a5e7d01e9544cb1741ef64.jpg",
-        "lorem": "Istanbul, formerly known as Constantinople, is a mega city that sits in both Europe and Asia, divided by the Bosporus. Although it is the largest city of Turkey, it is not the capital. It is the largest city in Europe by population. It is also the 3rd largest European city in size. It was the capital city of the old Ottoman Empire until 1923. The city has been known since ancient times by the older names Byzantium and Constantinople (Latin: Constantinopolis; Greek: Κωνσταντινούπολις, Konstantinoúpolis). Being a seaport, Istanbul is the main trade center of Turkey.",
+        "lorem": {
+          "en": "Istanbul, formerly known as Constantinople, is a mega city that sits in both Europe and Asia, divided by the Bosporus. Although it is the largest city of Turkey, it is not the capital. It is the largest city in Europe by population. It was the capital city of the old Ottoman Empire until 1923. The city has been known since ancient times by the older names Byzantium and Constantinople.",
+          "ru": "Стамбул, ранее известный как Константинополь, - мегаполис, который находится как в Европе, так и в Азии, разделённый проливом Босфор. Хотя это крупнейший город Турции, он не является столицей. Это самый большой город Европы по численности населения. Он был столицей старой Османской империи до 1923 года. Город известен с древних времён под более старыми названиями Византия и Константинополь.",
+          "uz": "Istanbul, avvalgi nomi Konstantinopol bo'lgan, Yevropa va Osiyoda joylashgan, Bosfor daryosi bilan bo'lingan mega shahar. Bu Turkiyaning eng katta shahar bo'lishiga qaramay, poytaxt emas. Bu Yevropadagi eng katta shahar hisoblanadi. 1923 yilgacha u eski Usmonli imperiyasining poytaxti edi. Shahar qadim zamonlardan beri Vizuya va Konstantinopol kabi eski nomlar bilan tanilgan."
+        },
         "img3": "https://storage.kun.uz/source/3/Rb_ts39GSKV1eiFLzfxMp1qM8d9c_GPq.jpg"
       }
     },
     {
       "img": "https://images.squarespace-cdn.com/content/v1/6270dcb52a53a65bc96c6dae/3fc09a04-9d8d-4e81-a6dc-a74e3c6f36ed/image-asset.jpeg",
-      "t": "Germany",
-      "ketish": "Departure Date:",
-      "narx": "US 200$",
-      "btn": "Search",
-      "region": "yevropa",
+      "t": {
+        "en": "Germany",
+        "ru": "Германия",
+        "uz": "Germaniya"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата отправления:",
+        "uz": "Ketish sanasi:"
+      },
+      "narx": {
+        "en": "US 200$",
+        "ru": "US 200$",
+        "uz": "US 200$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "Europe",
+        "ru": "Европа",
+        "uz": "Yevropa"
+      },
       "open": {
         "img": "https://images.squarespace-cdn.com/content/v1/6270dcb52a53a65bc96c6dae/3fc09a04-9d8d-4e81-a6dc-a74e3c6f36ed/image-asset.jpeg",
-        "imp2": "https://i.natgeofe.com/k/92cd9f34-bfe8-4b3c-99b2-dcd67bf3f07b/germany-munich-city-scene_16x9.jpg?w=1200",
-        "lorem": "We know what it's like to have Germany become your new home. Many of us have gone through the experience ourselves. And we know all about the many questions that pop up as you start over here. In our project Handbook Germany : Together, we offer answers– from A to Z of life in Germany in articles, videos and podcasts, all on our information platform handbookgermany.de.In nine languages, we provide essential tips on residence law issues, housing, health, work and vocational training, child care, studying and much more",
-        "img3": "https://static.toiimg.com/photo/msid-111576967,width-96,height-65.cms"
+        "img2": "https://i.natgeofe.com/k/92cd9f34-bfe8-4b3c-99b2-dcd67bf3f07b/germany-munich-city-scene_16x9.jpg?w=1200",
+        "lorem": {
+          "en": "We know what it's like to have Germany become your new home. Many of us have gone through the experience ourselves. And we know all about the many questions that pop up as you start over here. In our project Handbook Germany: Together, we offer answers– from A to Z of life in Germany in articles, videos, and podcasts, all on our information platform handbookgermany.de.",
+          "ru": "Мы знаем, каково это, когда Германия становится вашим новым домом. Многие из нас прошли через этот опыт сами. И мы знаем о многих вопросах, которые возникают, когда вы начинаете жизнь здесь заново. В нашем проекте Handbook Germany: Together мы предлагаем ответы - от A до Z о жизни в Германии в статьях, видео и подкастах, все на нашей информационной платформе handbookgermany.de.",
+          "uz": "Germaniya yangi uyga aylanishini bilamiz. Ko'pchiligimiz o'zimiz bu tajribadan o'tganmiz. Va biz buni boshlaganingizda paydo bo'ladigan ko'plab savollar haqida hamma narsani bilamiz. 'Germaniya qo'li bilan' loyihamizda biz javoblarni taklif etamiz - Germaniyadagi hayot haqidagi A dan Z gacha ma'lumotlar, maqolalar, videolar va podkastlar, hammasi hamkorlik platformamizda joylashgan handbookgermany.de."
+        },
+        "img3": "https://www.germany.travel/media/filer_public_thumbnails/filer_public/cb/0c/cb0c9402-d032-4627-b20c-f6577f6e4690/mn_hamburg_01_2020_marcus-1.jpg__1250x707_q85_subsampling-2.jpg"
       }
     },
     {
       "img": "https://media.istockphoto.com/id/497572532/photo/cityscape-of-guiyang-at-night.jpg?s=612x612&w=0&k=20&c=iZ2avxaTDglVbfygFduRdxADXI-KqUO1nhX4DlPgFZs=",
-      "t": "China",
-      "ketish": "Departure Date:",
-      "narx": "US 210$",
-      "btn": "Search",
-      "region": "osiyo",
+      "t": {
+        "en": "China",
+        "ru": "Китай",
+        "uz": "Xitoy"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата отправления:",
+        "uz": "Ketish sanasi:"
+      },
+      "narx": {
+        "en": "US 210$",
+        "ru": "210$",
+        "uz": "US 210$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "Asia",
+        "ru": "Азия",
+        "uz": "Osiyo"
+      },
       "open": {
         "img": "https://media.istockphoto.com/id/497572532/photo/cityscape-of-guiyang-at-night.jpg?s=612x612&w=0&k=20&c=iZ2avxaTDglVbfygFduRdxADXI-KqUO1nhX4DlPgFZs=",
         "imp2": "https://uceap.universityofcalifornia.edu/sites/default/files/marketing-images/country-page-images/china-page-header.jpg",
-        "lorem": "China, officially the People's Republic of China (PRC), is a country in East Asia. With a population exceeding 1.4 billion, it is the second-most populous country after India, representing 17.4% of the world population. China spans the equivalent of five time zones and borders fourteen countries by land. With an area of nearly 9.6 million square kilometers (3,700,000 sq mi), it is the third-largest country by total land area.The country is divided into 33 province-level divisions: 22 provinces, five autonomous regions, four municipalities, and two semi-autonomous special administrative regions.",
+        "lorem": {
+          "en": "China, officially the People's Republic of China (PRC), is a country in East Asia. With a population exceeding 1.4 billion, it is the second-most populous country after India, representing 17.4% of the world population. China spans the equivalent of five time zones and borders fourteen countries by land. With an area of nearly 9.6 million square kilometers (3,700,000 sq mi), it is the third-largest country by total land area. The country is divided into 33 province-level divisions: 22 provinces, five autonomous regions, four municipalities, and two semi-autonomous special administrative regions.",
+          "ru": "Китай, официально Народная Республика Китай (НРК), является страной в Восточной Азии. С населением более 1,4 миллиарда человек, это вторая по численности населения страна после Индии, представляющая 17,4% мирового населения. Китай охватывает эквивалент пяти часовых поясов и граничит с четырнадцатью странами по суше. С площадью почти 9,6 миллиона квадратных километров, это третья по величине страна по общей площади. Страна делится на 33 административных деления: 22 провинции, пять автономных районов, четыре муниципалитета и два полуавтономных специальных административных района.",
+          "uz": "Xitoy, rasmiy nomi Xitoy Xalq Respublikasi (XXR), Sharqiy Osiyoda joylashgan davlatdir. 1,4 milliarddan ortiq aholi bilan, bu Hindistondan keyin eng ko'p aholi yashaydigan mamlakat bo'lib, dunyo aholisining 17,4% ni tashkil etadi. Xitoy beshta vaqt zonasini qamrab oladi va quruqlikda o'n to'rt mamlakat bilan chegaradosh. Umumiy maydoni deyarli 9,6 million kvadrat kilometrni (3,700,000 kv.m.) tashkil etadi, bu umumiy maydoni bo'yicha uchinchi o'rinda."
+        },
         "img3": "https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=800/https://cstad.s3.ap-southeast-2.amazonaws.com/5398_Ultimate_China_WEB_HERO_2_GreatWall.jpg"
       }
     },
     {
       "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0c/ea/bb/ottawa-city-view.jpg?w=1400&h=1400&s=1",
-      "t": "Canada",
-      "ketish": "Departure Date:",
-      "narx": "US 250$",
-      "btn": "Search",
-      "region": "aqsh",
+      "t": {
+        "en": "Canada",
+        "ru": "Канада",
+        "uz": "Kanada"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата отправления:",
+        "uz": "Ketish sanasi:"
+      },
+      "narx": {
+        "en": "US 250$",
+        "ru": "250$ ",
+        "uz": "US 250$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "North America",
+        "ru": "Северная Америка",
+        "uz": "Shimoliy Amerika"
+      },
       "open": {
         "imp2": "https://media.cnn.com/api/v1/images/stellar/prod/140630124917-12-canada-most-beautiful-places.jpg?q=w_2000,h_1363,x_0,y_0,c_fill",
         "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0c/ea/bb/ottawa-city-view.jpg?w=1400&h=1400&s=1",
-        "lorem": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, making it the world's second-largest country by total area, with the world's longest coastline. Its border with the United States is the world's longest international land border. The country is characterized by a wide range of both meteorologic and geological regions. It is a sparsely inhabited country of just over 41 million people, with the majority residing in urban areas. Canada's capital is Ottawa and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.",
+        "lorem": {
+          "en": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, making it the world's second-largest country by total area, with the world's longest coastline. Its border with the United States is the world's longest international land border. The country is characterized by a wide range of both meteorologic and geological regions. It is a sparsely inhabited country of just over 41 million people, with the majority residing in urban areas. Canada's capital is Ottawa and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.",
+          "ru": "Канада — это страна в Северной Америке. Ее десять провинций и три территории простираются от Атлантического океана до Тихого океана и на север в Арктический океан, что делает ее второй по величине страной в мире по общей площади с самой длинной береговой линией. Ее граница с Соединенными Штатами является самой длинной международной сухопутной границей в мире. Страна характеризуется широким диапазоном как метеорологических, так и геологических регионов. Это малонаселённая страна с населением чуть более 41 миллиона человек, большинство из которых проживает в городских районах. Столицей Канады является Оттава, а три крупнейших метрополитена — это Торонто, Монреаль и Ванкувер.",
+          "uz": "Kanada Shimoliy Amerikada joylashgan davlatdir. O'n provinsiya va uch hududi Atlantika okeanidan Tinch okeanigacha va shimolga Arktika okeanigacha cho'zilib, uni dunyodagi umumiy maydoni bo'yicha ikkinchi eng katta mamlakatga aylantiradi. AQSh bilan bo'lgan chegarasi dunyodagi eng uzun xalqaro quruqlik chegarasidir. Mamlakat meteorologik va geologik mintaqalarning keng diapazoni bilan ajralib turadi. Aholisi 41 milliondan ortiq bo'lgan, asosan shahar hududlarida yashovchi kam aholi yashaydigan mamlakatdir. Kananing poytaxti — Ottawa va uchta eng yirik metropoliyalar — Toronto, Monreal va Vankuver."
+        },
         "img3": "https://www.planetware.com/wpimages/2019/11/canada-in-pictures-beautiful-places-to-photograph-morraine-lake.jpg"
       }
     },
     {
       "img": "https://uz.basmalah.uz/thumb/2/MlURu-qK_dMTEZKMmjaH5A/1200r/d/1376474711_www-radionetplus-ru_860.jpg",
-      "t": "France",
-      "ketish": "Departure Date:",
-      "narx": "US 195$",
-      "btn": "Search",
-      "region": "yevropa",
+      "t": {
+        "en": "France",
+        "ru": "Франция",
+        "uz": "Fransiya"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата отправления:",
+        "uz": "Ketish sanasi:"
+      },
+      "narx": {
+        "en": "US 195$",
+        "ru": "195$ ",
+        "uz": "US 195$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "Europe",
+        "ru": "Европа",
+        "uz": "Yevropa"
+      },
       "open": {
         "img": "https://uz.basmalah.uz/thumb/2/MlURu-qK_dMTEZKMmjaH5A/1200r/d/1376474711_www-radionetplus-ru_860.jpg",
-        "img2": "https://hayatestate.com/wp-content/uploads/2020/05/louvre-102840_1280-1024x682.jpg",
-        "img3": "https://www.svoiludi.ru/images/tb/25/france-1693982138271_w990h1000.jpg",
-        "lorem": "France retains its centuries-long status as a global centre of art, science, and philosophy. It hosts the fourth-largest number of UNESCO World Heritage Sites and is the world's leading tourist destination, receiving 100 million foreign visitors in 2023.[15] A developed country, France has a high nominal per capita income globally, and its advanced economy ranks among the largest in the world. It is a great power,[16] being one of the five permanent members of the United Nations Security Council and an official nuclear-weapon state. France is a founding and leading member of the European Union and the eurozone."
+        "imp2": "https://cdn.vox-cdn.com/thumbor/2BWqGppXW5z8mC8bdG0c8I8HDwM=/0x0:850x569/1400x1400/filters:focal(356x224:494x362)/cdn.vox-cdn.com/uploads/chorus_image/image/69263751/14641761176_6c43146e4e_o.0.jpg",
+        "lorem": {
+          "en": "France, officially the French Republic, is a country whose territory consists of metropolitan France in Western Europe and several overseas regions and territories. The capital of France is Paris, the country's largest city and one of the most important cultural centers in the world. France is known for its rich history, art, architecture, and cuisine, as well as its contributions to science and philosophy. The country has a diverse landscape that includes coastal regions, mountains, and forests.",
+          "ru": "Франция, официально Французская Республика, является страной, территория которой состоит из метрополитенской Франции в Западной Европе и нескольких заморских регионов и территорий. Столицей Франции является Париж, крупнейший город страны и один из самых важных культурных центров мира. Франция известна своей богатой историей, искусством, архитектурой и кухней, а также своими достижениями в науке и философии. Страна имеет разнообразный ландшафт, включающий прибрежные районы, горы и леса.",
+          "uz": "Fransiya, rasmiy nomi Fransuz Respublikasi, hududi G'arbiy Evropadagi metropoliten Frantsiyadan va bir qancha dengizdan tashqari hududlardan va mintaqalardan iborat bo'lgan mamlakatdir. Frantsiyaning poytaxti — Parij, mamlakatning eng yirik shahri va dunyodagi eng muhim madaniy markazlardan biri. Fransiya o'zining boy tarixi, san'ati, arxitekturasi va oshxonasi bilan tanilgan, shuningdek, ilm-fan va falsafaga qo'shgan hissalari bilan. Mamlakat qirg'oq mintaqalari, tog'lar va o'rmonlarni o'z ichiga olgan xilma-xil manzaraga ega."
+        },
+        "img3": "https://cdn.britannica.com/23/165823-050-26A3F9C4/Chateau-de-Versailles-Versailles-France.jpg"
       }
     },
     {
       "img": "https://www.spot.uz/media/img/2023/01/bxNyEP16730818635463_l.jpg",
-      "t": "Saudi Arabia",
-      "ketish": "Departure Date:",
-      "narx": "US 150$",
-      "btn": "Search",
+      "t": {
+        "en": "Saudi Arabia",
+        "ru": "Саудовская Аравия",
+        "uz": "Saudiya Arabistoni"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата вылета:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 150$",
+        "ru": "150$ ",
+        "uz": "150$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
       "region": "osiyo",
       "open": {
         "img2": "https://media.istockphoto.com/id/1293325404/photo/buildings-landmarks.jpg?s=612x612&w=0&k=20&c=xrpZQM_eRsXaJMQbZ-FgdJfhqJLMUlqceVHnbtcj5vE=",
         "img3": "https://cms.forbesafrica.com/wp-content/uploads/2024/01/GettyImages-1464744716.jpg",
-        "lorem": "There is evidence that human habitation in the Arabian Peninsula dates back to about 125000 years ago.[47] A 2011 study found that the first modern humans to spread east across Asia left Africa about 75000 years ago across the Bab-el-Mandeb connecting the Horn of Africa and Arabia.[48] The Arabian Peninsula is regarded as central to the understanding of evolution and dispersals of Man. Arabia underwent an extreme environmental fluctuation in the Quaternary that led to profound evolutionary and demographic changes. Arabia has a rich Lower Paleolithic record",
+        "lorem": {
+          "en": "There is evidence that human habitation in the Arabian Peninsula dates back to about 125000 years ago. A 2011 study found that the first modern humans to spread east across Asia left Africa about 75000 years ago across the Bab-el-Mandeb connecting the Horn of Africa and Arabia. The Arabian Peninsula is regarded as central to the understanding of evolution and dispersals of Man. Arabia underwent an extreme environmental fluctuation in the Quaternary that led to profound evolutionary and demographic changes. Arabia has a rich Lower Paleolithic record.",
+          "ru": "Существуют свидетельства того, что человеческое население Аравийского полуострова датируется примерно 125000 лет назад. В исследовании 2011 года было установлено, что первые современные люди, переселившиеся на восток по Азии, покинули Африку примерно 75000 лет назад через Баб-эль-Мандеб, соединяющий Рог Африки и Аравию. Аравийский полуостров считается центральным для понимания эволюции и расселения человека. Аравия претерпела резкие экологические колебания в кватернере, что привело к глубоким эволюционным и демографическим изменениям. Аравия имеет богатую нижнепалеолитическую историю.",
+          "uz": "Arabiston yarim orolida insoniyat yashashi taxminan 125000 yil oldin boshlangan. 2011 yildagi tadqiqotga ko'ra, sharqiy Osiyoga tarqalgan birinchi zamonaviy odamlar Afrika tark etib, taxminan 75000 yil oldin Bab-el-Mandeb orqali Arazon va Arabiston o'rtasida tarqalgan. Arabiston yarim oroli inson evolyutsiyasi va tarqalishini tushunish uchun markaziy hisoblanadi. Arabiston kvaternar davrida kuchli ekologik o'zgarishlarga duch keldi, bu esa chuqur evolyutsion va demografik o'zgarishlarga olib keldi. Arabistonda boy Paleolitik davrning dalillari mavjud."
+        },
         "img": "https://www.spot.uz/media/img/2023/01/bxNyEP16730818635463_l.jpg"
       }
     },
     {
       "img": "https://t4.ftcdn.net/jpg/03/58/32/29/360_F_358322998_eWHzJmEnujVtb41bolba1Iz3tfIuCGYh.jpg",
-      "t": "Korea",
-      "lorem": "In 1392, the general Yi Seong-gye overthrew the Goryeo dynasty after he staged a coup and defeated General Ch'oe Yŏng. Yi Seong-gye named his new dynasty Joseon and moved the capital from Kaesong to Hanseong (formerly Hanyang; modern-day Seoul) and built the Gyeongbokgung palace.[119] In 1394, he adopted Confucianism as the country's official ideology, resulting in much loss of power and wealth by the Buddhists. The prevailing philosophy of the Joseon dynasty was Neo-Confucianism, which was epitomised by the seonbi class",
-      "img2": "https://plus.unsplash.com/premium_photo-1661963468634-71b9482a3efe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c291dGglMjBrb3JlYXxlbnwwfHwwfHx8MA%3D%3D",
-      "img3": "https://media.istockphoto.com/id/521707831/photo/seoul-south-korea-skyline.jpg?s=612x612&w=0&k=20&c=Zlxokjq-Yf_lkGDDReM4SlOXvCebTpFBxZ6b2-MknW8=",
-      "ketish": "Departure Date:",
-      "narx": "US 260$",
-      "btn": "Search",
+      "t": {
+        "en": "Korea",
+        "ru": "Корея",
+        "uz": "Koreya"
+      },
+      "lorem": {
+        "en": "In 1392, the general Yi Seong-gye overthrew the Goryeo dynasty after he staged a coup and defeated General Ch'oe Yŏng. Yi Seong-gye named his new dynasty Joseon and moved the capital from Kaesong to Hanseong (formerly Hanyang; modern-day Seoul) and built the Gyeongbokgung palace. In 1394, he adopted Confucianism as the country's official ideology, resulting in much loss of power and wealth by the Buddhists. The prevailing philosophy of the Joseon dynasty was Neo-Confucianism, which was epitomised by the seonbi class.",
+        "ru": "В 1392 году генерал И Сонджэ сверг династию Горе после того, как он организовал переворот и победил генерала Чо Ён. И Сонджэ назвал свою новую династию Чосон и перенес столицу из Кэсонга в Хансонг (ранее Ханъян; современный Сеул) и построил дворец Гёнбоккун. В 1394 году он принял конфуцианство в качестве официальной идеологии страны, что привело к значительной утрате власти и богатства буддистов. Преобладающая философия династии Чосон была неоконфуцианством, которое было олицетворением класса сонби.",
+        "uz": "1392 yilda general Yi Seong-gye Goryeo sulolasini ag'darib, to'ntarish o'tkazdi va General Ch'oe Yŏngni mag'lub etdi. Yi Seong-gye yangi sulolasini Choson deb atadi va poytaxtni Kaesongdan Hanseongga (ilgari Hanyang; hozirgi Seul) ko'chirdi va Gyeongbokgung saroyini qurdi. 1394 yilda u mamlakatning rasmiy ideologiyasi sifatida konfutsiylikni qabul qildi va bu buddistlar tomonidan katta kuch va boylikni yo'qotishiga olib keldi. Choson sulolasining ustuvor falsafasi Neo-konfutsiylik bo'lib, bu seonbi sinfida aks ettirilgan."
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата вылета:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 260$",
+        "ru": "260$ ",
+        "uz": "260$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
       "region": "osiyo",
       "open": {
         "img": "https://t4.ftcdn.net/jpg/03/58/32/29/360_F_358322998_eWHzJmEnujVtb41bolba1Iz3tfIuCGYh.jpg",
-        "lorem": "In 1392, the general Yi Seong-gye overthrew the Goryeo dynasty after he staged a coup and defeated General Ch'oe Yŏng. Yi Seong-gye named his new dynasty Joseon and moved the capital from Kaesong to Hanseong (formerly Hanyang; modern-day Seoul) and built the Gyeongbokgung palace.[119] In 1394, he adopted Confucianism as the country's official ideology, resulting in much loss of power and wealth by the Buddhists. The prevailing philosophy of the Joseon dynasty was Neo-Confucianism, which was epitomised by the seonbi class",
-        "img2": "https://plus.unsplash.com/premium_photo-1661963468634-71b9482a3efe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c291dGglMjBrb3JlYXxlbnwwfHwwfHx8MA%3D%3D",
-        "img3": "https://media.istockphoto.com/id/521707831/photo/seoul-south-korea-skyline.jpg?s=612x612&w=0&k=20&c=Zlxokjq-Yf_lkGDDReM4SlOXvCebTpFBxZ6b2-MknW8="
+        "lorem": {
+          "en": "In 1392, the general Yi Seong-gye overthrew the Goryeo dynasty after he staged a coup and defeated General Ch'oe Yŏng. Yi Seong-gye named his new dynasty Joseon and moved the capital from Kaesong to Hanseong (formerly Hanyang; modern-day Seoul) and built the Gyeongbokgung palace. In 1394, he adopted Confucianism as the country's official ideology, resulting in much loss of power and wealth by the Buddhists. The prevailing philosophy of the Joseon dynasty was Neo-Confucianism, which was epitomised by the seonbi class.",
+          "ru": "В 1392 году генерал И Сонджэ сверг династию Горе после того, как он организовал переворот и победил генерала Чо Ён. И Сонджэ назвал свою новую династию Чосон и перенес столицу из Кэсонга в Хансонг (ранее Ханъян; современный Сеул) и построил дворец Гёнбоккун. В 1394 году он принял конфуцианство в качестве официальной идеологии страны, что привело к значительной утрате власти и богатства буддистов. Преобладающая философия династии Чосон была неоконфуцианством, которое было олицетворением класса сонби.",
+          "uz": "1392 yilda general Yi Seong-gye Goryeo sulolasini ag'darib, to'ntarish o'tkazdi va General Ch'oe Yŏngni mag'lub etdi. Yi Seong-gye yangi sulolasini Choson deb atadi va poytaxtni Kaesongdan Hanseongga (ilgari Hanyang; hozirgi Seul) ko'chirdi va Gyeongbokgung saroyini qurdi. 1394 yilda u mamlakatning rasmiy ideologiyasi sifatida konfutsiylikni qabul qildi va bu buddistlar tomonidan katta kuch va boylikni yo'qotishiga olib keldi. Choson sulolasining ustuvor falsafasi Neo-konfutsiylik bo'lib, bu seonbi sinfida aks ettirilgan."
+        }
       }
     },
     {
       "img": "https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg",
-      "t": "Brazil",
-      "ketish": "Departure Date:",
-      "narx": "US 230$",
-      "btn": "Search",
+      "t": {
+        "en": "Brazil",
+        "ru": "Бразилия",
+        "uz": "Braziliya"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата вылета:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 230$",
+        "ru": "230$ ",
+        "uz": "230$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
       "region": "aqsh",
       "open": {
         "img": "https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg",
         "img2": "https://www.celebritycruises.com/blog/content/uploads/2021/09/what-is-brazil-known-for-christ-the-redeemer-aerial-hero.jpg",
-        "lorem": "The word Brazil probably comes from the Portuguese word for brazilwood, a tree that once grew plentifully along the Brazilian coast. In Portuguese, brazilwood is called pau-brasil, with the word brasil commonly given the etymology 'red like an ember', formed from brasa ('ember') and the suffix -il (from -iculum or -ilium). It has alternatively been suggested that this is a folk etymology for a word for the plant related to an Arabic or Asian word for a red plant.[35] As brazilwood produces a deep red dye, it was highly valued by the European ",
-        "img3": "https://www.ozai.com.br/wp-content/uploads/2022/06/doing-business-in-brazil-sao-paulo-for-small-and-medium-entities.jpg"
+        "img3": "https://www.ozai.com.br/wp-content/uploads/2022/06/doing-business-in-brazil-sao-paulo-for-small-and-medium-entities.jpg",
+        "lorem": {
+          "en": "The word Brazil probably comes from the Portuguese word for brazilwood, a tree that once grew plentifully along the Brazilian coast. In Portuguese, brazilwood is called pau-brasil, with the word brasil commonly given the etymology 'red like an ember', formed from brasa ('ember') and the suffix -il (from -iculum or -ilium). It has alternatively been suggested that this is a folk etymology for a word for the plant related to an Arabic or Asian word for a red plant.",
+          "ru": "Слово Бразилия, вероятно, происходит от португальского слова бразильское дерево, дерево, которое когда-то изобильно росло вдоль бразильского побережья. На португальском языке бразильское дерево называется пау-бразил, а слово бразил обычно имеет этимологию 'красный, как уголь', образованную от браза ('уголь') и суффикса -ил (от -iculum или -ilium). Также было предложено, что это народная этимология для слова растения, связанного с арабским или азиатским словом для красного растения.",
+          "uz": "Braziliya so'zi, ehtimol, portuqalcha 'pau-brasil' so'zidan kelib chiqqan bo'lib, bu daraxt Braziliya qirg'oqlarida ko'p o'sgan. Portuqal tilida, 'pau-brasil' deb ataladi va 'braziliya' so'zi ko'pincha jigar kabi qizil ' degan etimologiya bilan beriladi, bu 'brasa' (jigar) va '-il' qo'shimchasi ( -iculum yoki -iliumdan) asoslangan. Buning o'rniga, bu bir qizil o'simlik uchun arab yoki osiyo so'ziga aloqador bo'lgan bir so'zning xalq etimologiyasi sifatida taklif qilingan."
+        }
       }
     },
     {
       "img": "https://a.storyblok.com/f/176292/1536x864/769df664ce/iran-residency-by-investment-2021-285020271.jpg",
-      "t": "Iran",
-      "ketish": "Departure Date:",
-      "narx": "US 175$",
-      "btn": "Search",
+      "t": {
+        "en": "Iran",
+        "ru": "Иран",
+        "uz": "Eron"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата вылета:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 175$",
+        "ru": "175$ ",
+        "uz": "175$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
       "region": "osiyo",
       "open": {
-        "lorem": "Iran endured invasions by the Macedonians, Arabs, Turks, and Mongols. Despite these invasions, Iran continually reasserted its national identity and developed as a distinct political and cultural entity. The Muslim conquest of Persia (632–654) ended the Sasanian Empire and marked a turning point in Iranian history, leading to the Islamization of Iran from the eighth to tenth centuries and the decline of Zoroastrianism. However, the achievements of prior Persian civilizations were absorbed into the new Islamic polity. ",
         "img": "https://a.storyblok.com/f/176292/1536x864/769df664ce/iran-residency-by-investment-2021-285020271.jpg",
         "img2": "https://www.shutterstock.com/image-photo/tehran-night-260nw-762604726.jpg",
-        "img3": "https://media.istockphoto.com/id/1319189526/photo/milad-tower-tehran-iran.jpg?s=612x612&w=0&k=20&c=ZfnqoYElw11WdacKcMHG8WYcPko__m0FB_8VzNigA5k="
+        "img3": "https://media.istockphoto.com/id/1319189526/photo/milad-tower-tehran-iran.jpg?s=612x612&w=0&k=20&c=ZfnqoYElw11WdacKcMHG8WYcPko__m0FB_8VzNigA5k=",
+        "lorem": {
+          "en": "Iran endured invasions by the Macedonians, Arabs, Turks, and Mongols. Despite these invasions, Iran continually reasserted its national identity and developed as a distinct political and cultural entity. The Muslim conquest of Persia (632–654) ended the Sasanian Empire and marked a turning point in Iranian history, leading to the Islamization of Iran from the eighth to tenth centuries and the decline of Zoroastrianism. However, the achievements of prior Persian civilizations were absorbed into the new Islamic polity.",
+          "ru": "Иран подвергся вторжению македонян, арабов, турок и монголов. Несмотря на эти вторжения, Иран постоянно утверждал свою национальную идентичность и развивался как отдельная политическая и культурная единица. Мусульманское завоевание Персии (632–654) положило конец Сасанидской империи и стало поворотным моментом в истории Ирана, приведя к исламизации Ирана с восьмого по десятый века и упадку зороастризма. Тем не менее достижения предыдущих персидских цивилизаций были поглощены новой исламской политией.",
+          "uz": "Eron makedonlar, arablar, turklar va mo'g'ullarning bosqinlariga duch keldi. Ushbu bosqinlarga qaramay, Eron doimiy ravishda o'zining milliy shaxsiyatini qayta tikladi va alohida siyosiy va madaniy birlik sifatida rivojlandi. Musulmonlarning Forsni zabt etishi (632-654) Sasaniylar imperiyasining tugashiga olib keldi va Eron tarixida muhim burilish nuqtasini belgilab berdi, bu esa VIII-X asrlarda Eronda islomiylashtirishga va zardushtiylikning pasayishiga olib keldi. Biroq, avvalgi fors tsivilizatsiyalarining yutuqlari yangi islomiy hokimiyatga singdirildi."
+        }
       }
     },
     {
       "img": "https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
-      "t": "England",
-      "ketish": "Departure Date:",
-      "narx": "US 195$",
-      "btn": "Search",
-      "region": "yevropa",
+      "t": {
+        "en": "England",
+        "ru": "Англия",
+        "uz": "Angliya"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата вылета:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 195$",
+        "ru": "195$",
+        "uz": "195$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "Europe",
+        "ru": "Европа",
+        "uz": "Yevropa"
+      },
       "open": {
         "img": "https://www.arttour.ru/promo/cruise/wp-content/uploads/2016/04/angli.jpg",
-        "lorem": "During the Iron Age, Celtic culture, deriving from the Hallstatt and La Tène cultures, arrived from Central Europe. Brythonic was the spoken language during this time. Society was tribal; according to Ptolemy's Geographia there were around 20 tribes in the area. Like other regions on the edge of the Empire, Britain had long enjoyed trading links with the Romans. Julius Caesar of the Roman Republic attempted to invade",
+        "lorem": {
+          "en": "During the Iron Age, Celtic culture, deriving from the Hallstatt and La Tène cultures, arrived from Central Europe. Brythonic was the spoken language during this time. Society was tribal; according to Ptolemy's Geographia there were around 20 tribes in the area. Like other regions on the edge of the Empire, Britain had long enjoyed trading links with the Romans. Julius Caesar of the Roman Republic attempted to invade.",
+          "ru": "В железном веке кельтская культура, происходящая от культур Халльштатта и Ла-Тена, пришла из Центральной Европы. Бриттоник был разговорным языком в это время. Общество было племенным; согласно географии Птолемея, на этой территории насчитывалось около 20 племен. Как и другие регионы на краю Империи, Британия долгое время пользовалась торговыми связями с римлянами. Юлий Цезарь из Римской республики пытался вторгнуться.",
+          "uz": "Temir asrida, markaziy Evropadan kelgan Xelshtatt va La Tène madaniyatidan kelib chiqqan keltlar madaniyati. Ushbu davrda Brytonik nutq tili edi. Jamiyat qabilaviy edi; Ptolemeyning Geografiyasi bo'yicha ushbu hududda taxminan 20 ta qabilaning borligi qayd etilgan. Impeyaning qirqasida joylashgan boshqa mintaqalar kabi, Britaniya uzoq vaqt davomida rimliklar bilan savdo aloqalarini saqlab keldi. Rim Respublikasi tomonidan Yulet Tiyozgasi inqilob qilishga harakat qildi."
+        },
         "img2": "https://plus.unsplash.com/premium_photo-1661962726504-fa8f464a1bb8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZW5nbGFuZHxlbnwwfHwwfHx8MA%3D%3D",
         "img3": "https://media.cnn.com/api/v1/images/stellar/prod/160418173456-beautiful-england-18-london-england.jpg?q=w_1900,h_1095,x_0,y_0,c_fill/h_447"
       }
     },
     {
       "img": "https://grantlar.uz/wp-content/uploads/2018/11/Webp.net-resizeimage.jpg",
-      "t": "United States",
-      "ketish": "Departure Date:",
-      "narx": "US 295$",
-      "btn": "Search",
-      "region": "aqsh",
+      "t": {
+        "en": "United States",
+        "ru": "Соединенные Штаты",
+        "uz": "AQSH"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата вылета:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 295$",
+        "ru": "295$",
+        "uz": "295$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "USA",
+        "ru": "США",
+        "uz": "AQSH"
+      },
       "open": {
         "img": "https://grantlar.uz/wp-content/uploads/2018/11/Webp.net-resizeimage.jpg",
         "img2": "https://wallpapers.com/images/featured/america-pictures-r6jsqyj9mgl0bwxw.jpg",
-        "lorem": "The United States of America (USA), commonly known as the United States (U.S.) or simply America, is a sovereign country mostly in North America. It is divided into 50 states. Forty-eight of these states and the District of Columbia border each other between the Pacific and Atlantic Oceans. They are bordered by Canada to the north and Mexico to the south. The state of Alaska is in the northwestern area of the continent and is separated from the other 48 states by Canada making it an exclave. Alaska is bordered by Canada to its east. ",
+        "lorem": {
+          "en": "The United States of America (USA), commonly known as the United States (U.S.) or simply America, is a sovereign country mostly in North America. It is divided into 50 states. Forty-eight of these states and the District of Columbia border each other between the Pacific and Atlantic Oceans. They are bordered by Canada to the north and Mexico to the south. The state of Alaska is in the northwestern area of the continent and is separated from the other 48 states by Canada making it an exclave. Alaska is bordered by Canada to its east.",
+          "ru": "Соединенные Штаты Америки (США), обычно известные как Соединенные Штаты (США) или просто Америка, являются суверенным государством, в основном расположенным в Северной Америке. Оно разделено на 50 штатов. Сорок восемь из этих штатов и округ Колумбия граничат друг с другом между Тихим и Атлантическим океанами. На севере они граничат с Канадой, а на юге - с Мексикой. Штат Аляска находится на северо-западе континента и отделен от других 48 штатов Канадой, что делает его эксклавом. Аляска граничит с Канадой на востоке.",
+          "uz": "Amerika Qo'shma Shtatlari (AQS), odatda Amerika Qo'shma Shtatlari (AQS) yoki shunchaki Amerika deb nomlanuvchi, asosan Shimoliy Amerikada joylashgan suveren davlatdir. U 50 shtatga bo'lingan. Ushbu 50 shtatdan qirqi va Kolumbiya okrugi Tinch va Atlantika okeanlari o'rtasida bir-birini cheklaydi. Ular shimolda Kanadaga va janubda Meksikaga tutashadi. Aksan, AQS ning boshqa 48 shtatidan alohida joylashgan shimoliy-g'arbiy qismida joylashgan va Kanadadan ajratilgan ekvador. Aksan, sharqdan Kanadaga tutashadi."
+        },
         "img3": "https://st3.depositphotos.com/33115474/36856/i/450/depositphotos_368561444-stock-photo-empire-state-building-illuminated-blue.jpg"
       }
     },
     {
       "img": "https://cdn.tripster.ru/thumbs2/ad74c10e-c3af-11ee-aaf6-f6eac2c3b054.1220x600.jpeg",
-      "t": "Norway",
-      "ketish": "Departure Date:",
-      "narx": "US 130$",
-      "btn": "Search",
-      "region": "yevropa",
+      "t": {
+        "en": "Norway",
+        "ru": "Норвегия",
+        "uz": "Norvegiya"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата выезда:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 130$",
+        "ru": "US 130$",
+        "uz": "US 130$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "Europe",
+        "ru": "Европа",
+        "uz": "Yevropa"
+      },
       "open": {
+        "img": "https://cdn.tripster.ru/thumbs2/ad74c10e-c3af-11ee-aaf6-f6eac2c3b054.1220x600.jpeg",
+        "lorem": {
+          "en": "The earliest traces of human occupation in Norway are found along the coast, where the huge ice shelf of the last ice age first melted between 11,000 and 8000 BC. The oldest finds are stone tools dating from 9500 to 6000 BC, discovered in Finnmark (Komsa culture) in the north and Rogaland (Fosna culture) in the southwest. Theories about the two cultures being separate were deemed obsolete in the 1970s.",
+          "ru": "Самые ранние следы человеческого присутствия в Норвегии найдены вдоль побережья, где огромный ледяной щит последнего ледникового периода начал таять между 11000 и 8000 годами до нашей эры. Самые старые находки — это каменные орудия, датируемые 9500-6000 годами до нашей эры, найденные в Финнмарке (культура Комса) на севере и Рогаланде (культура Фосна) на юго-западе. Теории о разделении этих двух культур были признаны устаревшими в 1970-х годах.",
+          "uz": "Norvegiyadagi insoniyatning eng qadimgi izlari qirg'oq bo'ylab topilgan, bu erda so'nggi muz asrining ulkan muz qoplamasi 11,000 dan 8000 yilgacha eriy boshlagan. Eng qadimgi topilmalar Finmarkda (Komsa madaniyati) shimolda va Rogalandda (Fosna madaniyati) janubi-g'arbda topilgan 9500 dan 6000 yilgacha bo'lgan tosh asboblardir. Ikkita madaniyatning alohida ekanligi haqidagi nazariyalar 1970-yillarda eskirgan deb hisoblangan."
+        },
         "img2": "https://png.pngtree.com/thumb_back/fh260/background/20230216/pngtree-view-on-bergen-norway-tilt-shift-lens-image_1599916.jpg",
-        "img3": "https://media.istockphoto.com/id/459642695/photo/night-panorama-of-bergen.jpg?s=612x612&w=0&k=20&c=NAaxSbxV5fWBAfK_MfY-8cyO6jFfw2iOqgbggsRTw14=",
-        "lorem": "The earliest traces of human occupation in Norway are found along the coast, where the huge ice shelf of the last ice age first melted between 11,000 and 8000 BC. The oldest finds are stone tools dating from 9500 to 6000 BC, discovered in Finnmark (Komsa culture) in the north and Rogaland (Fosna culture) in the southwest. Theories about the two cultures being separate were deemed obsolete in the 1970s.Between 3000 and 2500 BC, new settlers (Corded Ware culture) arrived in eastern Norway.",
-        "img": "https://cdn.tripster.ru/thumbs2/ad74c10e-c3af-11ee-aaf6-f6eac2c3b054.1220x600.jpeg"
+        "img3": "https://media.istockphoto.com/id/459642695/photo/night-panorama-of-bergen.jpg?s=612x612&w=0&k=20&c=NAaxSbxV5fWBAfK_MfY-8cyO6jFfw2iOqgbggsRTw14="
       }
     },
     {
       "img": "https://avatars.dzeninfra.ru/get-zen_doc/10147568/pub_64cc3edb926e1425bcd79eb4_64cc403b65a3327156aec98a/scale_1200",
-      "t": "Urugvay",
-      "ketish": "Departure Date:",
-      "narx": "US 160$",
-      "btn": "Search",
-      "region": "aqsh",
+      "t": {
+        "en": "Uruguay",
+        "ru": "Уругвай",
+        "uz": "Urugvay"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата выезда:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 160$",
+        "ru": "US 160$",
+        "uz": "US 160$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "USA",
+        "ru": "США",
+        "uz": "AQSh"
+      },
       "open": {
         "img": "https://avatars.dzeninfra.ru/get-zen_doc/10147568/pub_64cc3edb926e1425bcd79eb4_64cc403b65a3327156aec98a/scale_1200",
-        "lorem": "The country of Uruguay takes its name from the Río Uruguay, from the Indigenous Guaraní language. There are several interpretations, including 'bird-river' ('the river of the uru, via Charruan, urú being a common noun of any wild fowl).[19][20] The name could also refer to a river snail called uruguá (Pomella megastoma) that was plentiful across its shores.One of the most popular interpretations of the name was proposed by the renowned Uruguayan poet Juan Zorrilla de San Martín, 'the river of painted birds'",
+        "lorem": {
+          "en": "The country of Uruguay takes its name from the Río Uruguay, from the Indigenous Guaraní language. There are several interpretations, including 'bird-river' ('the river of the uru, via Charruan, urú being a common noun of any wild fowl). One of the most popular interpretations of the name was proposed by the renowned Uruguayan poet Juan Zorrilla de San Martín, 'the river of painted birds'.",
+          "ru": "Страна Уругвай получила свое название от реки Уругвай, из языка коренных гуарани. Существует несколько интерпретаций, включая 'птица-река' ('река уру, через чарруан, урю - общее название для любой дикой птицы). Одна из самых популярных интерпретаций имени была предложена известным уругвайским поэтом Хуаном Сорильей де Сан-Мартином: 'река раскрашенных птиц'.",
+          "uz": "Urugvay davlati nomini Rio Uruguay daryosidan olgan, bu esa mahalliy Guarani tilidan kelib chiqqan. Bir nechta talqinlar mavjud, jumladan 'qush-daryo' ('uru daryosi, Charruan orqali, urú har qanday yovvoyi qush uchun umumiy atama). Nomning eng mashhur talqinlaridan biri taniqli urugvaylik shoir Xuan Zorrilya de San Martining 'rassom qushlar daryosi' degan taklifidir."
+        },
         "img2": "https://travelingwellburys.com/wp-content/uploads/2023/07/uruguay-trip.jpg?w=1024",
         "img3": "https://img.freepik.com/photos-premium/coucher-du-soleil-montevideo-capitale-amerique-du-sud-uruguay_846485-8338.jpg"
       }
     },
     {
       "img": "https://www.karelia.fi/wp-content/uploads/2017/06/DJI_0124-nettisivut.jpg",
-      "t": "Finland",
-      "ketish": "Departure Date:",
-      "narx": "US 109$",
-      "btn": "Search",
-      "region": "aqsh",
+      "t": {
+        "en": "Finland",
+        "ru": "Финляндия",
+        "uz": "Finlyandiya"
+      },
+      "ketish": {
+        "en": "Departure Date:",
+        "ru": "Дата выезда:",
+        "uz": "Jo'nash sanasi:"
+      },
+      "narx": {
+        "en": "US 109$",
+        "ru": "US 109$",
+        "uz": "US 109$"
+      },
+      "btn": {
+        "en": "Search",
+        "ru": "Поиск",
+        "uz": "Qidirish"
+      },
+      "region": {
+        "en": "USA",
+        "ru": "США",
+        "uz": "AQSh"
+      },
       "open": {
         "img": "https://www.karelia.fi/wp-content/uploads/2017/06/DJI_0124-nettisivut.jpg",
-        "img2": "https://cdn.outsideonline.com/wp-content/uploads/2023/03/finland-lead-h.jpg",
-        "img3": "https://cdn.kimkim.com/files/a/images/3e10efc4ba2ba75621eb9e531741c1b71c78ad33/original-82c27190794cafc872425b483e96352c.jpg",
-        "lorem": "As a result of the crusades (mostly with the second crusade led by Birger Jarl) and the colonization of some Finnish coastal areas with Christian Swedish population during the Middle Ages, Finland gradually became part of the kingdom of Sweden and the sphere of influence of the Catholic Church."
+        "lorem": {
+          "en": "As a result of the crusades (mostly with the second crusade led by Birger Jarl) and the colonization of some Finnish coastal areas with Christian Swedish population during the Middle Ages, Finland gradually became part of the kingdom of Sweden and the sphere of influence of the Catholic Church.",
+          "ru": "В результате крестовых походов (в основном во время второго крестового похода, возглавляемого Биргером Ярлом) и колонизации некоторых финских прибрежных районов христианским шведским населением в Средние века, Финляндия постепенно стала частью королевства Швеция и сферы влияния католической церкви.",
+          "uz": "Salib yurishlari natijasida (asosan Birger Yarl boshchiligidagi ikkinchi salib yurishi) va O'rta asrlarda Finlyandiyaning ba'zi qirg'oq hududlarini nasroniy shved aholisidan kolonizatsiya qilish natijasida, Finlyandiya asta-sekin Shvetsiya qirolligining bir qismiga va katolik cherkovining ta'sir doirasiga aylangan."
+        },
+        "img2": "https://cdn.shopify.com/s/files/1/0651/5804/8518/articles/Canva_1_5a6719a6-0862-4977-8887-7efebc7c84e0.jpg?v=1677908453",
+        "img3": "https://www.worldatlas.com/r/w1200/upload/8a/82/dc/shutterstock-1129609241.jpg"
       }
     }
   ],
-  "fa":[
-    
-  {
-    "a":"/ShopAndDine/shop",
-    "icon": "https://static.thenounproject.com/png/52811-200.png",
-    "title": "Shop & Dine",
-    "description": "Explore our Shop & Dine offerings",
-    "linkText": "Explore Shop & Dine",
-    "linkHref": "#"
-  },
-  {
-    "a":"/AuHotel",
-    "icon": "https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
-    "title": "AUHotel",
-    "description": "Offers convenient and affordable rooms",
-    "linkText": "Explore AUHotel",
-    "linkHref": "#"
-  },
-  {
-    "a":"/as",
-    "icon": "https://cdn.iconscout.com/icon/free/png-256/free-smoking-rooms-1780837-1514254.png",
-    "title": "Smoking rooms",
-    "description": "We’ve set out a few areas where you can smoke.",
-    "linkText": "See smoking rooms",
-    "linkHref": "#"
-  },
-  {
-    "a":"/Facilities/PrayerRooms",
-    "icon": "https://www.shutterstock.com/image-vector/masjid-prayer-room-signs-can-260nw-2309697251.jpg",
-    "title": "Prayer rooms",
-    "description": "Find a quiet retreat for prayer.",
-    "linkText": "Find our prayer rooms",
-    "linkHref": "#"
-  },
-  {
-    "a":"/Internet",
-    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT79Vwzz5vity8oFzxoHgzqcC89uv0cDsIx2w&s",
-    "title": "Free Wifi",
-    "description": "Unlimited internet",
-    "linkText": "Connect to WiFi",
-    "linkHref": "#"
-  },
-  {
-    "icon": "https://cdn1.iconfinder.com/data/icons/social-productivity-line-art-4/128/shopping-cart2-512.png",
-    "title": "Trolleys",
-    "description": "Find a free trolley in key areas around the airport",
-    "linkText": "Find trolleys",
-    "linkHref": "#"
-  }
+  "fa": [
+    {
+      "a": "/ShopAndDine/shop",
+      "icon": "https://static.thenounproject.com/png/52811-200.png",
+      "title": {
+        "en": "Shop & Dine",
+        "ru": "Магазин и Ужин",
+        "uz": "Do'kon va Ovqat"
+      },
+      "description": {
+        "en": "Explore our Shop & Dine offerings",
+        "ru": "Изучите наши предложения Магазина и Ужина",
+        "uz": "Do'kon va ovqat takliflarimizni o'rganing"
+      },
+      "linkText": {
+        "en": "Explore Shop & Dine",
+        "ru": "Изучите Магазин и Ужин",
+        "uz": "Do'kon va ovqatni o'rganing"
+      }
+    },
+    {
+      "a": "/AuHotel",
+      "icon": "https://thumbs.dreamstime.com/b/hotel-icon-vector-set-white-background-eps-331976399.jpg",
+      "title": {
+        "en": "AUHotel",
+        "ru": "AUHotel",
+        "uz": "AUHotel"
+      },
+      "description": {
+        "en": "Offers convenient and affordable rooms",
+        "ru": "Предлагает удобные и доступные номера",
+        "uz": "Qulay va arzon xonalar taklif etadi"
+      },
+      "linkText": {
+        "en": "Explore AUHotel",
+        "ru": "Изучите AUHotel",
+        "uz": "AUHotel ni o'rganing"
+      }
+    },
+    {
+      "a": "/as",
+      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-smoking-rooms-1780837-1514254.png",
+      "title": {
+        "en": "Smoking rooms",
+        "ru": "Курительные комнаты",
+        "uz": "Chekish xonalari"
+      },
+      "description": {
+        "en": "We’ve set out a few areas where you can smoke.",
+        "ru": "Мы выделили несколько зон, где вы можете курить.",
+        "uz": "Biz bir nechta joyni chekish uchun ajratdik."
+      },
+      "linkText": {
+        "en": "See smoking rooms",
+        "ru": "Смотрите курительные комнаты",
+        "uz": "Chekish xonalarini ko'ring"
+      }
+    },
+    {
+      "a": "/Facilities/PrayerRooms",
+      "icon": "https://www.shutterstock.com/image-vector/masjid-prayer-room-signs-can-260nw-2309697251.jpg",
+      "title": {
+        "en": "Prayer rooms",
+        "ru": "Молитвенные комнаты",
+        "uz": "Dua xonalari"
+      },
+      "description": {
+        "en": "Find a quiet retreat for prayer.",
+        "ru": "Найдите тихое место для молитвы.",
+        "uz": "Dua qilish uchun tinch joyni toping."
+      },
+      "linkText": {
+        "en": "Find our prayer rooms",
+        "ru": "Найдите наши молитвенные комнаты",
+        "uz": "Bizning dua xonalarimizni toping"
+      }
+    },
+    {
+      "a": "/Internet",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT79Vwzz5vity8oFzxoHgzqcC89uv0cDsIx2w&s",
+      "title": {
+        "en": "Free Wifi",
+        "ru": "Бесплатный Wifi",
+        "uz": "Bepul Wifi"
+      },
+      "description": {
+        "en": "Unlimited internet",
+        "ru": "Неограниченный интернет",
+        "uz": "Cheksiz internet"
+      },
+      "linkText": {
+        "en": "Connect to WiFi",
+        "ru": "Подключиться к WiFi",
+        "uz": "WiFi ga ulaning"
+      }
+    },
+    {
+      "icon": "https://cdn1.iconfinder.com/data/icons/social-productivity-line-art-4/128/shopping-cart2-512.png",
+      "title": {
+        "en": "Trolleys",
+        "ru": "Тележки",
+        "uz": "Trolleylar"
+      },
+      "description": {
+        "en": "Find a free trolley in key areas around the airport",
+        "ru": "Найдите бесплатную тележку в ключевых местах аэропорта",
+        "uz": "Aeroport atrofida muhim joylarda bepul trolley toping"
+      },
+      "linkText": {
+        "en": "Find trolleys",
+        "ru": "Найдите тележки",
+        "uz": "Trolleylarni toping"
+      }
+    }
   ]
-  
-
 }

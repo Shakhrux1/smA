@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import moduleName from "../icon/videoplayback.mp4";
 import vidio from '../icon/icons8-video-50.png'
 import "./style.css";
-
+import { useTranslation } from "react-i18next";
 ReactGA.initialize("UA-XXXXXXXXX-X");
 
 const Scrollpage = () => {
@@ -13,6 +13,7 @@ const Scrollpage = () => {
     ReactGA.set({ page: window.location.pathname });
     ReactGA.pageview(window.location.pathname);
   };
+  const {t} = useTranslation()
   const [vidiooo, setVidio] = useState([])
     useEffect(() => {
         fetch("https://cuqrwqnnguneymulgghg.supabase.co/storage/v1/object/public/zgfor/shohruh.json")
@@ -139,16 +140,15 @@ const Scrollpage = () => {
         <div className="hero gradient-green">
           <div className="opacty">
           <div className="scrolBox">
-            <h1>Samarkand International Airport</h1>
-            <p>
-            Airaport is located close to the city center and provides quick and easy access for passengers. It is a convenient transit point for passengers visiting and departing from Uzbekistan.            </p>
-          </div>
+            <h1>{t("aboutH1")}</h1>
+            <p>{t("aboutp")}</p>          
+            </div>
           </div>
           <div className="flip-element gradient-blue">
             <video src={vidiooo.vidios} autoPlay muted loop>
             </video>
               <img className="logos" src={vidio} alt="" />
-            <h4 className="video-overlay-text">Welcome to Samarkand airways</h4>
+            <h4 className="video-overlay-text">{t("vidio")}</h4>
           </div>
         </div>
       </div>

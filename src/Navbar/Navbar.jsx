@@ -1,124 +1,154 @@
-  import "./style.css";
-  
-  import logo from "../icon/photo_2024-10-01_15-58-27-removebg-preview.png";
-  import { Link, Outlet } from "react-router-dom";
-  import { useEffect, useState } from "react";
-  import iq from '../icon/letter-iq-logo-or-icon-design-vector-removebg-preview.png';
-  import losd from '../icon/Screenshot_2024-10-24_193400-removebg-preview.png';
-  import SignUpForm from '../forma/Form';
-  import user from '../icon/user.png'
-  
-  export default function Navbar() {
-    const [isHidden, setIsHidden] = useState(false);
-    const [lastScrollY, setLastScrollY] = useState(0);
-    const [bgColor, setBgColor] = useState("transparent");
-    const [boxShadow, setBoxShadow] = useState("none");
-    const currentYear = new Date().getFullYear();
-    
-    const [isFormVisible, setIsFormVisible] = useState(false);
+import "./style.css";
+// import la from '../icon/language.png'
+import logo from "../icon/photo_2024-10-01_15-58-27-removebg-preview.png";
+import { Link, Outlet } from "react-router-dom";
+import { useEffect, useState } from "react";
+import iq from "../icon/letter-iq-logo-or-icon-design-vector-removebg-preview.png";
+import losd from "../icon/Screenshot_2024-10-24_193400-removebg-preview.png";
+import SignUpForm from "../forma/Form";
+import user from "../icon/user.png";
+import { useTranslation } from "react-i18next";
+export default function Navbar() {
+  const [isHidden, setIsHidden] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [bgColor, setBgColor] = useState("transparent");
+  const [boxShadow, setBoxShadow] = useState("none");
+  const currentYear = new Date().getFullYear();
 
-    const toggleFormVisibility = () => {
-      setIsFormVisible((prev) => !prev);
-      document.body.style.overflow = isFormVisible ? 'auto' : 'hidden';
+  const [isFormVisible, setIsFormVisible] = useState(false);
+
+  const toggleFormVisibility = () => {
+    setIsFormVisible((prev) => !prev);
+    document.body.style.overflow = isFormVisible ? "auto" : "hidden";
+  };
+
+  const closeForm = () => {
+    setIsFormVisible(false);
+    document.body.style.overflow = "auto"; // Restore scrolling
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+
+      if (currentScrollY > 120) {
+        setBgColor("#FFF");
+        setBoxShadow("0px 4px 20px rgba(0, 0, 0, 0.2)");
+      } else {
+        setBgColor("transparent");
+        setBoxShadow("none");
+      }
+
+      setLastScrollY(currentScrollY);
     };
 
-    const closeForm = () => {
-      setIsFormVisible(false);
-      document.body.style.overflow = 'auto'; // Restore scrolling
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
     };
-
-    useEffect(() => {
-      const handleScroll = () => {
-        const currentScrollY = window.scrollY;
-
-        if (currentScrollY > lastScrollY && currentScrollY > 100) {
-          setIsHidden(true); 
-        } else {
-          setIsHidden(false); 
-        }
-
-      
-        if (currentScrollY > 120) {
-          setBgColor("#FFF");
-          setBoxShadow("0px 4px 20px rgba(0, 0, 0, 0.2)");
-        } else {
-          setBgColor("transparent");
-          setBoxShadow("none");
-        }
-
-        setLastScrollY(currentScrollY);
-      };
-
-      window.addEventListener("scroll", handleScroll);
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, [lastScrollY]);
-    return (
-      <>
-        <main>
-          <div className="nav-bgcround">
-            <nav
-              className={isHidden ? "hidden" : "active"}
-              style={{
-                transition: "all 0.3s",
-                backgroundColor: bgColor,
-                boxShadow: boxShadow,
-              }}
-            >
-              <div className="container">
-                <div className="flex">
-                  <Link className="a" to="/">
-                    <img src={logo} alt="Logo" style={{ width: "150px" }} />
-                  </Link>
-                  <ul>
-                    <li key="home">
-                      <Link to="/home">home</Link>
-                    </li>
-                    <li key="about">
-                      <Link to="/about">about</Link>
-                    </li>
-                    <li key="info">
-                      <Link to="/Facilities">Facilities</Link>
-                    </li>
-                    <li key="register">
-                      <Link to="/Comments">Comments</Link>
-                    </li>
-                    <li key=""   >
-                      <Link to="/ShopandDine/shop">Shop & Dine</Link>
-                    </li>
-                  </ul>
-                  
-                </div>
-                <button className="nav-btn" onClick={toggleFormVisibility}>
-                  <img width={'25px'} src={user} alt="" />
-                </button>
-              </div>
-              {isFormVisible && (
-                <div className="modal-overlay" onClick={closeForm}>
-                  <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                    <SignUpForm onClose={closeForm} /> {/* Pass close function */}
-                    <button className="close-btn" onClick={closeForm}>Close</button> {/* Close button */}
-                  </div>
-                </div>
-              )}
-            </nav>
-          </div>
-        </main>
-        <header>
-          <Outlet />
-        </header>
-        <footer>
-          <div className="bgcc">
+  }, [lastScrollY]);
+  const { t, i18n } = useTranslation();
+  const languages = localStorage.getItem("i18nextLanguage");
+  useEffect(() => {
+    const storedLanguage = localStorage.getItem("i18nextLanguage");
+    if (storedLanguage && storedLanguage !== i18n.languages) {
+      i18n.changeLanguage(storedLanguage);
+    }
+  }, [i18n]);
+  const handleChange = (e, val) => {
+    e.preventDefault();
+    i18n.changeLanguage(val);
+    localStorage.setItem("i18nextLanguage", val);
+  };
+  
+  return (
+    <>
+      <main>
+        <div className="nav-bgcround">
+          <nav
+            className={isHidden ? "hidden" : "active"}
+            style={{
+              transition: "all 0.3s",
+              backgroundColor: bgColor,
+              boxShadow: boxShadow,
+            }}
+          >
             <div className="container">
-              <div className="footer">
-                <img src={losd} alt="Footer Logo" />
+              <div className="flex">
+                <Link className="a" to="/">
+                  <img src={logo} alt="Logo" style={{ width: "150px" }} />
+                </Link>
                 <ul>
-                  <li>Privacy policy</li>
-                  <li>Terms of use</li>
-                  <li>Sitemap</li>
+                  <li key="home">
+                    <Link to="/home">{t("li1")}</Link>
+                  </li>
+
+                  <li key="info">
+                    <Link to="/Facilities">{t("li2")}</Link>
+                  </li>
+                  <li key="register">
+                    <Link to="/Comments">{t("li3")}</Link>
+                  </li>
+                  <li key="">
+                    <Link to="/ShopandDine/shop">{t("li4")}</Link>
+                  </li>
                 </ul>
-                <article>
+              </div>
+              <div style={{display:"flex", alignItems:"center", gap:"30px"}}>
+              <article className="UIC-Language">
+                {/* <img src={la} alt="" /> */}
+                <select
+                className="sssss"
+                  onChange={(e) => handleChange(e, e.target.value)}
+                  value={languages}
+                >
+                  <option value="eng">Eng</option>
+                  <option value="ru">Rus</option>
+                  <option value="uz">Uzb</option>
+                </select>
+              </article>
+              <button className="nav-btn" onClick={toggleFormVisibility}>
+                <img width={"25px"} src={user} alt="" />
+              </button>
+              </div>
+            </div>
+            {isFormVisible && (
+              <div className="modal-overlay" onClick={closeForm}>
+                <div
+                  className="modal-content"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <SignUpForm onClose={closeForm} /> {/* Pass close function */}
+                  <button className="close-btn" onClick={closeForm}>
+                    Close
+                  </button>{" "}
+                  {/* Close button */}
+                </div>
+              </div>
+            )}
+          </nav>
+        </div>
+      </main>
+      <header>
+        <Outlet />
+      </header>
+      <footer>
+        <div className="bgcc">
+          <div className="container">
+            <div className="footer">
+              <img src={losd} alt="Footer Logo" />
+              <ul>
+                <li>{t("footLi")}</li>
+                <li>{t("footLi2")}</li>
+                <li>{t("footLi3")}</li>
+              </ul>
+              <article>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -150,20 +180,25 @@
                   <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
                 </svg>
               </article>
-              </div>
             </div>
-            <div className="border"></div>
-            <div className="container">
-              <div className="f">
-                <p className="text"> &copy; Samarkand International Airport (AUH) {currentYear}</p>
-                <div className="iq">
-                  <img src={iq} alt="IQ Logo" />
-                  <h3>Shakhrux <span>IQ</span></h3>
-                </div>
+          </div>
+          <div className="border"></div>
+          <div className="container">
+            <div className="f">
+              <p className="text">
+                {" "}
+                &copy; {t("and")} {currentYear}
+              </p>
+              <div className="iq">
+                <img src={iq} alt="IQ Logo" />
+                <h3>
+                  Shakhrux <span>IQ</span>
+                </h3>
               </div>
             </div>
           </div>
-        </footer>
-      </>
-    );
-  }
+        </div>
+      </footer>
+    </>
+  );
+}
